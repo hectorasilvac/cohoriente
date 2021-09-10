@@ -4,6 +4,7 @@
     {block name="head"}{/block}
 </head>
 <body>
+{block name="header"}{/block}
 {block name="body"}{/block}
 {block name="footer"}{/block}
 </body>

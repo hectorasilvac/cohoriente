@@ -17,7 +17,7 @@ class Pages_controller extends CI_Controller
 
         $data['title'] = ucfirst($page);
 
-        $this->_view->display('pages/home.tpl');
+        $this->_view->display("pages/{$page}.tpl");
         exit();
     }
 }
