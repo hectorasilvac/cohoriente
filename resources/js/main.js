@@ -18,6 +18,7 @@ $(function() {
       hamburger.classList.remove("active");
       navMenu.classList.remove("active");
   }
+  
   // Partners Carousel
     $('.partner_carousel').flickity({
         contain: true,

@@ -15,8 +15,15 @@ class Pages_controller extends CI_Controller
             show_404();
         }
 
-        $data['title'] = ucfirst($page);
+        $page_names = [
+            'home' => 'Inicio',
+            'services' => 'Servicios',
+            'about_us' => 'Nosotros',
+        ]; 
 
+        $title = $page_names[$page] . ' | Cohoriente';
+
+        $this->_view->assign('title', $title);
         $this->_view->display("pages/{$page}.tpl");
         exit();
     }
