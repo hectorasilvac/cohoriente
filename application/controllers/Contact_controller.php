@@ -49,19 +49,19 @@ class Contact_controller extends CI_Controller
         //     'wordwrap'      =>  TRUE
         // ];
 
-        $config =   array(
-            'protocol'      =>  'sendmail',
-            'smtp_host'     =>  'mail.trabajandofet.co',
-            'smtp_port'     =>  587,
-            'smtp_user'     =>  'gestion@trabajandofet.co',
-            'smtp_pass'     =>  'F2T@2021/jjml',
-            'smtp_crypto'   =>  'ssl',
-            'mailtype'      =>  'html',
-            'charset'       =>  'utf-8',
-            'wordwrap'      =>  TRUE
-        );
+        // $config =   array(
+        //     'protocol'      =>  'sendmail',
+        //     'smtp_host'     =>  'mail.trabajandofet.co',
+        //     'smtp_port'     =>  '587',
+        //     'smtp_user'     =>  'gestion@trabajandofet.co',
+        //     'smtp_pass'     =>  'YVsR)uTXFVmi',
+        //     'smtp_crypto'   =>  'ssl',
+        //     'mailtype'      =>  'html',
+        //     'charset'       =>  'utf-8',
+        //     'wordwrap'      =>  TRUE
+        // );
 
-        $this->load->library('email', $config);
+        $this->load->library('email');
 
         // $this->email->from('contacto@cohoriente.co', 'Cohoriente');
         $this->email->from('gestion@trabajandofet.co', 'Prueba');
