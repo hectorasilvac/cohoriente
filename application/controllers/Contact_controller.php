@@ -53,7 +53,7 @@ ini_set('smtp_port', 587);
         // );
 
 $config = array();
-$config['protocol'] = 'mail';
+$config['protocol'] = 'smtp';
 $config['smtp_host'] = 'mail.trabajandofet.co';
 $config['smtp_user'] = 'gestion@trabajandofet.co';
 $config['smtp_pass'] = 'F2T@2021/jjml';
