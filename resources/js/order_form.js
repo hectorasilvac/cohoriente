@@ -1,29 +1,50 @@
 // Drag & Drop: Config
-Dropzone.options.myDropzone = {
+// Dropzone.options.myDropzone = {
+//   // autoProcessQueue: false,
+//   uploadMultiple: false,
+//   parallelChunkUploads: false,
+//   maxFiles: 1,
+//   acceptedFiles: 'application/pdf',
+//   parallelUploads: 1,
+//   addRemoveLinks: true,
+//   dictRemoveFile: 'Quitar',
+//   init: function () {
+//     this.on("maxfilesexceeded", function (file) {
+//       this.removeAllFiles();
+//       this.addFile(file);
+//     });
+
+//     this.on('addedfile', file => {
+//       console.log('A file has been added');
+//     });
+//   },
+// };
+
+// Dropzone.options.myDropzone.on('sending', function (file, xhr, formData) {
+//   console.log('sending');
+// });
+
+let myDropzone = new Dropzone('#my-dropzone', { 
+  url: '/contacto/enviar',
   autoProcessQueue: false,
   uploadMultiple: false,
   parallelChunkUploads: false,
   maxFiles: 1,
   acceptedFiles: 'application/pdf',
   parallelUploads: 1,
-  addRemoveLinks: true,
-  dictRemoveFile: 'Quitar',
-  init: function () {
-    this.on("maxfilesexceeded", function (file) {
-      this.removeAllFiles();
-      this.addFile(file);
-    });
+  // addRemoveLinks: true,
+  // dictRemoveFile: 'Quitar',
+});
 
-    this.on('addedfile', file => {
-      console.log('A file has been added');
-    });
-  },
-};
+myDropzone.on('sending', function (file, xhr, formData) {
+  console.log($('#order_form').serializeArray());
+
+});
 
 // Document is ready
 $(function () {
 
-  // Form validation
+  // Form validation: Rules
   $('#order_form').validate({
       lang: 'es',
       normalizer: function (value) {
@@ -93,19 +114,23 @@ $(function () {
       },
     });
     
+    // Form validation: Submit
     $('.order_submit').on('click', function() 
     {
         $('#order_form').submit();
     });
 
+    // Form validation: Ajax Config
     $('#order_form').ajaxForm(
     {
         dataType:  'json',
-        success:   add,
+        // success:   add,
         beforeSubmit: function() 
         { 
-          console.log('xD');
+          myDropzone.processQueue();
             // $('#loading').removeClass('d-none');
+
+            return false;
         }
     });
 

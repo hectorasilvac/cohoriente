@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-17 17:25:53
+/* Smarty version 3.1.39, created on 2021-09-17 23:43:34
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\order_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6144b381c0e494_35813306',
+  'unifunc' => 'content_61450c06e6f8b2_00898000',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eaee1f357ccdef62ca5fd5bcbb7cec0c909e21c5' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\order_form.tpl',
-      1 => 1631892353,
+      1 => 1631915014,
       2 => 'file',
     ),
   ),
@@ -21,22 +21,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../shared/confirmation_dialog.tpl' => 1,
   ),
 ),false)) {
-function content_6144b381c0e494_35813306 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61450c06e6f8b2_00898000 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11676257806144b381c06bc4_29043402', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_211320831261450c06e67a80_00506729', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_11676257806144b381c06bc4_29043402 extends Smarty_Internal_Block
+class Block_211320831261450c06e67a80_00506729 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_11676257806144b381c06bc4_29043402',
+    0 => 'Block_211320831261450c06e67a80_00506729',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -73,13 +73,13 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
             <p class="text color--primary mb-2">
                 Adjunta el documento de solicitud para enviarte una cotización
             </p>
-			<form action="/file-upload" class="dropzone form_drop mb-2 d-flex wrap--center" id="my-dropzone">
-				<p class="d-flex wrap_quaternary wrap--center dz-message my-0">
+			<div id="my-dropzone" class="form_drop mb-2 d-flex wrap--center dropzone">
+				<div class="d-flex wrap_quaternary wrap--center dz-message my-0">
 					<img class="wd-6" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
 img/icons/pdf.png" alt="" />
 					<span class="text_small text--italic mt-1">Arrastrar archivo o buscar en el equipo</span>
-				</p>
-			</form>
+				</div>
+			</div>
 			<button class="order_submit btn btn--primary" type="submit">Enviar</button>
 		</div>
 		<!-- Dialog -->

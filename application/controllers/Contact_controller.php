@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
+use PHPMailer\PHPMailer\PHPMailer;
+
+require 'vendor/autoload.php';
+
 class Contact_controller extends CI_Controller
 {
     public function __construct()
@@ -12,46 +16,63 @@ class Contact_controller extends CI_Controller
 
     public function send()
     {
-        $form_rules = $this->contact_form_rules();
-        $this->form_validation->set_rules($form_rules);
-
-        if ($this->form_validation->run() === FALSE)
-        {
-            echo json_encode([
-                'data'    => FALSE,
-                'message' => 'Los campos enviados no corresponden a los necesarios para ejecutar esta solicitud.',
-            ]);
-            exit();
-        }
-
-        $this->send_email();
-
-        print_r('se envío');
+        echo '<pre>';
+                print_r('xdses');
+        echo '</pre>';
         exit();
+
+    
+
+        // $form_rules = $this->contact_form_rules();
+        // $this->form_validation->set_rules($form_rules);
+
+        // if ($this->form_validation->run() === false)
+        // {
+        //     echo json_encode([
+        //         'data'    => false,
+        //         'message' => 'Los campos enviados no corresponden a los necesarios para ejecutar esta solicitud.',
+        //     ]);
+        //     exit();
+        // }
+
+        // $data_file = base64_encode($_FILES);
+
+        // $this->send_email($_FILES);
+        // exit();
 
         // $this->contact_model->send();
         // exit();
     }
 
-    private function send_email()
+    private function send_email($file)
     {
-        $this->load->library('email');
-$config = array();
-$config['protocol'] = 'smtp';
-$config['smtp_host'] = 'mail.trabajandofet.co';
-$config['smtp_user'] = 'gestion@trabajandofet.co';
-$config['smtp_pass'] = 'F2T@2021/jjml';
-$config['smtp_port'] = 587;
-$this->email->initialize($config);
-$this->email->set_newline("\r\n");
+        $mail = new PHPMailer();
+        $mail->IsSMTP();
+        $mail->Mailer     = "smtp";
+        $mail->SMTPDebug  = 0;
+        $mail->SMTPAuth   = true;
+        $mail->SMTPSecure = "tls";
+        $mail->Port       = 587;
+        $mail->Host       = "smtp.mailgun.org";
+        $mail->Username   = "postmaster@sandbox5daeafcfc4e14c359fbdcc57f9f6269a.mailgun.org";
+        $mail->Password   = "086703ccf4e5e2bf90d050f1fa3d151a-90346a2d-75850c8e";
+        $mail->IsHTML(true);
+        $mail->AddAddress("hascardenas@gmail.com", "recipient-name");
+        $mail->SetFrom("gestion@trabajandofet.co", "from-name");
+        $mail->AddReplyTo("hascardenas@gmail.com", "reply-to-name");
+        $mail->Subject = "Choroiente - Prueba";
+        $content       = "<b>Thissssss is a Test Email sent via Gmail SMTP Server using PHP mailer class.</b>";
+        $mail->MsgHTML($content);
+        $mail->addAttachment($file['file']['tmp_name'], $file['file']['name']);
 
-$this->email->from('gestion@trabajandofet.co', 'Gestion');
-$this->email->to('hascardenas@gmail.com');
-$this->email->subject('Email DE cOHORIENTE');
-$this->email->message('Testing the email class.');
-$this->email->send();
-
-        echo $this->email->print_debugger(); 
+        if ( ! $mail->send())
+        {
+            echo 'Mailer Error: ' . $mail->ErrorInfo;
+        }
+        else
+        {
+            echo 'The email message was sent.';
+        }
     }
 
     private function contact_form_rules(): array
@@ -92,13 +113,12 @@ $this->email->send();
         ];
     }
 
-    // echo '<pre>';
-    // print_r();
-    // echo '</pre>';
-    // exit();
-
 }
 
+// echo '<pre>';
+// print_r();
+// echo '</pre>';
+// exit();
 
 //         $this->form_validation->set_rules('name_user', 'Nombres', 'required');
 //         $this->form_validation->set_rules('lastname_user', 'Apellidos', 'required');

@@ -31,12 +31,12 @@
             <p class="text color--primary mb-2">
                 Adjunta el documento de solicitud para enviarte una cotización
             </p>
-			<form action="/file-upload" class="dropzone form_drop mb-2 d-flex wrap--center" id="my-dropzone">
-				<p class="d-flex wrap_quaternary wrap--center dz-message my-0">
+			<div id="my-dropzone" class="form_drop mb-2 d-flex wrap--center dropzone">
+				<div class="d-flex wrap_quaternary wrap--center dz-message my-0">
 					<img class="wd-6" src="{$RESOURCES}img/icons/pdf.png" alt="" />
 					<span class="text_small text--italic mt-1">Arrastrar archivo o buscar en el equipo</span>
-				</p>
-			</form>
+				</div>
+			</div>
 			<button class="order_submit btn btn--primary" type="submit">Enviar</button>
 		</div>
 		<!-- Dialog -->
