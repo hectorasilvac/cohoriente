@@ -35,40 +35,28 @@ class Contact_controller extends CI_Controller
 
     private function send_email()
     {
+        $config                                                                 =   array(
+            'protocol'      =>  'sendmail',
+            'smtp_host'     =>  'mail.trabajandofet.co',
+            'smtp_port'     =>  587,
+            'smtp_user'     =>  'gestion@trabajandofet.co',
+            'smtp_pass'     =>  'F2T@2021/jjml',
+            'smtp_crypto'   =>  'ssl',
+            'mailtype'      =>  'html',
+            'charset'       =>  'utf-8',
+            'wordwrap'      =>  TRUE
+        );
 
-        // $config =   [
-        //     'protocol'      =>  'smtp',
-        //     'smtp_host'     =>  'smtp.mailgun.org',
-        //     'smtp_port'     =>  587,
-        //     'smtp_user'     =>  'postmaster@sandbox5daeafcfc4e14c359fbdcc57f9f6269a.mailgun.org',
-        //     'smtp_pass'     =>  '086703ccf4e5e2bf90d050f1fa3d151a-90346a2d-75850c8e',
-        //     'smtp_crypto'   =>  'ssl',
-        //     // 'mailtype'      =>  'html',
-        //     'mailtype'      =>  'text',
-        //     'charset'       =>  'utf-8',
-        //     'wordwrap'      =>  TRUE
-        // ];
+$this->load->library('email', $config);
 
-        // $config =   array(
-        //     'protocol'      =>  'sendmail',
-        //     'smtp_host'     =>  'mail.trabajandofet.co',
-        //     'smtp_port'     =>  '587',
-        //     'smtp_user'     =>  'gestion@trabajandofet.co',
-        //     'smtp_pass'     =>  'YVsR)uTXFVmi',
-        //     'smtp_crypto'   =>  'ssl',
-        //     'mailtype'      =>  'html',
-        //     'charset'       =>  'utf-8',
-        //     'wordwrap'      =>  TRUE
-        // );
+// $this->email->from('trabajandofet@gmail.com', 'Gestion');
+$this->email->from('gestion@trabajandofet.co', 'Gestion');
+$this->email->to('hascardenas@gmail.com');
+$this->email->subject('Email DE cOHORIENTE');
 
-        $this->load->library('email');
+$this->email->message('Testing the email class.');
 
-        // $this->email->from('contacto@cohoriente.co', 'Cohoriente');
-        $this->email->from('gestion@trabajandofet.co', 'Prueba');
-        $this->email->to('hascardenas@gmail.com');
-        $this->email->subject('Email test');
-        $this->email->message('Testing the email class.');
-        $this->email->send();
+$this->email->send();
 
         echo $this->email->print_debugger(); 
     }
