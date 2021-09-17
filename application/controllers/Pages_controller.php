@@ -16,12 +16,25 @@ class Pages_controller extends CI_Controller
         }
 
         $page_names = [
-            'home' => 'Inicio',
-            'services' => 'Servicios',
-            'about_us' => 'Nosotros',
-        ]; 
+            'about_us'                                                          =>  'Nosotros',
+            'affiliation_form'                                                  =>  'Afiliación',
+            'benefits'                                                          =>  'Beneficios',
+            'biomedical'                                                        =>  'Acompañamiento en Tecnología Biomédica',
+            'contact'                                                           =>  'Contacto',
+            'classifieds'                                                       =>  'Clasificados',
+            'home'                                                              =>  'Inicio',
+            'gallery'                                                           =>  'Galería',
+            'invest'                                                            =>  'Inversión',
+            'order_form'                                                        =>  '¿Tienes un Pedido para Nosotros?',
+            'partner'                                                           =>  'Asociarte',
+            'requirements'                                                      =>  'Requisitos',
+            'supplier_form'                                                     =>  '¿Quieres ser un Proveedor?',
+            'supply_offer'                                                      =>  'Oferta de Abastecimiento',
+            'services'                                                          =>  'Servicios',
+            'training'                                                          =>  'Formación y Crecimiento',
+        ];
 
-        $title = $page_names[$page] . ' | Cohoriente';
+        $title                                                                  =   $page_names[$page] . ' | Cohoriente';
 
         $this->_view->assign('title', $title);
         $this->_view->display("pages/{$page}.tpl");
