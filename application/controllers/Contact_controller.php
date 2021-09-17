@@ -35,27 +35,37 @@ class Contact_controller extends CI_Controller
 
     private function send_email()
     {
-        $config                                                                 =   array(
-            'protocol'      =>  'sendmail',
-            'smtp_host'     =>  'mail.trabajandofet.co',
-            'smtp_port'     =>  587,
-            'smtp_user'     =>  'gestion@trabajandofet.co',
-            'smtp_pass'     =>  'F2T@2021/jjml',
-            'smtp_crypto'   =>  'ssl',
-            'mailtype'      =>  'html',
-            'charset'       =>  'utf-8',
-            'wordwrap'      =>  TRUE
-        );
+        ini_set('SMTP', 'mail.trabajandofet.co');
+ini_set('smtp_port', 587);
+        $this->load->library('email');
 
-$this->load->library('email', $config);
+
+        // $config                                                                 =   array(
+        //     'protocol'      =>  'sendmail',
+        //     'smtp_host'     =>  'mail.trabajandofet.co',
+        //     'smtp_port'     =>  587,
+        //     'smtp_user'     =>  'gestion@trabajandofet.co',
+        //     'smtp_pass'     =>  'F2T@2021/jjml',
+        //     'smtp_crypto'   =>  'ssl',
+        //     'mailtype'      =>  'html',
+        //     'charset'       =>  'utf-8',
+        //     'wordwrap'      =>  TRUE
+        // );
+
+$config = array();
+$config['protocol'] = 'mail';
+$config['smtp_host'] = 'mail.trabajandofet.co';
+$config['smtp_user'] = 'gestion@trabajandofet.co';
+$config['smtp_pass'] = 'F2T@2021/jjml';
+$config['smtp_port'] = 587;
+$this->email->initialize($config);
+$this->email->set_newline("\r\n");
 
 // $this->email->from('trabajandofet@gmail.com', 'Gestion');
 $this->email->from('gestion@trabajandofet.co', 'Gestion');
 $this->email->to('hascardenas@gmail.com');
 $this->email->subject('Email DE cOHORIENTE');
-
 $this->email->message('Testing the email class.');
-
 $this->email->send();
 
         echo $this->email->print_debugger(); 
