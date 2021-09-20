@@ -1,55 +1,13 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
 <main>
-	<section>
-		<header class="d-flex wrap--center mt-2">
-			<h3 class="subtitle color--primary text--center wd-60p">¿Tienes un Pedido para Nosotros?</h3>
-		</header>
-		<div class="wrapper wrap_quaternary">
-			<form id="order_form" class="form" action="contacto/enviar" method="POST">
-				<p class="form_entry wrapper wrap_quaternary">
-					<label class="form_label text text-secondary" for="fullname">Nombre completo</label>
-					<input class="input input_primary" type="text" id="fullname" name="fullname"
-						placeholder="Ingresa tu nombre completo" />
-				</p>
-				<p class="form_entry wrapper wrap_quaternary">
-					<label class="form_label text text--secondary" for="phone">Teléfono</label>
-					<input class="input input_primary" type="tel" id="phone" name="phone" placeholder="Teléfono" />
-				</p>
-				<p class="form_entry wrapper wrap_quaternary">
-					<label class="form_label text text--secondary" for="email">Correo electrónico</label>
-					<input class="input input_primary" type="email" id="email" name="email"
-						placeholder="Ingresa tu correo electrónico" />
-				</p>
-				<p class="form_entry wrapper wrap_quaternary">
-					<label class="form_label text text--secondary" for="company">Nombre de la Entidad que
-						Representas</label>
-					<input class="input input_primary" type="text" id="company" name="company"
-						placeholder="Ingresa el nombre de la entidad que representas" />
-				</p>
-			</form>
-            <p class="text color--primary mb-2">
-                Adjunta el documento de solicitud para enviarte una cotización
-            </p>
-			<div id="my-dropzone" class="form_drop d-flex wrap--center dropzone">
-				<div class="d-flex wrap_quaternary wrap--center dz-message my-0">
-
-					<img class="wd-6" src="{$RESOURCES}img/icons/pdf.png" alt="" />
-					<span class="text_small text--italic mt-1">Arrastrar archivo o buscar en el equipo</span>
-				</div>
-			</div>
-			<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
-			<button class="order_submit btn btn--primary mt-2" type="submit">Enviar</button>
-		</div>
-		<!-- Dialog -->
 		{include
-		id="order_dialog"
-		file="../shared/confirmation_dialog.tpl"
+		title="¿Tienes un Pedido para Nosotros?"
+		file="../shared/request_form.tpl"
 		icon="fa-syringe"
-		title="Solicitar Pedido"
-		question="¿Estas seguro que deseas crear esta solicitud de pedido?"
+		dialog_title="Solicitar Pedido"
+		dialog_question="¿Estas seguro que deseas crear esta solicitud de pedido?"
 		}
-	</section>
 </main>
 <script src="{$RESOURCES}js/order_form.js"></script>
 {/block}
