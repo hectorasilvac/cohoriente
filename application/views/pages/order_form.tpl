@@ -31,13 +31,15 @@
             <p class="text color--primary mb-2">
                 Adjunta el documento de solicitud para enviarte una cotización
             </p>
-			<div id="my-dropzone" class="form_drop mb-2 d-flex wrap--center dropzone">
+			<div id="my-dropzone" class="form_drop d-flex wrap--center dropzone">
 				<div class="d-flex wrap_quaternary wrap--center dz-message my-0">
+
 					<img class="wd-6" src="{$RESOURCES}img/icons/pdf.png" alt="" />
 					<span class="text_small text--italic mt-1">Arrastrar archivo o buscar en el equipo</span>
 				</div>
 			</div>
-			<button class="order_submit btn btn--primary" type="submit">Enviar</button>
+			<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
+			<button class="order_submit btn btn--primary mt-2" type="submit">Enviar</button>
 		</div>
 		<!-- Dialog -->
 		{include
@@ -46,7 +48,6 @@
 		icon="fa-syringe"
 		title="Solicitar Pedido"
 		question="¿Estas seguro que deseas crear esta solicitud de pedido?"
-		sucess_message="Gracias por crear la solicitud de tu pedido, en breve uno de nuestros asesores te contactará."
 		}
 	</section>
 </main>

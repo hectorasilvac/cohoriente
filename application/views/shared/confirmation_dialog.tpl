@@ -23,8 +23,11 @@
         <p class="dialog_close">
             <i class="fas fa-times-circle fa-2x color--secondary430"></i>
         </p>
-        <p class="subtitle_small text--normal text--center color--secondary mt-2">
-            {$sucess_message|default:'Mensaje'}  
+        <p class="dialog_response subtitle_small text--normal text--center color--secondary mt-2">
+        </p>
+        <p class="dialog_loading text--center">
+            <img class="wd-15" src="{$RESOURCES}img/loading.gif" alt="Cargando.." />
+            <span class="d-block text_regular color--secondary">Por favor espere un momento...</span>
         </p>
     </div>
 </dialog>
