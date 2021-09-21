@@ -321,7 +321,7 @@ if ( ! function_exists('highlight_code'))
 	 */
 	function highlight_code($str)
 	{
-		/* The highlight string function encodes and highlights
+		/* The highlight string function encodes and featured
 		 * brackets so we need them to start raw.
 		 *
 		 * Also replace any existing PHP tags to temporary markers

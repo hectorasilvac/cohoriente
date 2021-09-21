@@ -41,7 +41,7 @@ public $subBlocks = array (
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-    <header class="main_header">
+    <header class="header">
         <div class="container">
             <img class="logo" src="<?php echo RESOURCES;?>
 img/full_logo.svg" alt="" />

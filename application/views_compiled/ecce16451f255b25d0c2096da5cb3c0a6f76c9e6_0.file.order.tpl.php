@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-16 14:50:40
+/* Smarty version 3.1.39, created on 2021-09-21 16:39:58
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\shared\order.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61433da01c6340_10304955',
+  'unifunc' => 'content_6149eebe6c0647_06093321',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ecce16451f255b25d0c2096da5cb3c0a6f76c9e6' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\shared\\order.tpl',
-      1 => 1631796639,
+      1 => 1632235198,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61433da01c6340_10304955 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6149eebe6c0647_06093321 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="order">
-		<a class="order_link" href="solicitud-pedido"></a>
+	<h2 class="order_subtitle d-none">
+		¿Tienes un Pedido para Nosotros?
+	</h2>
+	<a class="order_link" href="solicitud-pedido"></a>
 </section><?php }
 }

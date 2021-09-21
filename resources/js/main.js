@@ -1,10 +1,10 @@
 $(function () {
   // Main Menu
-  $('.hamburger').on('click', function () {
+  $('.hamburger_icon').on('click', function () {
 
     $('body').toggleClass('overflow-hidden');
-    $('.hamburger').toggleClass('active fa-bars fa-times').hide().fadeIn('fast');
-    $('.nav_menu').toggleClass ('active');
+    $('.hamburger_icon').toggleClass('active fa-bars fa-times').hide().fadeIn('fast');
+    $('.menu').toggleClass ('active');
     $('.overlay').toggleClass('active');
   });
 });
