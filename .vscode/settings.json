@@ -1,0 +1,7 @@
+{
+    "phpfmt.exclude": [
+        "AlignEquals",
+        "ShortArray",
+        "StripSpaces"
+    ]
+}

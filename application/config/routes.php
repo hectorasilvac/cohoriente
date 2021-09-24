@@ -54,8 +54,10 @@ $route['asociarte']                                                             
 $route['beneficios']                                                            =   'pages_controller/view/benefits';
 $route['biomedica']                                                             =   'pages_controller/view/biomedical';
 $route['clasificados']                                                          =   'pages_controller/view/classifieds';
+
 $route['contacto']                                                              =   'pages_controller/view/contact';
-$route['contacto/enviar']                                                       =   'contact_controller/send';
+$route['contacto/enviar']                                                       =   'contact_controller/send_email';
+
 $route['formacion']                                                             =   'pages_controller/view/training';
 $route['galeria']                                                               =   'pages_controller/view/gallery';
 $route['inversion']                                                             =   'pages_controller/view/invest';
@@ -67,7 +69,6 @@ $route['servicios']                                                             
 $route['solicitud-pedido']                                                      =   'pages_controller/view/order_form';
 
 $route['(:any)']                                                                =   'pages_controller/view/$1';
-
 $route['default_controller']                                                    =   'pages_controller/view';
 $route['404_override']                                                          =   '';
 $route['translate_uri_dashes']                                                  =   FALSE;

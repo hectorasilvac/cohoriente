@@ -9,7 +9,7 @@
 						¿Tienes un Pedido para Nosotros?
 					</h3>
 				</header>
-				<form id="order_form" class="form" method="POST">
+				<form id="order_form" class="form" action="/contacto/enviar" method="POST">
 					<div class="d-flex flex-column flex-xl-row column-gap-xl-2">
 					<p class="d-flex flex-column mb-2 w-xl-fill">
 						<label class="form-label form-label-xl" for="fullname">

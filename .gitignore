@@ -44,4 +44,5 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+/application/views_compiled
 >>>>>>> 66ef559d2c189caf013cbd2bf3ffb032cf92762d

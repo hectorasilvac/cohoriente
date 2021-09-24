@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 23:42:04
+/* Smarty version 3.1.39, created on 2021-09-24 23:53:26
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\order_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614e462cd24be9_19202540',
+  'unifunc' => 'content_614e48d689dd02_17772314',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eaee1f357ccdef62ca5fd5bcbb7cec0c909e21c5' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\order_form.tpl',
-      1 => 1632519724,
+      1 => 1632520406,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614e462cd24be9_19202540 (Smarty_Internal_Template $_smarty_tpl) {
+function content_614e48d689dd02_17772314 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_769578575614e462cd20523_29077441', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_569068466614e48d6899c41_75604084', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_769578575614e462cd20523_29077441 extends Smarty_Internal_Block
+class Block_569068466614e48d6899c41_75604084 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_769578575614e462cd20523_29077441',
+    0 => 'Block_569068466614e48d6899c41_75604084',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -50,7 +50,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 						¿Tienes un Pedido para Nosotros?
 					</h3>
 				</header>
-				<form id="order_form" class="form" method="POST">
+				<form id="order_form" class="form" action="/contacto/enviar" method="POST">
 					<div class="d-flex flex-column flex-xl-row column-gap-xl-2">
 					<p class="d-flex flex-column mb-2 w-xl-fill">
 						<label class="form-label form-label-xl" for="fullname">
@@ -124,7 +124,7 @@ img/request_order_bg.png" alt="Enfermera" />
 				</p>
 				<p class="dialog_response subtitle_small text--normal text--center color--secondary mt-2">
 				</p>
-				<p class="dialog_loading text--center p-1">
+				<p class="dialog_loading text--center p-2d5">
 					<img class="wd-15" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
 img/loading.gif" alt="Cargando.." />
 					<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>

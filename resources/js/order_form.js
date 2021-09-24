@@ -12,6 +12,17 @@ let myDropzone = new Dropzone('#my-dropzone', {
   clickeable: false,
 });
 
+
+myDropzone.on('sending', function (file, xhr, formData) {
+  var data = $('#order_form').serializeArray();
+  
+  formData.append('form', 'order');
+
+  $.each(data, function (key, element) {
+    formData.append(element.name, element.value);
+  });
+});
+
 myDropzone.on('success', function (file, response) {
   $('.dialog_loading').addClass('d-none');
   $('.dialog_response').html(JSON.parse(response).message);
@@ -52,13 +63,11 @@ $(function () {
 
   // Request Confirmation: Confirm action
   $('.dialog_confirm').on('click', function () {
-    // myDropzone.processQueue();
-
-    /* New Code */
     $('.order_conf').addClass('d-none-force').hide().fadeIn('fast');
     $('.order_btns').addClass('d-none-force').hide().fadeIn('fast');
     $('.order_msg').removeClass('d-none-force').hide().fadeIn('fast');
-    /* New Code */
+
+      myDropzone.processQueue();
   });
 
   // Form validation: Rules
@@ -135,12 +144,12 @@ $(function () {
   $('#order_form').ajaxForm(
     {
       beforeSubmit: function () {
-        // if (myDropzone.files.length === 0) {
-        //   $('.dropzone_error').removeClass('d-none');
-        // } else {
+        if (myDropzone.files.length === 0) {
+          $('.dropzone_error').removeClass('d-none');
+        } else {
         orderDialog.showModal();
-      // }
-      //   return false;
+      }
+        return false;
       }
     });
 
