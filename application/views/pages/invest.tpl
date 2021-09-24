@@ -1,137 +1,87 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
 <main>
-	<section class="invest_banner wrapper wrap_quaternary">
-		<header class="bottom_header">
-			<div class="d-flex wrap--center">
-				<div class="item_icon_wrapper bg--light">
-					<img class="item_icon" src="{$RESOURCES}img/icons/investment_blue.svg"
-						alt="Saludo de manos" />
+	<section>
+		<header class="inv_header hdr_bg bg-xl-none h-xl-fill">
+			<div class="flex-center">
+				<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
+					<img class="icon_item d-xl-none" src="{$RESOURCES}img/icons/investment_blue.svg"
+						alt="Planta con símbolo de dolar" />
+					<img class="icon_item d-none d-xl-block" src="{$RESOURCES}img/icons/investment.svg"
+						alt="Planta con símbolo de dolar" />
 				</div>
-				<h3 class="subtitle color--light">Inversión</h3>
+				<h3 class="fs-2d5 text-light text-xl-primary fs-xl-7">
+					Inversión
+				</h3>
 			</div>
 		</header>
+		<div class="d-xl-flex wrap-xl pt-xl-0">
+			<div class="px-2d5 py-2 w-xl-100p">
+				<p class="fs-1d4 text-justify mb-1d5 fs-xl-2d5 p-xl-0 mb-xl-2">
+					La inversión para convertirte en uno de nuestros socios consta de tres partes:
+				</p>
+				<ul class="mb-1d5">
+					<li class="d-flex align-items-center text-justify">
+						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/invest/dot_blue.png" alt="Punto Azul" />
+						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
+							Aportes sociales (Único pago)
+						</p>
+					</li>
+					<li class="d-flex align-items-center text-justify">
+						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/invest/dot_blue.png" alt="Punto Azul" />
+						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
+							Cuota de admisión (Único pago)
+						</p>
+					</li>
+					<li class="d-flex align-items-center text-justify">
+						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/invest/dot_blue.png" alt="Punto Azul" />
+						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
+							Cuota de sostenimiento ( pago anual si no se realizan compras a COHORIENTE)
+						</p>
+					</li>
+				</ul>
+				<p class="fs-1d2 text-justify fs-xl-1d5">
+					La cuota de sostenimiento será pagada anualmente únicamente hasta lograr el equilibrio económico o
+					al
+					demostrar perdidas en balances al final de ejercicio; de la misma manera se acuerda que durante el
+					tiempo
+					que deba ser efectiva esta cuota estarán exentas del pago aquellas entidades que adquiera a través
+					de la
+					cooperativa mínimo el 50 % del valor asignado para compras en su entidad.
+				</p>
+			</div>
+			<div class="d-flex justify-content-end mb-2">
+				<p class="rds_left fs-1d4 text-light h-fit bg-primary pd-2d5 w-90p fs-xl-2d5">
+					Los aportes sociales y cuota de sostenimiento serán estimados de acuerdo al nivel de complejidad de
+					cada
+					E.S.E.
+				</p>
+			</div>
+		</div>
+		<div class="invest_img bg-gray-100">
+			<div class="wrap flex-column py-2 flex-xl-row flex-xl-wrap justify-content-center gap-xl-3">
+				<div class="bs_img">
+					<img class="w-100p" src="{$RESOURCES}img/invest/invest_1.png"
+						alt="Información sobre afiliación E.S.E Nivel 1" />
+				</div>
+				<div class="bs_img">
+					<img class="w-100p" src="{$RESOURCES}img/invest/invest_2.png"
+						alt="Información sobre afiliación E.S.E Nivel 1 Saneamiento fiscal" />
+				</div>
+				<div class="bs_img">
+					<img class="w-100p" src="{$RESOURCES}img/invest/invest_3.png"
+						alt="Información sobre afiliación E.S.E Nivel 2" />
+				</div>
+				<div class="bs_img">
+					<img class="w-100p" src="{$RESOURCES}img/invest/invest_4.png"
+						alt="Información sobre afiliación E.S.E Nivel 2 Saneamiento fiscal" />
+				</div>
+				<div class="bs_img">
+					<img class="w-100p" src="{$RESOURCES}img/invest/invest_5.png"
+						alt="Información sobre afiliación E.S.E Nivel 3" />
+				</div>
+			</div>
+		</div>
 	</section>
-	<section class="wrapper wrap_quaternary">
-		<p class="text text--justify">
-			Sin perjuicio de las prerrogativas contenidas en las disposiciones legales y demás normas concordantes que rijan la materia, serán derechos de los Asociados los siguientes:
-		</p>
-	</section>
-	<div>
-		<ul class="list">
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">1</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Participar con voz y voto en las Asambleas Generales.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">2</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Participar en la gestión y control de la Cooperativa, desempeñando a través de representantes de la respectiva entidad, los cargos sociales y de elección de acuerdo con las disposiciones de estos Estatutos.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">3</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Utilizar los servicios de la Cooperativa y realizar con ella las operaciones propias de su objeto social.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">4</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Examinar la gestión económica y social verificando los libros, las actas y en general, todos los documentos de COHORIENTE, en asocio con la Revisoría Fiscal o un miembro de la Junta de Vigilancia, de acuerdo a la reglamentación que se expida para ello.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">5</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Participar en los resultados económicos de la Cooperativa mediante la aplicación de excedentes y remanentes, de conformidad con los lineamientos dispuestos en el documento estatutario.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">6</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Presentar a la Asamblea General o a la Gerencia, los proyectos, planes, programas e iniciativas que contribuyan al cumplimiento del objeto Cooperativo o busquen el mejoramiento de la Entidad.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">7</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Favorecerse de los programas educativos que se desarrollen.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">8</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Presentar a la Junta de Vigilancia solicitudes de investigación de hechos que puedan configurar infracciones de funcionarios encargados de la administración y prestación del servicio.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">9</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Participar en las actividades y los beneficios que <strong>COHORIENTE</strong> brinda a sus asociados, los cuales no podrán consistir en ningún caso en el reparto de excedentes.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">10</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Participar en las asambleas generales en representación de la entidad asociada, ya sean de carácter ordinario o extraordinario.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">11</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Ser informados de la gestión de la Cooperativa de acuerdo con lo dispuesto en los presentes estatutos.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">12</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Retirarse voluntariamente en cualquier momento, mientras <strong>COHORIENTE</strong> no se encuentre en proceso de liquidación y/o disolución de acuerdo con las disposiciones estatutarias.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">13</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Prestar en la etapa inicial de funcionamiento o en periodo de grave crisis económica servicios personales a modo de colaboración solidaria gratuita la cual deberá manifestar por escrito al Consejo Administrativo y que podrá ser revocada por el asociado en cualquier momento.
-				</div>
-			</li>
-			<li class="d-flex mb-2">
-				<div>
-				<p class="list_number text text--bold">14</p>
-				</div>
-				<div class="text text--justify pd-r-2d5">
-					Los demás que se deriven del Acuerdo Cooperativo.
-				</div>
-			</li>
-		</ul>
-	</div>
 </main>
 {/block}

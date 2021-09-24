@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-20 21:00:38
+/* Smarty version 3.1.39, created on 2021-09-24 00:10:07
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\shared\request_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6148da56c122b7_33684494',
+  'unifunc' => 'content_614cfb3f7c6a66_23244502',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b28d472e520cff74f0ce515f2b0879b45197b820' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\shared\\request_form.tpl',
-      1 => 1632164438,
+      1 => 1632435007,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6148da56c122b7_33684494 (Smarty_Internal_Template $_smarty_tpl) {
+function content_614cfb3f7c6a66_23244502 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section>
 		<header class="d-flex wrap--center mt-2">
 			<h3 class="subtitle color--primary text--center wd-60p"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['title']->value)===null||$tmp==='' ? 'Título' : $tmp);?>

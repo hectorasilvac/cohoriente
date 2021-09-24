@@ -3,7 +3,7 @@
 		<h3 class="employee_badge">Emplead@ del Mes</h3>
 		<picture class="employee_picture">
 			<source media="(min-width:1200px)" srcset="{$RESOURCES}img/employee_web.png">
-			<img class="employee_image" src="{$RESOURCES}img/employee.png"
+			<img class="w-70p" src="{$RESOURCES}img/employee.png"
 				alt="Foto frontal de Laura Fernanda Medina Dotor" />
 		</picture>
 		<p class="employee_name">Laura Fernanda Medina Dotor</p>

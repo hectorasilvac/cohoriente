@@ -1,7 +1,7 @@
-<section class="partner bg--light">
-    <div class="wrapper wrap_quaternary">
-        <header class="wrapper wrap_subtitle">
-            <h3 class="subtitle color--primary">Nuestros Aliados</h3>
+<section class="partner">
+    <div class="partner_wrapper">
+        <header class="partner_header">
+            <h3 class="partner_subtitle">Nuestros Aliados</h3>
         </header>
         <div class="partner_carousel">
             <div class="partner_carousel_cell">
