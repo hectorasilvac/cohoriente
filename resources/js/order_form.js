@@ -24,7 +24,11 @@ myDropzone.on('sending', function (file, xhr, formData) {
 });
 
 myDropzone.on('success', function (file, response) {
+  $("#order_form").trigger("reset");
+  this.removeAllFiles();
+  
   $('.dialog_loading').addClass('d-none');
+  $('.dialog_response').removeClass('d-none');
   $('.dialog_response').html(JSON.parse(response).message);
 });
 
@@ -41,9 +45,9 @@ myDropzone.on('addedfiles', function () {
 $(function () {
 
   // Request Confirmation: Show dialog, confirm or cancel request and close dialog
-  var orderDialog = document.getElementById('order_dialog');
+  var orderDialog = document.getElementById('form_dialog');
 
-  $('.order_submit').on('click', function () {
+  $('.form_submit').on('click', function () {
     event.preventDefault();
     $('#order_form').submit();
 
@@ -63,9 +67,9 @@ $(function () {
 
   // Request Confirmation: Confirm action
   $('.dialog_confirm').on('click', function () {
-    $('.order_conf').addClass('d-none-force').hide().fadeIn('fast');
-    $('.order_btns').addClass('d-none-force').hide().fadeIn('fast');
-    $('.order_msg').removeClass('d-none-force').hide().fadeIn('fast');
+    $('.dialog_conf').addClass('d-none-force').hide().fadeIn('fast');
+    $('.dialog_btns').addClass('d-none-force').hide().fadeIn('fast');
+    $('.dialog_msg').removeClass('d-none-force').hide().fadeIn('fast');
 
       myDropzone.processQueue();
   });

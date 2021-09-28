@@ -47,7 +47,7 @@
 				</div>
 				<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
 				<footer class="flex-center mt-2 justify-content-xl-start w-xl-26">
-					<button class="order_submit btn btn-primary w-70p fs-xl-2d5 mb-xl-3" type="submit">Enviar</button>
+					<button class="form_submit btn btn-primary w-70p fs-xl-2d5 mb-xl-3" type="submit">Enviar</button>
 				</footer>
 			</div>
 			<div class="d-none d-xl-flex">
@@ -55,8 +55,8 @@
 			</div>
 		</div>
 		<!-- Dialog: Action Confirmation -->
-		<dialog id="order_dialog" class="dialog w-80p">
-			<div class="order_conf dialog_wrap dialog_primary d-flex flex-column">
+		<dialog id="form_dialog" class="dialog w-80p w-xl-20p">
+			<div class="dialog_conf dialog_wrap dialog_primary d-flex flex-column">
 				<p class="dialog_close">
 					<i class="fas fa-times-circle fa-2x text-gray-600"></i>
 				</p>
@@ -67,26 +67,23 @@
 					Solicitar Pedido
 				</h3>
 				<hr class="wd-100p m-0" />
-				<p class="fs-1d8 text-secondary text-center my-2">
+				<p class="fs-1d8 text-secondary text-center p-2">
 					¿Estas seguro que deseas crear esta solicitud de pedido? </p>
 			</div>
-			<div class="order_btns d-flex flex-nowrap">
+			<div class="dialog_btns d-flex flex-nowrap">
 				<a class="dialog_confirm btn btn-primary">Si</a>
 				<a class="dialog_cancel btn btn-primary">No</a>
 			</div>
 			<!-- Dialog: Success message -->
-			<div class="order_msg dialog_wrap d-none-force">
+			<div class="dialog_msg dialog_wrap d-none-force">
 				<p class="dialog_close">
 					<i class="fas fa-times-circle fa-2x text-gray-600"></i>
 				</p>
-				<p class="dialog_response subtitle_small text--normal text--center color--secondary mt-2">
+				<p class="dialog_response fs-1d8 text-center text-secondary px-2d5 py-6d5 d-none">
 				</p>
-				<p class="dialog_loading text--center p-2d5">
-					<img class="wd-15" src="{$RESOURCES}img/loading.gif" alt="Cargando.." />
+				<p class="dialog_loading text-center p-2d5">
+					<img class="w-15" src="{$RESOURCES}img/loading.gif" alt="Cargando.." />
 					<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>
-				</p>
-				<p class="dialog_res fs-1d8 text-secondary text-center py-6 px-2d5 d-none-force">
-					Gracias por crear la solicitud de tu pedido, en breve uno de nuestros asesores te contactará.
 				</p>
 			</div>
 		</dialog>

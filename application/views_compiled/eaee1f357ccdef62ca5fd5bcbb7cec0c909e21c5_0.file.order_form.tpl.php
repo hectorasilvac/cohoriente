@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 23:53:26
+/* Smarty version 3.1.39, created on 2021-09-28 16:12:45
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\order_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614e48d689dd02_17772314',
+  'unifunc' => 'content_615322dda46045_83140309',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eaee1f357ccdef62ca5fd5bcbb7cec0c909e21c5' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\order_form.tpl',
-      1 => 1632520406,
+      1 => 1632764878,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614e48d689dd02_17772314 (Smarty_Internal_Template $_smarty_tpl) {
+function content_615322dda46045_83140309 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_569068466614e48d6899c41_75604084', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_632197979615322dda428a5_23782041', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_569068466614e48d6899c41_75604084 extends Smarty_Internal_Block
+class Block_632197979615322dda428a5_23782041 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_569068466614e48d6899c41_75604084',
+    0 => 'Block_632197979615322dda428a5_23782041',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -89,7 +89,7 @@ img/icons/pdf.png" alt="Adjuntar PDF" />
 				</div>
 				<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
 				<footer class="flex-center mt-2 justify-content-xl-start w-xl-26">
-					<button class="order_submit btn btn-primary w-70p fs-xl-2d5 mb-xl-3" type="submit">Enviar</button>
+					<button class="form_submit btn btn-primary w-70p fs-xl-2d5 mb-xl-3" type="submit">Enviar</button>
 				</footer>
 			</div>
 			<div class="d-none d-xl-flex">
@@ -98,8 +98,8 @@ img/request_order_bg.png" alt="Enfermera" />
 			</div>
 		</div>
 		<!-- Dialog: Action Confirmation -->
-		<dialog id="order_dialog" class="dialog w-80p">
-			<div class="order_conf dialog_wrap dialog_primary d-flex flex-column">
+		<dialog id="form_dialog" class="dialog w-80p w-xl-20p">
+			<div class="dialog_conf dialog_wrap dialog_primary d-flex flex-column">
 				<p class="dialog_close">
 					<i class="fas fa-times-circle fa-2x text-gray-600"></i>
 				</p>
@@ -110,27 +110,24 @@ img/request_order_bg.png" alt="Enfermera" />
 					Solicitar Pedido
 				</h3>
 				<hr class="wd-100p m-0" />
-				<p class="fs-1d8 text-secondary text-center my-2">
+				<p class="fs-1d8 text-secondary text-center p-2">
 					¿Estas seguro que deseas crear esta solicitud de pedido? </p>
 			</div>
-			<div class="order_btns d-flex flex-nowrap">
+			<div class="dialog_btns d-flex flex-nowrap">
 				<a class="dialog_confirm btn btn-primary">Si</a>
 				<a class="dialog_cancel btn btn-primary">No</a>
 			</div>
 			<!-- Dialog: Success message -->
-			<div class="order_msg dialog_wrap d-none-force">
+			<div class="dialog_msg dialog_wrap d-none-force">
 				<p class="dialog_close">
 					<i class="fas fa-times-circle fa-2x text-gray-600"></i>
 				</p>
-				<p class="dialog_response subtitle_small text--normal text--center color--secondary mt-2">
+				<p class="dialog_response fs-1d8 text-center text-secondary px-2d5 py-6d5 d-none">
 				</p>
-				<p class="dialog_loading text--center p-2d5">
-					<img class="wd-15" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
+				<p class="dialog_loading text-center p-2d5">
+					<img class="w-15" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
 img/loading.gif" alt="Cargando.." />
 					<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>
-				</p>
-				<p class="dialog_res fs-1d8 text-secondary text-center py-6 px-2d5 d-none-force">
-					Gracias por crear la solicitud de tu pedido, en breve uno de nuestros asesores te contactará.
 				</p>
 			</div>
 		</dialog>

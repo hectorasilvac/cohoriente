@@ -85,5 +85,17 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 define('APPLICATION', (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/');
-// define('APPLICATION', 'https://' . $_SERVER['HTTP_HOST'] . '/');
+// define('APPLICATION', 'https://' . $_SERVER['HTTP_HOST'] . '/'); TODO: Descomentar y eliminar linea siguiente
 define('RESOURCES', APPLICATION . 'resources/');
+
+$menu_nav                                                                       =   array(
+                                                                                        'inicio' => 'home',
+                                                                                        'servicios' => 'services',
+                                                                                        'nosotros' => 'about_us',
+                                                                                        'asociarte' => 'partner',
+                                                                                        'clasificados' => 'classifieds',
+                                                                                        'contacto' => 'contact'
+                                                                                    ); 
+$page_url                                                                       =   explode('/', $_SERVER["REQUEST_URI"])[1];
+
+define('SELECTED_NAV', $menu_nav[$page_url] ?? 'home');

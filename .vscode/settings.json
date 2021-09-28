@@ -1,7 +1,7 @@
 {
     "phpfmt.exclude": [
-        "AlignEquals",
         "ShortArray",
         "StripSpaces"
-    ]
+    ],
+    "phpfmt.indent_with_space": 0
 }

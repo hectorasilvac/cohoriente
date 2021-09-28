@@ -1,6 +1,6 @@
-<section class="order">
-	<h2 class="order_subtitle d-none">
+<section class="order bg_section">
+	<h2 class="d-none">
 		¿Tienes un Pedido para Nosotros?
 	</h2>
-	<a class="order_link" href="solicitud-pedido"></a>
+	<a class="link_section" href="solicitud-pedido"></a>
 </section>

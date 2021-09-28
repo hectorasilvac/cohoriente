@@ -1,6 +1,6 @@
-<section class="supplier">
+<section class="supplier bg_section">
 	<h2 class="supplier_subtitle">
-		¿Tienes un Pedido para Nosotros?
+		¿Quieres ser un Proveedor?
 	</h2>
-		<a class="supplier_link" href="proveedor"></a>
+		<a class="link_section" href="proveedor"></a>
 </section>

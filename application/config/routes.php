@@ -53,10 +53,24 @@ $route['afiliacion']                                                            
 $route['asociarte']                                                             =   'pages_controller/view/partner';
 $route['beneficios']                                                            =   'pages_controller/view/benefits';
 $route['biomedica']                                                             =   'pages_controller/view/biomedical';
-$route['clasificados']                                                          =   'pages_controller/view/classifieds';
 
+// CLASSIFIEDS
+
+$route['clasificados']                                                          =   'jobs_controller/all';
+
+// CONTACT
 $route['contacto']                                                              =   'pages_controller/view/contact';
-$route['contacto/enviar']                                                       =   'contact_controller/send_email';
+$route['contacto/enviar']                                                       =   'contact_controller/send';
+
+// JOBS
+$route['empleos']                                                               =   'jobs_controller/all';
+$route['empleos/aplicar']                                                       =   'jobs_controller/apply';
+$route['empleos/(:num)']                                                        =   'jobs_controller/detail/$1';
+
+// SUPPLIES
+
+$route['suministros']                                                           =   'supplies_controller/all';
+
 
 $route['formacion']                                                             =   'pages_controller/view/training';
 $route['galeria']                                                               =   'pages_controller/view/gallery';
@@ -68,7 +82,9 @@ $route['requisitos']                                                            
 $route['servicios']                                                             =   'pages_controller/view/services';
 $route['solicitud-pedido']                                                      =   'pages_controller/view/order_form';
 
-$route['(:any)']                                                                =   'pages_controller/view/$1';
-$route['default_controller']                                                    =   'pages_controller/view';
+$route['xd/(:num)']                                                             =   'home_controller/view';
+
+$route['(:any)']                                                                =   'home_controller/view';
+$route['default_controller']                                                    =   'home_controller/view';
 $route['404_override']                                                          =   '';
 $route['translate_uri_dashes']                                                  =   FALSE;

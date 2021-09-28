@@ -1,5 +1,5 @@
 $(function () {
-  // Main Menu
+  // Navegation Bar
   $('.hamburger_icon').on('click', function () {
 
     $('body').toggleClass('overflow-hidden');

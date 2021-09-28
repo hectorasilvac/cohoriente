@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => '69.12.87.162',
+	'username' => 'cohorien_userweb',
+	'password' => ']LmLI}w6Uxe}CqP&qN?S;u.H',
+	'database' => 'cohorien_web',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
