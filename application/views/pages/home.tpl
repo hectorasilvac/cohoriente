@@ -44,7 +44,7 @@
 								EPPS, tecnología
 								biomédica</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="oferta-de-abastecimiento">Ver Más
+								<a class="featured_link" href="/servicios/oferta-abastecimiento">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
@@ -61,7 +61,7 @@
 								capacitación y
 								entretenimiento</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="formacion">Ver Más
+								<a class="featured_link" href="/servicios/formacion">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
@@ -77,7 +77,7 @@
 								para
 								soluciones en equipos médicos</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="biomedica">Ver Más
+								<a class="featured_link" href="/servicios/tecnologia-biomedica">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>

@@ -1,6 +1,6 @@
 // Drag & Drop: Config
 let myDropzone = new Dropzone('#my-dropzone', {
-  url: '/contacto/enviar',
+  url: '/contacto/solicitud-pedido/enviar',
   autoProcessQueue: false,
   uploadMultiple: false,
   parallelChunkUploads: false,
@@ -16,8 +16,6 @@ let myDropzone = new Dropzone('#my-dropzone', {
 myDropzone.on('sending', function (file, xhr, formData) {
   var data = $('#order_form').serializeArray();
   
-  formData.append('form', 'order');
-
   $.each(data, function (key, element) {
     formData.append(element.name, element.value);
   });

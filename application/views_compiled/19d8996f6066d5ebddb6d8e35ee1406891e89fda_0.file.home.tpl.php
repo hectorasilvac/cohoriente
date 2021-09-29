@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-21 21:22:49
+/* Smarty version 3.1.39, created on 2021-09-29 15:05:58
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614a31096cb204_19531713',
+  'unifunc' => 'content_615464b64abb50_78397826',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '19d8996f6066d5ebddb6d8e35ee1406891e89fda' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\home.tpl',
-      1 => 1632252169,
+      1 => 1632920756,
       2 => 'file',
     ),
   ),
@@ -27,22 +27,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../shared/contact.tpl' => 1,
   ),
 ),false)) {
-function content_614a31096cb204_19531713 (Smarty_Internal_Template $_smarty_tpl) {
+function content_615464b64abb50_78397826 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1894944022614a31096c61b1_18227590', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2027272697615464b64a4e04_39116808', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_1894944022614a31096c61b1_18227590 extends Smarty_Internal_Block
+class Block_2027272697615464b64a4e04_39116808 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_1894944022614a31096c61b1_18227590',
+    0 => 'Block_2027272697615464b64a4e04_39116808',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -96,7 +96,7 @@ img/health_icon.png"
 								EPPS, tecnología
 								biomédica</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="oferta-de-abastecimiento">Ver Más
+								<a class="featured_link" href="/servicios/oferta-abastecimiento">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
@@ -114,7 +114,7 @@ img/study_icon.png" alt="Ícono de un computador">
 								capacitación y
 								entretenimiento</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="formacion">Ver Más
+								<a class="featured_link" href="/servicios/formacion">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
@@ -131,7 +131,7 @@ img/molecule_icon.png" alt="Ícono de átomos">
 								para
 								soluciones en equipos médicos</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="biomedica">Ver Más
+								<a class="featured_link" href="/servicios/tecnologia-biomedica">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 18:58:03
+/* Smarty version 3.1.39, created on 2021-09-29 15:39:10
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\shared\employee.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614e039bab6b76_63536837',
+  'unifunc' => 'content_61546c7e508a83_77271554',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '348cd1896aed7bb0b3b9f77529aa53fe1b6909e4' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\shared\\employee.tpl',
-      1 => 1632502683,
+      1 => 1632922749,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614e039bab6b76_63536837 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61546c7e508a83_77271554 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="employee">
 	<div class="employee_wrapper">
 		<h3 class="employee_badge">Emplead@ del Mes</h3>

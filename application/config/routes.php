@@ -49,40 +49,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:    my-controller/index    -> my_controller/index
 |        my-controller/my-method    -> my_controller/my_method
  */
+
+ // CLASSIFIEDS
+$route['clasificados']                                                          =   'classifieds_controller/view';
+$route['clasificados/aplicar']                                                  =   'classifieds_controller/apply';
+$route['clasificados/(:num)']                                                   =   'classifieds_controller/detail/$1';
+
+// CONTACT
+$route['contacto']                                                              =   'contact_controller/view';
+$route['contacto/enviar']                                                       =   'contact_controller/send';
+$route['contacto/solicitud-pedido']                                             =   'contact_controller/order_request';
+$route['contacto/solicitud-pedido/enviar']                                      =   'contact_controller/send_order';
+
+// PARTNER
+
+$route['asociarte']                                                             =   'partner_controller/view';
+$route['asociarte/requisitos']                                                  =   'partner_controller/requirements';
+$route['asociarte/beneficios']                                                  =   'partner_controller/benefits';
+$route['asociarte/inversion']                                                   =   'partner_controller/invest';
+$route['asociarte/solicitud-afiliacion']                                        =   'partner_controller/membership_application';
+
+// SERVICES
+$route['servicios']                                                             =   'services_controller/view';
+$route['servicios/oferta-abastecimiento']                                       =   'services_controller/supply_offer';
+$route['servicios/formacion']                                                   =   'services_controller/training';
+$route['servicios/tecnologia-biomedica']                                        =   'services_controller/biomedical';
+
+
+
+// TODO: Acomodar de aquí hacia abajo
+
 $route['afiliacion']                                                            =   'pages_controller/view/affiliation_form';
-$route['asociarte']                                                             =   'pages_controller/view/partner';
 $route['beneficios']                                                            =   'pages_controller/view/benefits';
 $route['biomedica']                                                             =   'pages_controller/view/biomedical';
 
-// CLASSIFIEDS
-
-$route['clasificados']                                                          =   'jobs_controller/all';
-
-// CONTACT
-$route['contacto']                                                              =   'pages_controller/view/contact';
-$route['contacto/enviar']                                                       =   'contact_controller/send';
-
-// JOBS
-$route['empleos']                                                               =   'jobs_controller/all';
-$route['empleos/aplicar']                                                       =   'jobs_controller/apply';
-$route['empleos/(:num)']                                                        =   'jobs_controller/detail/$1';
 
 // SUPPLIES
-
 $route['suministros']                                                           =   'supplies_controller/all';
 
 
-$route['formacion']                                                             =   'pages_controller/view/training';
 $route['galeria']                                                               =   'pages_controller/view/gallery';
 $route['inversion']                                                             =   'pages_controller/view/invest';
 $route['nosotros']                                                              =   'pages_controller/view/about_us';
 $route['oferta-de-abastecimiento']                                              =   'pages_controller/view/supply_offer';
 $route['proveedor']                                                             =   'pages_controller/view/supplier_form';
 $route['requisitos']                                                            =   'pages_controller/view/requirements';
-$route['servicios']                                                             =   'pages_controller/view/services';
+// $route['servicios']                                                             =   'pages_controller/view/services';
 $route['solicitud-pedido']                                                      =   'pages_controller/view/order_form';
 
-$route['xd/(:num)']                                                             =   'home_controller/view';
 
 $route['(:any)']                                                                =   'home_controller/view';
 $route['default_controller']                                                    =   'home_controller/view';

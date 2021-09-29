@@ -3,7 +3,7 @@
 <main>
 	<section>
 		<header class="d-flex wrap--center mt-2">
-			<h3 class="subtitle color--primary text--center wd-50p">¿Quieres Ser Uno de Nosotros?</h3>
+			<h3 class="subtitle color--primary text--center wd-50p">¿Quieres ser Uno de Nosotros?</h3>
 		</header>
 		<form class="form wrapper wrap_quaternary">
 			<p class="form_entry wrapper wrap_quaternary">

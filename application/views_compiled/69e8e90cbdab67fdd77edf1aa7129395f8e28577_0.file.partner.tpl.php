@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-23 00:57:24
+/* Smarty version 3.1.39, created on 2021-09-29 16:32:14
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\partner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614bb4d4ce2953_55896493',
+  'unifunc' => 'content_615478ee8c01f9_03014085',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '69e8e90cbdab67fdd77edf1aa7129395f8e28577' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\partner.tpl',
-      1 => 1632351444,
+      1 => 1632925933,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614bb4d4ce2953_55896493 (Smarty_Internal_Template $_smarty_tpl) {
+function content_615478ee8c01f9_03014085 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_619283757614bb4d4ce0519_07384894', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_316345567615478ee8bcde1_89611684', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_619283757614bb4d4ce0519_07384894 extends Smarty_Internal_Block
+class Block_316345567615478ee8bcde1_89611684 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_619283757614bb4d4ce0519_07384894',
+    0 => 'Block_316345567615478ee8bcde1_89611684',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -47,7 +47,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 	<section class="join_us">
 		<div class="join_us_wrapper wrap_column">
 			<div class="join_us_details">
-			<header class="join_us_header container">
+			<header class="join_us_header container mt-xl-3">
 				<h3 class="join_us_subtitle subtitle">Sé Nuestro Asociado</h3>
 			</header>
 			<ul class="join_us_list list">
@@ -64,7 +64,7 @@ img/icons/requirements.svg"
 							creemos una gran alianza.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="requisitos">Ver Más
+							<a class="info_link link" href="/asociarte/requisitos">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -81,7 +81,7 @@ img/icons/benefits.svg" alt="Saludo de manos" />
 							Por ser parte de nuestro selecto grupo de asociados puedes disfrutar de nuestros beneficios.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="beneficios">Ver Más
+							<a class="info_link link" href="/asociarte/beneficios">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -99,7 +99,7 @@ img/icons/investment.svg"
 							Conoce la inversión que debes hacer pare ser parte de nuestros afiliados y acceder a todos
 							nuestros beneficios. </p>
 						<p class="link_more">
-							<a class="info_link link" href="inversion">Ver Más
+							<a class="info_link link" href="/asociarte/inversion">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -112,7 +112,7 @@ img/partner_banner.png" alt="" />
 		</div>
 	</section>
 	<div class="affiliate">
-		<a class="affiliate_link" href="afiliacion">
+		<a class="affiliate_link" href="/asociarte/solicitud-afiliacion">
 			</a>
 	</div>
 	<section class="bylaws">

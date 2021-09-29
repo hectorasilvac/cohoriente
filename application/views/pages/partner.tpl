@@ -6,7 +6,7 @@
 	<section class="join_us">
 		<div class="join_us_wrapper wrap_column">
 			<div class="join_us_details">
-			<header class="join_us_header container">
+			<header class="join_us_header container mt-xl-3">
 				<h3 class="join_us_subtitle subtitle">Sé Nuestro Asociado</h3>
 			</header>
 			<ul class="join_us_list list">
@@ -22,7 +22,7 @@
 							creemos una gran alianza.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="requisitos">Ver Más
+							<a class="info_link link" href="/asociarte/requisitos">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -38,7 +38,7 @@
 							Por ser parte de nuestro selecto grupo de asociados puedes disfrutar de nuestros beneficios.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="beneficios">Ver Más
+							<a class="info_link link" href="/asociarte/beneficios">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -55,7 +55,7 @@
 							Conoce la inversión que debes hacer pare ser parte de nuestros afiliados y acceder a todos
 							nuestros beneficios. </p>
 						<p class="link_more">
-							<a class="info_link link" href="inversion">Ver Más
+							<a class="info_link link" href="/asociarte/inversion">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -67,7 +67,7 @@
 		</div>
 	</section>
 	<div class="affiliate">
-		<a class="affiliate_link" href="afiliacion">
+		<a class="affiliate_link" href="/asociarte/solicitud-afiliacion">
 			</a>
 	</div>
 	<section class="bylaws">

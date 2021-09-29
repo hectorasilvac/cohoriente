@@ -1337,6 +1337,10 @@ progress {
     flex: 1 0 0%;
   }
 
+  .fs-lg-7 {
+    font-size: 7rem;
+  }
+
   .row-cols-lg-auto > * {
     flex: 0 0 auto;
     width: auto;
@@ -7846,6 +7850,10 @@ textarea.form-control-lg {
   font-size: 3rem;
 }
 
+.fs-3d2 {
+  font-size: 3.2rem;
+}
+
 .fs-4 {
   font-size: 4rem;
 }
@@ -11008,6 +11016,10 @@ textarea.form-control-lg {
     font-size: 7rem !important;
   }
 
+    .fs-xl-9 {
+    font-size: 9rem !important;
+  }
+
   .fw-xl-bold {
   font-weight: 700 !important;
   }
@@ -11870,6 +11882,16 @@ textarea.form-control-lg {
 	border-radius: .4rem;
 }
 
+.employee_name {
+	color: var(--bs-light);
+  font-size: clamp(3.2rem, 6vw, 9rem);
+	font-weight: bold;
+	margin-bottom: 1.8rem;
+	margin-top: 1.4rem;
+	text-align: center;
+}
+
+
 .empty_classified {
   background-color: #A1A1A1;
 }
@@ -12079,6 +12101,10 @@ textarea.form-control-lg {
   border-bottom-left-radius: 1.7rem;
 }
 
+@media only screen and (min-width: 992px) {
+
+}
+
 @media only screen and (min-width: 1200px) {
   .bs_img {
     flex-basis: 40rem;
@@ -12102,6 +12128,11 @@ textarea.form-control-lg {
   width: 22.5rem;
   height: 22.5rem;
   padding: 0 1.3rem;
+}
+
+.employee_name {
+  grid-area: employee_name;
+  justify-self: center;
 }
 
   .error {

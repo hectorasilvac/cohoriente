@@ -2,5 +2,5 @@
 	<h2 class="d-none">
 		¿Tienes un Pedido para Nosotros?
 	</h2>
-	<a class="link_section" href="solicitud-pedido"></a>
+	<a class="link_section" href="/contacto/solicitud-pedido"></a>
 </section>
