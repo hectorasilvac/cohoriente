@@ -7,5 +7,6 @@
 {block name="header"}{/block}
 {block name="body"}{/block}
 {block name="footer"}{/block}
+{block name="scripts"}{/block}
 </body>
 </html>

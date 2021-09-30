@@ -36,15 +36,15 @@
 			<div id="my-dropzone" class="form_drop flex-center dropzone">
 				<div class="flex-center flex-column dz-message my-0">
 
-					<img class="wd-6" src="{$RESOURCES}img/icons/pdf.png" alt="Adjuntar PDF" />
+					<img class="wd-6" src="{$RESOURCES}img/compressed/icons/pdf.webp" alt="Adjuntar PDF" />
 					<span class="fs-1d2 fst-italic mt-1 fs-xl-1d8 text-xl-gray-700">Arrastrar archivo o buscar en el
 						equipo</span>
 				</div>
 			</div>
 			<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
-			<footer class="d-flex flex-column mt-1 row-gap-1 flex-xl-row justify-content-xl-start column-gap-xl-1">
-				<a class="form_submit d-block mx-auto btn btn-primary w-80p w-xl-10p mx-xl-0" href="#">Enviar</a>
-				<a class="form_back d-block mx-auto btn btn-secondary w-80p h-fit w-xl-10p mx-xl-0" href="#">Volver</a>
+			<footer class="d-flex flex-column mt-1 row-gap-1 flex-xl-row justify-content-xl-start column-gap-xl-1 mt-xl-3">
+				<a class="form_submit d-block mx-auto btn btn-primary w-80p w-xl-10p mx-xl-0 fs-xl-2d5" href="#">Aplicar</a>
+				<a class="form_back d-block mx-auto btn btn-secondary w-80p h-fit w-xl-10p mx-xl-0 fs-xl-2d5" href="#">Volver</a>
 			</footer>
 			{elseif isset($empty_detail)}
 			<p class="empty_classified fs-1d6 text-light rounded-d4 p-2 text-center mb-1">{$empty_detail}</p>
@@ -79,7 +79,7 @@
 				<p class="dialog_response fs-1d8 text-center text-secondary px-2d5 py-6d5 d-none">
 				</p>
 				<p class="dialog_loading text-center p-2d5">
-					<img class="w-15" src="{$RESOURCES}img/loading.gif" alt="Cargando.." />
+					<img class="w-15" src="{$RESOURCES}img/compressed/loading.webp" alt="Cargando.." />
 					<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>
 				</p>
 			</div>

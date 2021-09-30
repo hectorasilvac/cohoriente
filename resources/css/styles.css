@@ -231,7 +231,6 @@ summary::-webkit-details-marker,
 /* Icons */
 
 .benefits_icon,
-.info_icon,
 .item_icon {
 	height: 4.2rem;
 	width: 4.2rem;
@@ -428,13 +427,6 @@ summary::-webkit-details-marker,
 /*********** Specific - Start ***********/
 /****************************************/
 
-.affiliate {
-	background-image: url("../img/join_us_banner.png");
-	background-position: -8rem center;
-	background-size: cover;
-	min-height: 12rem;
-}
-
 .associates_header {
 	padding-bottom: 1rem;
 }
@@ -450,11 +442,6 @@ summary::-webkit-details-marker,
 	margin-bottom: 2rem;
 }
 
-.bylaws {
-	background-image: url("../img/bg_bylaws.png");
-	background-position: -8rem center;
-	background-size: cover;
-}
 
 .bylaws_download {
 	background-color: var(--color-light);
@@ -1374,11 +1361,7 @@ summary::-webkit-details-marker,
 	height: 17rem;
 }
 
-.join_us_banner {
-	background-image: url("../img/bg_hands.png");
-	background-position: center;
-	height: 22rem;
-}
+
 
 .location {
 	background-image: url("../img/bg_location.png");
@@ -1630,12 +1613,6 @@ summary::-webkit-details-marker,
 
 	/* Dimensions */
 
-	.affiliate {
-		background-size: cover;
-		background-position: center;
-		height: 23.5rem;
-	}
-
 	/* Displays */
 
 	.benefits_icon,
@@ -1793,10 +1770,6 @@ summary::-webkit-details-marker,
 		min-width: 16.1rem;
 	}
 
-	.bylaws {
-		height: 42.7rem;
-	}
-
 	.bylaws_download_mobile {
 		background-color: var(--color-light);
 		color: var(--color-primary);
@@ -1883,10 +1856,7 @@ summary::-webkit-details-marker,
 		margin-bottom: 0;
 	}
 
-	.info_icon {
-		height: 8.5rem;
-		width: 8.5rem;
-	}
+
 
 	.info_icon_wrapper {
 		min-height: 12.4rem;

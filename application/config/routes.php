@@ -50,9 +50,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |        my-controller/my-method    -> my_controller/my_method
  */
 
- // CLASSIFIEDS
+// ABOUT
+$route['nosotros']                                                              =   'about_controller/view';
+
+// CLASSIFIEDS
 $route['clasificados']                                                          =   'classifieds_controller/view';
 $route['clasificados/aplicar']                                                  =   'classifieds_controller/apply';
+$route['clasificados/suministros']                                              =   'classifieds_controller/supplies';
 $route['clasificados/(:num)']                                                   =   'classifieds_controller/detail/$1';
 
 // CONTACT
@@ -60,14 +64,19 @@ $route['contacto']                                                              
 $route['contacto/enviar']                                                       =   'contact_controller/send';
 $route['contacto/solicitud-pedido']                                             =   'contact_controller/order_request';
 $route['contacto/solicitud-pedido/enviar']                                      =   'contact_controller/send_order';
+$route['contacto/solicitud-proveedor']                                          =   'contact_controller/supplier_request';
+$route['contacto/solicitud-proveedor/enviar']                                   =   'contact_controller/send_supplier';
+
+// HOME
+$route['inicio']                                                                =   'home_controller/view';
 
 // PARTNER
-
 $route['asociarte']                                                             =   'partner_controller/view';
 $route['asociarte/requisitos']                                                  =   'partner_controller/requirements';
 $route['asociarte/beneficios']                                                  =   'partner_controller/benefits';
 $route['asociarte/inversion']                                                   =   'partner_controller/invest';
 $route['asociarte/solicitud-afiliacion']                                        =   'partner_controller/membership_application';
+$route['asociarte/solicitud-afiliacion/enviar']                                 =   'partner_controller/send_membership';
 
 // SERVICES
 $route['servicios']                                                             =   'services_controller/view';
@@ -75,29 +84,7 @@ $route['servicios/oferta-abastecimiento']                                       
 $route['servicios/formacion']                                                   =   'services_controller/training';
 $route['servicios/tecnologia-biomedica']                                        =   'services_controller/biomedical';
 
-
-
-// TODO: Acomodar de aquí hacia abajo
-
-$route['afiliacion']                                                            =   'pages_controller/view/affiliation_form';
-$route['beneficios']                                                            =   'pages_controller/view/benefits';
-$route['biomedica']                                                             =   'pages_controller/view/biomedical';
-
-
-// SUPPLIES
-$route['suministros']                                                           =   'supplies_controller/all';
-
-
-$route['galeria']                                                               =   'pages_controller/view/gallery';
-$route['inversion']                                                             =   'pages_controller/view/invest';
-$route['nosotros']                                                              =   'pages_controller/view/about_us';
-$route['oferta-de-abastecimiento']                                              =   'pages_controller/view/supply_offer';
-$route['proveedor']                                                             =   'pages_controller/view/supplier_form';
-$route['requisitos']                                                            =   'pages_controller/view/requirements';
-// $route['servicios']                                                             =   'pages_controller/view/services';
-$route['solicitud-pedido']                                                      =   'pages_controller/view/order_form';
-
-
+// DEFAULT
 $route['(:any)']                                                                =   'home_controller/view';
 $route['default_controller']                                                    =   'home_controller/view';
 $route['404_override']                                                          =   '';

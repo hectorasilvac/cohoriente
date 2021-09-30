@@ -36,12 +36,12 @@
 				</p>
 			</div>
 			<p class="contact_us_entry wrap_column">
-				<label class="contact_us_label text" for="phone">Correo electrónico</label>
+				<label class="contact_us_label text" for="email">Correo electrónico</label>
 				<input class="contact_us_input input" type="email" id="email"
 					placeholder="Ingresa tu correo electrónico" name="email" />
 			</p>
 			<p class="contact_us_entry wrap_column">
-				<label class="contact_us_label text" for="phone">Mensaje</label>
+				<label class="contact_us_label text" for="message">Mensaje</label>
 				<textarea class="contact_us_input input" id="message" placeholder="Ingresa tu mensaje" name="message"></textarea>
 			</p>
 			<button class="form_submit btn btn-primary fs-xl-3 mt-xl-3" type="submit">Contactar</button>
@@ -75,7 +75,7 @@
 			<p class="dialog_response fs-1d8 text-center text-secondary px-2d5 py-6d5 d-none">
 			</p>
 			<p class="dialog_loading text-center p-2d5">
-				<img class="w-15" src="{$RESOURCES}img/loading.gif" alt="Cargando.." />
+				<img class="w-15" src="{$RESOURCES}img/compressed/loading.webp" alt="Cargando.." />
 				<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>
 			</p>
 		</div>

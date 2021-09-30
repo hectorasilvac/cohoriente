@@ -41,7 +41,7 @@
 				<div id="my-dropzone" class="form_drop flex-center dropzone">
 					<div class="flex-center flex-column dz-message my-0">
 
-						<img class="wd-6" src="{$RESOURCES}img/icons/pdf.png" alt="Adjuntar PDF" />
+						<img class="wd-6" src="{$RESOURCES}img/compressed/icons/pdf.webp" alt="Adjuntar PDF" />
 						<span class="fs-1d2 fst-italic mt-1 fs-xl-1d8 text-xl-gray-700">Arrastrar archivo o buscar en el equipo</span>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 				<p class="dialog_response fs-1d8 text-center text-secondary px-2d5 py-6d5 d-none">
 				</p>
 				<p class="dialog_loading text-center p-2d5">
-					<img class="w-15" src="{$RESOURCES}img/loading.gif" alt="Cargando.." />
+					<img class="w-15" src="{$RESOURCES}img/compressed/loading.webp" alt="Cargando.." />
 					<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>
 				</p>
 			</div>

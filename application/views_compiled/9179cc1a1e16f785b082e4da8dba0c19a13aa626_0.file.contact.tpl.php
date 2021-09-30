@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-29 00:20:44
+/* Smarty version 3.1.39, created on 2021-09-30 17:25:55
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\shared\contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6153953cb3ddf2_87469030',
+  'unifunc' => 'content_6155d703d3d537_54288466',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9179cc1a1e16f785b082e4da8dba0c19a13aa626' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\shared\\contact.tpl',
-      1 => 1632867643,
+      1 => 1633011935,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6153953cb3ddf2_87469030 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6155d703d3d537_54288466 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="contact">
 	<div class="wrap flex-column justify-content-between flex-xl-row py-xl-6">
 		<div class="find_us">
@@ -62,12 +62,12 @@ img/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
 				</p>
 			</div>
 			<p class="contact_us_entry wrap_column">
-				<label class="contact_us_label text" for="phone">Correo electrónico</label>
+				<label class="contact_us_label text" for="email">Correo electrónico</label>
 				<input class="contact_us_input input" type="email" id="email"
 					placeholder="Ingresa tu correo electrónico" name="email" />
 			</p>
 			<p class="contact_us_entry wrap_column">
-				<label class="contact_us_label text" for="phone">Mensaje</label>
+				<label class="contact_us_label text" for="message">Mensaje</label>
 				<textarea class="contact_us_input input" id="message" placeholder="Ingresa tu mensaje" name="message"></textarea>
 			</p>
 			<button class="form_submit btn btn-primary fs-xl-3 mt-xl-3" type="submit">Contactar</button>
@@ -102,7 +102,7 @@ img/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
 			</p>
 			<p class="dialog_loading text-center p-2d5">
 				<img class="w-15" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/loading.gif" alt="Cargando.." />
+img/compressed/loading.webp" alt="Cargando.." />
 				<span class="fs-1d8 d-block text-center text-secondary">Por favor espere un momento...</span>
 			</p>
 		</div>

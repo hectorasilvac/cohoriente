@@ -1,6 +1,6 @@
 // Drag & Drop: Config
 let myDropzone = new Dropzone('#my-dropzone', {
-  url: '/empleos/aplicar',
+  url: '/clasificados/aplicar',
   autoProcessQueue: false,
   uploadMultiple: false,
   parallelChunkUploads: false,

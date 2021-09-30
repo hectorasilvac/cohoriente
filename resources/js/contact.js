@@ -21,9 +21,7 @@ $(function () {
   // Request Confirmation: Confirm action
   $('.dialog_confirm').on('click', function () {
     var formData = $('#contact_us').serializeArray();
-    var formattedData = {
-      'form': 'supplier',
-    };
+    var formattedData = {};
 
     $.each(formData, function (key, element) {
       formattedData[element.name] = element.value;
@@ -57,9 +55,12 @@ $(function () {
     },
     highlight: function (element) {
       $(element).closest('input').addClass('has-error');
+      $(element).closest('textarea').addClass('has-error');
+
     },
     unhighlight: function (element) {
       $(element).closest('input').removeClass('has-error');
+      $(element).closest('textarea').removeClass('has-error');
     },
     rules:
     {

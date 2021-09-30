@@ -5,7 +5,7 @@
 		<div class="footer_details wrap_column">
 			<div class="footer_row">
 				<div class="footer_info wrap_row_nowrap">
-					<img class="footer_icon" src="{$RESOURCES}img/icons/location_new.svg" />
+					<img class="footer_icon" src="{$RESOURCES}img/compressed/icons/location_new.webp" alt="Ubicación" />
 					<p class="footer_text text_small">
 						Calle 33 #31-143 local 08 Riviera Plaza
 						<br>
@@ -15,11 +15,11 @@
 			</div>
 			<div class="footer_row">
 				<div class="footer_info wrap_row_nowrap">
-					<img class="footer_icon" src="{$RESOURCES}img/icons/call_new.svg" />
+					<img class="footer_icon" src="{$RESOURCES}img/compressed/icons/call_new.webp" alt="Teléfono"/>
 					<p class="footer_text text_small">(57) 315 378 5627</p>
 				</div>
 				<div class="footer_info wrap_row_nowrap">
-					<img class="footer_icon" src="{$RESOURCES}img/icons/email_new.svg" />
+					<img class="footer_icon" src="{$RESOURCES}img/compressed/icons/email_new.webp" alt="Correo electrónico"/>
 					<p class="footer_text text_small">contacto@cohoriente.co</p>
 				</div>
 			</div>
@@ -30,7 +30,7 @@
 				<i class="copyright_icon fab fa-facebook-square fa-4x"></i>
 			</div>
 			<div>
-				<img class="copyright_logo" src="{$RESOURCES}img/full_logo_white.svg" alt="" />
+				<img class="copyright_logo" src="{$RESOURCES}img/compressed/full_logo_white.webp" alt="Logo de Cohoriente" />
 			</div>
 		</div>
 	</div>

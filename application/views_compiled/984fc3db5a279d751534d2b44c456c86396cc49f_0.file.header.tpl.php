@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-28 22:32:43
+/* Smarty version 3.1.39, created on 2021-09-30 17:25:55
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61537beb64ef44_64223565',
+  'unifunc' => 'content_6155d703d13262_50398577',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '984fc3db5a279d751534d2b44c456c86396cc49f' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\templates\\header.tpl',
-      1 => 1632861162,
+      1 => 1633007953,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61537beb64ef44_64223565 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6155d703d13262_50398577 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_31997437361537beb64a682_32368142', "header");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_17059459856155d703d08eb7_64753704', "header");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "./layout.tpl");
 }
 /* {block "header"} */
-class Block_31997437361537beb64a682_32368142 extends Smarty_Internal_Block
+class Block_17059459856155d703d08eb7_64753704 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header' => 
   array (
-    0 => 'Block_31997437361537beb64a682_32368142',
+    0 => 'Block_17059459856155d703d08eb7_64753704',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -45,7 +45,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 	<div class="wrap py-2 px-2d5 justify-content-between align-items-center">
 		<a href="/">
 			<img class="w-15 w-xl-22d6" src="<?php echo RESOURCES;?>
-img/full_logo.svg" alt="Cohoriente" />
+img/compressed/full_logo.webp" alt="Cohoriente" />
 		</a>
 		<div class="hamburger d-xl-none">
 			<i class="hamburger_icon fas fa-bars fa-3x"></i>

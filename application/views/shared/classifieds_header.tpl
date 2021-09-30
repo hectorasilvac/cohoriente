@@ -9,14 +9,14 @@
         {else}
         <li class="w-50p text-center p-1d2 tab">
         {/if}
-            <a class="fs-1d4 text-decoration-none fw-bold color-inherit d-block" href="/empleos">Talento</a>
+            <a class="fs-1d4 text-decoration-none fw-bold color-inherit d-block" href="{$path_classifieds}">Talento</a>
         </li>
         {if $selected_tab eq 'supplies'}
         <li class="w-50p text-center p-1d2 selected_tab">
         {else}
         <li class="w-50p text-center p-1d2 tab">
         {/if}
-            <a class="fs-1d4 text-decoration-none fw-bold color-inherit d-block" href="/suministros">Insumos</a>
+            <a class="fs-1d4 text-decoration-none fw-bold color-inherit d-block" href="{$path_supplies}">Insumos</a>
         </li>
     </ul>
 </nav>

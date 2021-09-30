@@ -12,7 +12,7 @@
 			<ul class="join_us_list list">
 				<li class="info item">
 					<div class="info_icon_wrapper">
-						<img class="info_icon" src="{$RESOURCES}img/icons/requirements.svg"
+						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/requirements.webp"
 							alt="Ícono de una lista de chequeo" />
 					</div>
 					<div>
@@ -22,7 +22,7 @@
 							creemos una gran alianza.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="/asociarte/requisitos">Ver Más
+							<a class="info_link link" href="{$path_requirements}">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -30,7 +30,7 @@
 				</li>
 				<li class="item">
 					<div class="info_icon_wrapper">
-						<img class="info_icon" src="{$RESOURCES}img/icons/benefits.svg" alt="Saludo de manos" />
+						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/benefits.webp" alt="Saludo de manos" />
 					</div>
 					<div>
 						<h4 class="info_subtitle subtitle_small">Beneficios</h4>
@@ -38,7 +38,7 @@
 							Por ser parte de nuestro selecto grupo de asociados puedes disfrutar de nuestros beneficios.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="/asociarte/beneficios">Ver Más
+							<a class="info_link link" href="{$path_benefits}">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -46,7 +46,7 @@
 				</li>
 				<li class="item">
 					<div class="info_icon_wrapper">
-						<img class="info_icon" src="{$RESOURCES}img/icons/investment.svg"
+						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/investment.webp"
 							alt="Planta con símbolo de dinero" />
 					</div>
 					<div>
@@ -55,7 +55,7 @@
 							Conoce la inversión que debes hacer pare ser parte de nuestros afiliados y acceder a todos
 							nuestros beneficios. </p>
 						<p class="link_more">
-							<a class="info_link link" href="/asociarte/inversion">Ver Más
+							<a class="info_link link" href="{$path_invest}">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -63,22 +63,22 @@
 				</li>
 			</ul>
 			</div>
-			<img class="catalog_banner" src="{$RESOURCES}img/partner_banner.png" alt="" />
+			<img class="catalog_banner" src="{$RESOURCES}img/compressed/partner_banner.webp" alt="Personas estrechando las manos" />
 		</div>
 	</section>
-	<div class="affiliate">
-		<a class="affiliate_link" href="/asociarte/solicitud-afiliacion">
+	<div class="affiliate bg_section">
+		<a class="link_section" href="{$path_affiliation}">
 			</a>
 	</div>
-	<section class="bylaws">
+	<section class="bylaws bg_section">
 		<div class="bylaws_container container">
 			<header>
 				<h3 class="bylaws_subtitle subtitle">Conoce Nuestros Estatutos</h3>
 				<p class="bylaws_text text_small">Cooperativa Regional para la Integración y el Desarrollo
 					de Hospitales e Instituciones de Salud Pública del Oriente Colombiano - COHORIENTE</p>
 			</header>
-			<a class="bylaws_download_mobile button" href="resources/pdf/estatutos.pdf" download="estatutos_cohoriente">Ver estatutos</a>
-			<a class="bylaws_download button" href="resources/pdf/estatutos.pdf" download="estatutos_cohoriente">Estatutos</a>
+			<a class="bylaws_download_mobile button" href="resources/pdf/estatutos.pdf" download="{$path_download_bylaws}">Ver estatutos</a>
+			<a class="bylaws_download button" href="resources/pdf/estatutos.pdf" download="{$path_download_bylaws}">Estatutos</a>
 		</div>
 	</section>
 	<section class="associates">

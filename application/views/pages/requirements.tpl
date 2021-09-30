@@ -6,9 +6,9 @@
 			<header class="req_header hdr_bg bg-xl-none h-xl-fill p-xl-0 mb-xl-6">
 				<div class="flex-center">
 					<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
-						<img class="icon_item d-xl-none" src="{$RESOURCES}img/icons/requirements_blue.svg"
+						<img class="icon_item d-xl-none" src="{$RESOURCES}img/compressed/icons/requirements_blue.webp"
 							alt="Lista de chequeo" />
-						<img class="icon_item d-none d-xl-block" src="{$RESOURCES}img/icons/requirements.svg"
+						<img class="icon_item d-none d-xl-block" src="{$RESOURCES}img/compressed/icons/requirements.webp"
 							alt="Lista de chequeo" />
 					</div>
 					<h3 class="fs-2d5 text-light text-xl-primary fs-xl-7">
@@ -139,7 +139,7 @@
 			</ul>
 		</div>
 		<p class="d-none d-xl-block">
-			<img class="w-55" src="{$RESOURCES}img/requirements_banner.png" alt="Lista de chequeo" />
+			<img class="w-55" src="{$RESOURCES}img/compressed/requirements_banner.webp" alt="Lista de chequeo" />
 		</p>
 	</section>
 	<section class="bg-success">

@@ -5,9 +5,9 @@
 		<header class="inv_header hdr_bg bg-xl-none h-xl-fill">
 			<div class="flex-center">
 				<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
-					<img class="icon_item d-xl-none" src="{$RESOURCES}img/icons/investment_blue.svg"
+					<img class="icon_item d-xl-none" src="{$RESOURCES}img/compressed/icons/investment_blue.webp"
 						alt="Planta con símbolo de dolar" />
-					<img class="icon_item d-none d-xl-block" src="{$RESOURCES}img/icons/investment.svg"
+					<img class="icon_item d-none d-xl-block" src="{$RESOURCES}img/compressed/icons/investment.webp"
 						alt="Planta con símbolo de dolar" />
 				</div>
 				<h3 class="fs-2d5 text-light text-xl-primary fs-xl-7">
@@ -22,19 +22,19 @@
 				</p>
 				<ul class="mb-1d5">
 					<li class="d-flex align-items-center text-justify">
-						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/invest/dot_blue.png" alt="Punto Azul" />
+						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
 							Aportes sociales (Único pago)
 						</p>
 					</li>
 					<li class="d-flex align-items-center text-justify">
-						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/invest/dot_blue.png" alt="Punto Azul" />
+						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
 							Cuota de admisión (Único pago)
 						</p>
 					</li>
 					<li class="d-flex align-items-center text-justify">
-						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/invest/dot_blue.png" alt="Punto Azul" />
+						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
 							Cuota de sostenimiento ( pago anual si no se realizan compras a COHORIENTE)
 						</p>
@@ -61,23 +61,23 @@
 		<div class="invest_img bg-gray-100">
 			<div class="wrap flex-column py-2 flex-xl-row flex-xl-wrap justify-content-center gap-xl-3">
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/invest/invest_1.png"
+					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_1.webp"
 						alt="Información sobre afiliación E.S.E Nivel 1" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/invest/invest_2.png"
+					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_2.webp"
 						alt="Información sobre afiliación E.S.E Nivel 1 Saneamiento fiscal" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/invest/invest_3.png"
+					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_3.webp"
 						alt="Información sobre afiliación E.S.E Nivel 2" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/invest/invest_4.png"
+					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_4.webp"
 						alt="Información sobre afiliación E.S.E Nivel 2 Saneamiento fiscal" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/invest/invest_5.png"
+					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_5.webp"
 						alt="Información sobre afiliación E.S.E Nivel 3" />
 				</div>
 			</div>

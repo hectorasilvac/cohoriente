@@ -11796,12 +11796,21 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+.affiliate {
+	background-image: url("../../../img/compressed/join_us_banner.webp");
+}
+
 .bg_section {
 	align-items: flex-end;
 	background-position: -8rem center;
 	background-size: cover;
   height: 12rem;
   display: flex;
+}
+
+.bylaws {
+	background-image: url("../../../img/compressed/bg_bylaws.webp");
+  height: 42.7rem !important;
 }
 
 .card_container {
@@ -11824,7 +11833,7 @@ textarea.form-control-lg {
 }
 
 .classifieds_header {
-    background-image: url("../../../img/main_banner_classifieds.png");
+    background-image: url("../../../img/compressed/main_banner_classifieds.webp");
     height: 12rem;
     background-size: cover;
     background-position: center;
@@ -11865,6 +11874,7 @@ textarea.form-control-lg {
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
+  cursor: pointer;
 }
 
 .dialog_primary {
@@ -11944,6 +11954,11 @@ textarea.form-control-lg {
 	width: 4.2rem;
 }
 
+.info_icon {
+	height: 4.2rem;
+	width: 4.2rem;
+}
+
 .inv_header {
 	background-image: url("../../../img/invest_banner.png");
   background-position: center;
@@ -11953,6 +11968,12 @@ textarea.form-control-lg {
 	display: flex;
 	padding: 1.5rem 2.5rem;
 	align-items: center;
+}
+
+.join_us_banner {
+	background-image: url("../../../img/bg_hands.webp");
+	background-position: center;
+	height: 22rem;
 }
 
 .link {
@@ -12036,7 +12057,6 @@ textarea.form-control-lg {
 	background-image: url("../../../img/requirements_banner.png");
 }
 
-
 .selected_tab {
   background-color: var(--bs-success);
   color: var(--bs-light);
@@ -12087,14 +12107,12 @@ textarea.form-control-lg {
   height: 0;
 }
 
-
 .wrap_icon {
 	border-radius: 50%;
 	min-width: 6.5rem;
 	max-width: 6.5rem;
 	height: 6.5rem;
 }
-
 
 .rds_left {
   border-top-left-radius: 1.7rem;
@@ -12106,6 +12124,40 @@ textarea.form-control-lg {
 }
 
 @media only screen and (min-width: 1200px) {
+  /* .abt_grid {
+    grid-template-columns: 50% 50%;
+      grid-template-rows:
+        auto;
+      grid-template-areas:
+        "abt_mission abt_vision";
+      max-width: 150rem;
+      margin: 0 auto;
+      min-height: 66.8rem;
+      padding: 2.5rem 2.5rem 0; 
+  
+      display: grid;
+  } */
+
+  /* .abt_mission {
+    display: flex;
+    background-color: red;
+    grid-area: abt_mission;
+  }
+  
+  .abt_vision {
+    background-color: blue;
+    display: flex;
+    grid-area: abt_vision;
+  }
+  
+  .abt_quality {
+    grid-area: abt_quality;
+  }
+  
+  .abt_purpose {
+    grid-area: abt_purpose;
+  } */
+
   .bs_img {
     flex-basis: 40rem;
   }
@@ -12141,7 +12193,7 @@ textarea.form-control-lg {
 
   .icon_item {
     height: 10rem;
-    width: 10rem;
+    width: 9rem;
   }
 
   .icon_xl {
@@ -12150,9 +12202,14 @@ textarea.form-control-lg {
     
   }
 
+  .info_icon {
+		height: 8.5rem;
+		width: 7.8rem;
+	}
+
   .invest_img {
     background-color: var(--bs-light);
-    background-image: url('../../../img/invest/bg.png');
+    background-image: url('../../../img/compressed/invest/bg.webp');
     background-repeat: repeat-x;
     background-position: center;
   }
