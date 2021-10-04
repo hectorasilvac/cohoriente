@@ -12,7 +12,7 @@
 					<div class="item_row">
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/radioactive.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/radioactive.svg"
 									alt="Ícono de residuos peligrosos" />
 							</div>
 							<p class="item_text text">Oferta de servicios para el manejo ambiental de residuos
@@ -21,14 +21,14 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/medicine.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/medicine.svg"
 									alt="Ícono de un tarro con una pastilla" />
 							</div>
 							<p class="item_text text">Oferta de medicamentos POS y No POS.</p>
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/funnel.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/funnel.svg"
 									alt="Ícono de residuos peligrosos" />
 							</div>
 							<p class="item_text text">Convenios de acercamiento al sistema de salud y
@@ -37,13 +37,13 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/molecule.svg" alt="Moléculas" />
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/molecule.svg" alt="Moléculas" />
 							</div>
 							<p class="item_text text">Oferta de tecnología biomédica.</p>
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/monitor.svg" alt="Monitor" />
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/monitor.svg" alt="Monitor" />
 							</div>
 							<p class="item_text text">
 								Oferta de equipos para la información y comunicación.
@@ -51,14 +51,14 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/health_kit.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/health_kit.svg"
 									alt="Botiquín de primeros auxilios" />
 							</div>
 							<p class="item_text text">Oferta de dispositivos médicos e insumos.</p>
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/tooth.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/tooth.svg"
 									alt="Mano sosteniendo un diente" />
 							</div>
 							<p class="item_text text">
@@ -67,7 +67,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/notes.svg" alt="Notas" />
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/notes.svg" alt="Notas" />
 							</div>
 							<p class="item_text text">
 								Oferta de papelería y material de oficina.
@@ -77,7 +77,7 @@
 					<div class="item_row">
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/exhibition.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/exhibition.svg"
 									alt="Persona exponiendo un tema a los espectadores" />
 							</div>
 							<p class="item_text text">Asesoría y acompañamiento para el desarrollo
@@ -87,7 +87,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/blackboard.svg" alt="Pizarra" />
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/blackboard.svg" alt="Pizarra" />
 							</div>
 							<p class="item_text text">Programa de entrenamiento en el manejo de
 								equipos
@@ -95,7 +95,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/microscope.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/microscope.svg"
 									alt="Ícono de un microscopio" />
 							</div>
 							<p class="item_text text">Formación continua, acompañamiento y
@@ -106,7 +106,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/nurse.svg" alt="Enfermera" />
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/nurse.svg" alt="Enfermera" />
 							</div>
 							<p class="item_text text">Programas de capacitación en el área de la
 								salud
@@ -115,7 +115,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/book.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/book.svg"
 									alt="Ícono de un libro abierto" />
 							</div>
 							<p class="item_text text">Formación integral en compentencias de la
@@ -124,7 +124,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/geometry.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/geometry.svg"
 									alt="Ícono de figuras de geométricas" />
 							</div>
 							<p class="item_text text">Soporte y diseño del programa de
@@ -133,7 +133,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/adn.svg"
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/adn.svg"
 									alt="Ícono de un tarro con una figura de ADN." />
 							</div>
 							<p class="item_text text">Soporte técnico para la calibración de
@@ -142,7 +142,7 @@
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
-								<img class="item_icon" src="{$RESOURCES}img/icons/adn2.svg" alt="Ícono de ADN" />
+								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/adn2.svg" alt="Ícono de ADN" />
 							</div>
 							<p class="item_text text">Soporte técnico para mantenimiento correctivo
 								y
@@ -151,7 +151,7 @@
 					</div>
 				</ul>
 			</div>
-			<img class="catalog_banner" src="{$RESOURCES}img/catalog_banner.png" alt="" />
+			<img class="catalog_banner" src="{$RESOURCES}img/compressed/catalog_banner.avif" alt="Estante con medicamentos" />
 		</div>
 	</section>
 </main>

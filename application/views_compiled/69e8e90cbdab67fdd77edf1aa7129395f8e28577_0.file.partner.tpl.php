@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-29 16:32:14
+/* Smarty version 3.1.39, created on 2021-10-01 00:22:19
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\partner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_615478ee8c01f9_03014085',
+  'unifunc' => 'content_6156389b00d7c5_28906263',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '69e8e90cbdab67fdd77edf1aa7129395f8e28577' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\partner.tpl',
-      1 => 1632925933,
+      1 => 1633040534,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_615478ee8c01f9_03014085 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6156389b00d7c5_28906263 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_316345567615478ee8bcde1_89611684', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_3276952486156389b00ae29_06726092', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_316345567615478ee8bcde1_89611684 extends Smarty_Internal_Block
+class Block_3276952486156389b00ae29_06726092 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_316345567615478ee8bcde1_89611684',
+    0 => 'Block_3276952486156389b00ae29_06726092',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -54,7 +54,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 				<li class="info item">
 					<div class="info_icon_wrapper">
 						<img class="info_icon" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/requirements.svg"
+img/compressed/icons/requirements.svg"
 							alt="Ícono de una lista de chequeo" />
 					</div>
 					<div>
@@ -64,7 +64,8 @@ img/icons/requirements.svg"
 							creemos una gran alianza.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="/asociarte/requisitos">Ver Más
+							<a class="info_link link" href="<?php echo $_smarty_tpl->tpl_vars['path_requirements']->value;?>
+">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -73,7 +74,7 @@ img/icons/requirements.svg"
 				<li class="item">
 					<div class="info_icon_wrapper">
 						<img class="info_icon" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/benefits.svg" alt="Saludo de manos" />
+img/compressed/icons/benefits.svg" alt="Saludo de manos" />
 					</div>
 					<div>
 						<h4 class="info_subtitle subtitle_small">Beneficios</h4>
@@ -81,7 +82,8 @@ img/icons/benefits.svg" alt="Saludo de manos" />
 							Por ser parte de nuestro selecto grupo de asociados puedes disfrutar de nuestros beneficios.
 						</p>
 						<p class="link_more">
-							<a class="info_link link" href="/asociarte/beneficios">Ver Más
+							<a class="info_link link" href="<?php echo $_smarty_tpl->tpl_vars['path_benefits']->value;?>
+">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -90,7 +92,7 @@ img/icons/benefits.svg" alt="Saludo de manos" />
 				<li class="item">
 					<div class="info_icon_wrapper">
 						<img class="info_icon" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/investment.svg"
+img/compressed/icons/investment.svg"
 							alt="Planta con símbolo de dinero" />
 					</div>
 					<div>
@@ -99,7 +101,8 @@ img/icons/investment.svg"
 							Conoce la inversión que debes hacer pare ser parte de nuestros afiliados y acceder a todos
 							nuestros beneficios. </p>
 						<p class="link_more">
-							<a class="info_link link" href="/asociarte/inversion">Ver Más
+							<a class="info_link link" href="<?php echo $_smarty_tpl->tpl_vars['path_invest']->value;?>
+">Ver Más
 							</a>
 							<i class="info_figure fas fa-angle-double-right fa-2x"></i>
 						</p>
@@ -108,22 +111,25 @@ img/icons/investment.svg"
 			</ul>
 			</div>
 			<img class="catalog_banner" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/partner_banner.png" alt="" />
+img/compressed/partner_banner.avif" alt="Personas estrechando las manos" />
 		</div>
 	</section>
-	<div class="affiliate">
-		<a class="affiliate_link" href="/asociarte/solicitud-afiliacion">
+	<div class="affiliate bg_section">
+		<a class="link_section" href="<?php echo $_smarty_tpl->tpl_vars['path_affiliation']->value;?>
+">
 			</a>
 	</div>
-	<section class="bylaws">
+	<section class="bylaws bg_section">
 		<div class="bylaws_container container">
 			<header>
 				<h3 class="bylaws_subtitle subtitle">Conoce Nuestros Estatutos</h3>
 				<p class="bylaws_text text_small">Cooperativa Regional para la Integración y el Desarrollo
 					de Hospitales e Instituciones de Salud Pública del Oriente Colombiano - COHORIENTE</p>
 			</header>
-			<a class="bylaws_download_mobile button" href="resources/pdf/estatutos.pdf" download="estatutos_cohoriente">Ver estatutos</a>
-			<a class="bylaws_download button" href="resources/pdf/estatutos.pdf" download="estatutos_cohoriente">Estatutos</a>
+			<a class="bylaws_download_mobile button" href="<?php echo $_smarty_tpl->tpl_vars['path_download_bylaws']->value;?>
+" download>Ver estatutos</a>
+			<a class="bylaws_download button" href="<?php echo $_smarty_tpl->tpl_vars['path_download_bylaws']->value;?>
+" download>Estatutos</a>
 		</div>
 	</section>
 	<section class="associates">

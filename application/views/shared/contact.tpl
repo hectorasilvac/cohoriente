@@ -5,7 +5,7 @@
 				<h4 class="find_us_subtitle subtitle">Encuéntranos</h4>
 			</header>
 			<div class="find_us_info wrap_row_nowrap">
-				<img class="find_us_icon" src="{$RESOURCES}img/icons/location_new.svg" alt="Ícono de Ubicación" />
+				<img class="find_us_icon" src="{$RESOURCES}img/compressed/icons/location_new.svg" alt="Ícono de Ubicación" />
 				<p class="find_us_text text_small">
                     Calle 33 #31-143 local 08 Riviera Plaza
                     <br>
@@ -13,11 +13,11 @@
                 </p>
 			</div>
 			<div class="find_us_info wrap_row_nowrap">
-				<img class="find_us_icon" src="{$RESOURCES}img/icons/call_new.svg" alt="Ícono de Teléfono" />
+				<img class="find_us_icon" src="{$RESOURCES}img/compressed/icons/call_new.svg" alt="Ícono de Teléfono" />
 				<p class="find_us_text text_small">(57) 315 378 5627</p>
 			</div>
 			<div class="find_us_info wrap_row_nowrap">
-				<img class="find_us_icon" src="{$RESOURCES}img/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
+				<img class="find_us_icon" src="{$RESOURCES}img/compressed/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
 				<p class="find_us_text text_small">contacto@cohoriente.co</p>
 			</div>
 		</div>

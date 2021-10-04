@@ -51,7 +51,7 @@
 				</footer>
 			</div>
 			<div class="d-none d-xl-flex">
-				<img class="wd-100p" src="{$RESOURCES}img/request_order_bg.png" alt="Enfermera" />
+				<img class="wd-100p" src="{$RESOURCES}img/compressed/request_order_bg.avif" alt="Enfermera" />
 			</div>
 		</div>
 		<!-- Dialog: Action Confirmation -->

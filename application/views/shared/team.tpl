@@ -8,7 +8,7 @@
             </p>
 		</header>
 		<p class="team_picture wrap">
-			<img class="team_image" src="{$RESOURCES}img/our_team.png"
+			<img class="team_image" src="{$RESOURCES}img/compressed/our_team.png"
 				alt="Mapa de Servicios ofrecidos por Cohoriente" />
 		</p>
 	</div>

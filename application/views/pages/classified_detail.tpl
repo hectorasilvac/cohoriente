@@ -56,7 +56,7 @@
 				<p class="dialog_close">
 					<i class="fas fa-times-circle fa-2x text-gray-600"></i>
 				</p>
-				<div class="wrap_icon bg-primary p-5 flex-center mt-5">
+				<div class="wrap_icon bg-primary p-5 flex-center mt-5 wrap_icon_xl">
 					<i class="fas fa-user-tie fa-5x text-light"></i>
 				</div>
 				<h3 class="fs-1d8 text-primary my-2">

@@ -11,7 +11,7 @@ class About_controller extends CI_Controller
 
 	public function view()
 	{
-		$this->_view->assign('title', 'Nosotros | Cohoriente');
+		$this->_view->assign('title', 											'Nosotros | Cohoriente');
 		$this->_view->display('pages/about.tpl');
 	}
 }

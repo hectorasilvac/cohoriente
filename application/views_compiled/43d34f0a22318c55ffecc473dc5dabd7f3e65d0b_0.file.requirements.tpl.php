@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 16:39:15
+/* Smarty version 3.1.39, created on 2021-10-01 00:46:54
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\requirements.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614de313c3ad83_49287858',
+  'unifunc' => 'content_61563e5e019927_49881436',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '43d34f0a22318c55ffecc473dc5dabd7f3e65d0b' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\requirements.tpl',
-      1 => 1632494342,
+      1 => 1633042012,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614de313c3ad83_49287858 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61563e5e019927_49881436 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_625430075614de313c31893_61209526', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_184361077361563e5e016745_07753592', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_625430075614de313c31893_61209526 extends Smarty_Internal_Block
+class Block_184361077361563e5e016745_07753592 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_625430075614de313c31893_61209526',
+    0 => 'Block_184361077361563e5e016745_07753592',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -48,10 +48,10 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 				<div class="flex-center">
 					<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
 						<img class="icon_item d-xl-none" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/requirements_blue.svg"
+img/compressed/icons/requirements_blue.svg"
 							alt="Lista de chequeo" />
 						<img class="icon_item d-none d-xl-block" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/requirements.svg"
+img/compressed/icons/requirements.svg"
 							alt="Lista de chequeo" />
 					</div>
 					<h3 class="fs-2d5 text-light text-xl-primary fs-xl-7">
@@ -183,7 +183,7 @@ img/icons/requirements.svg"
 		</div>
 		<p class="d-none d-xl-block">
 			<img class="w-55" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/requirements_banner.png" alt="Lista de chequeo" />
+img/compressed/requirements_banner.webp" alt="Lista de chequeo" />
 		</p>
 	</section>
 	<section class="bg-success">

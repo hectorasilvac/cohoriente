@@ -1,10 +1,25 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
 <main>
-	<section class="carousel">
-		<p class="carousel_wrapper">
-			<img class="carousel_img" src="{$RESOURCES}img/carousel_text.png" alt="Ícono de Vara de Esculapio">
-		</p>
+	<section class="bg-primary">
+		<div class="main_carousel">
+			<div class="main_carousel_cell">
+				<picture>
+					<source media="(min-width:1200px)"
+						srcset="{$RESOURCES}img/compressed/main_banner_web_2.webp">
+						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_2.png"
+						alt="Promoviendo la integración y desarrollo del sector salud en el Oriente Colombiano" />
+				</picture>
+			</div>
+			<div class="main_carousel_cell">
+				<picture>
+					<source media="(min-width:1200px)"
+						srcset="{$RESOURCES}img/compressed/main_banner_web_3.webp">
+						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_3.png"
+					alt="Promoviendo la integración y desarrollo del sector salud en el Oriente Colombiano" />
+				</picture>
+			</div>
+		  </div>
 	</section>
 	{include file="../shared/order.tpl"}
 	<section class="location">
@@ -18,7 +33,7 @@
 					Bucaramanga, Santander.</p>
 			</header>
 			<p class="location_map">
-				<img class="location_img" src="{$RESOURCES}img/world.png"
+				<img class="location_img" loading="lazy" src="{$RESOURCES}img/compressed/world.avif"
 					alt="Imagen de planeta destacando el territorio de Colombia" />
 			</p>
 		</div>
@@ -32,10 +47,10 @@
 						satisfacción de todos nuestros clientes y afiliados.</p>
 				</header>
 				<ul class="featured">
-					<li class="featured_item">
-						<div class="featured_icon">
-							<img class="featured_image" src="{$RESOURCES}img/health_icon.png"
-							alt="Ícono de Vara de Esculapio">
+					<li class="featured_item align-items-start">
+						<div class="wrap_icon bg-primary flex-center me-xl-1d4 min-width-xl-12 min-height-xl-12">
+							<img class="icon_item icon_xl w-xl-8 h-xl-8" loading="lazy" src="{$RESOURCES}img/compressed/icons/health.svg"
+								alt="Símbolo de Salud y Medicina" />
 						</div>
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Oferta de Abastecimiento</h4>
@@ -44,16 +59,17 @@
 								EPPS, tecnología
 								biomédica</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="/servicios/oferta-abastecimiento">Ver Más
+								<a class="featured_link" href="{$path_supply}">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
 
 						</div>
 					</li>
-					<li class="featured_item">
-						<div class="featured_icon">
-							<img class="featured_image" src="{$RESOURCES}img/study_icon.png" alt="Ícono de un computador">
+					<li class="featured_item align-items-start">
+						<div class="wrap_icon bg-primary flex-center me-xl-1d4 min-width-xl-12 min-height-xl-12">
+							<img class="icon_item icon_xl w-xl-8 h-xl-8" loading="lazy" src="{$RESOURCES}img/compressed/icons/study.svg"
+								alt="Computador" />
 						</div>
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Formación y Crecimiento</h4>
@@ -61,15 +77,16 @@
 								capacitación y
 								entretenimiento</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="/servicios/formacion">Ver Más
+								<a class="featured_link" href="{$path_training}">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
 						</div>
 					</li>
-					<li class="featured_item">
-						<div class="featured_icon">
-							<img class="featured_image" src="{$RESOURCES}img/molecule_icon.png" alt="Ícono de átomos">
+					<li class="featured_item align-items-start">
+						<div class="wrap_icon bg-primary flex-center me-xl-1d4 min-width-xl-12 min-height-xl-12">
+							<img class="icon_item icon_xl w-xl-8 h-xl-8" loading="lazy" src="{$RESOURCES}img/compressed/icons/molecule.svg"
+								alt="Molécula" />
 						</div>
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Acompañamiento en Tecnología Biomédica</h4>
@@ -77,7 +94,7 @@
 								para
 								soluciones en equipos médicos</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="/servicios/tecnologia-biomedica">Ver Más
+								<a class="featured_link" href="{$path_biomedical}">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
@@ -85,11 +102,11 @@
 					</li>
 				</ul>
 				<footer class="services_footer">
-					<a class="services_button" href="servicios">Ver todos</a>
+					<a class="services_button" href="{$path_services}">Ver todos</a>
 				</footer>
 			</div>
 			<div class="services_banner">
-				<img class="services_image" src="{$RESOURCES}img/research_banner.png" />
+				<img class="services_image" loading="lazy" src="{$RESOURCES}img/compressed/research_banner.avif" />
 			</div>
 		</div>
 	</section>
@@ -100,4 +117,7 @@
 	{include file="../shared/map.tpl"}
 	{include file="../shared/contact.tpl"}
 </main>
+{/block}
+{block name="scripts"}
+<script src="{$RESOURCES}js/home.js"></script>
 {/block}

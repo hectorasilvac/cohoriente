@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 00:05:11
+/* Smarty version 3.1.39, created on 2021-10-01 00:49:49
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\pages\invest.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614cfa17d93212_34811962',
+  'unifunc' => 'content_61563f0d4c19b3_99567818',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '251109dd491c29d2dca31403bd37929e6836c167' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\pages\\invest.tpl',
-      1 => 1632434711,
+      1 => 1633042188,
       2 => 'file',
     ),
   ),
@@ -20,24 +20,24 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614cfa17d93212_34811962 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61563f0d4c19b3_99567818 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_182689167614cfa17d8e169_47493312', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_156597223061563f0d4bf0f1_25867224', "body");
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/head.tpl");
 }
 /* {block "body"} */
-class Block_182689167614cfa17d8e169_47493312 extends Smarty_Internal_Block
+class Block_156597223061563f0d4bf0f1_25867224 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_182689167614cfa17d8e169_47493312',
+    0 => 'Block_156597223061563f0d4bf0f1_25867224',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -49,10 +49,10 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 			<div class="flex-center">
 				<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
 					<img class="icon_item d-xl-none" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/investment_blue.svg"
+img/compressed/icons/investment_blue.svg"
 						alt="Planta con símbolo de dolar" />
 					<img class="icon_item d-none d-xl-block" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/investment.svg"
+img/compressed/icons/investment.svg"
 						alt="Planta con símbolo de dolar" />
 				</div>
 				<h3 class="fs-2d5 text-light text-xl-primary fs-xl-7">
@@ -68,21 +68,21 @@ img/icons/investment.svg"
 				<ul class="mb-1d5">
 					<li class="d-flex align-items-center text-justify">
 						<img class="w-d8 me-d4 me-d8" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/dot_blue.png" alt="Punto Azul" />
+img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
 							Aportes sociales (Único pago)
 						</p>
 					</li>
 					<li class="d-flex align-items-center text-justify">
 						<img class="w-d8 me-d4 me-d8" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/dot_blue.png" alt="Punto Azul" />
+img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
 							Cuota de admisión (Único pago)
 						</p>
 					</li>
 					<li class="d-flex align-items-center text-justify">
 						<img class="w-d8 me-d4 me-d8" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/dot_blue.png" alt="Punto Azul" />
+img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
 							Cuota de sostenimiento ( pago anual si no se realizan compras a COHORIENTE)
 						</p>
@@ -110,27 +110,27 @@ img/invest/dot_blue.png" alt="Punto Azul" />
 			<div class="wrap flex-column py-2 flex-xl-row flex-xl-wrap justify-content-center gap-xl-3">
 				<div class="bs_img">
 					<img class="w-100p" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/invest_1.png"
+img/compressed/invest/invest_1.png"
 						alt="Información sobre afiliación E.S.E Nivel 1" />
 				</div>
 				<div class="bs_img">
 					<img class="w-100p" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/invest_2.png"
+img/compressed/invest/invest_2.png"
 						alt="Información sobre afiliación E.S.E Nivel 1 Saneamiento fiscal" />
 				</div>
 				<div class="bs_img">
 					<img class="w-100p" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/invest_3.png"
+img/compressed/invest/invest_3.png"
 						alt="Información sobre afiliación E.S.E Nivel 2" />
 				</div>
 				<div class="bs_img">
 					<img class="w-100p" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/invest_4.png"
+img/compressed/invest/invest_4.png"
 						alt="Información sobre afiliación E.S.E Nivel 2 Saneamiento fiscal" />
 				</div>
 				<div class="bs_img">
 					<img class="w-100p" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/invest/invest_5.png"
+img/compressed/invest/invest_5.png"
 						alt="Información sobre afiliación E.S.E Nivel 3" />
 				</div>
 			</div>

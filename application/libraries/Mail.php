@@ -25,16 +25,17 @@ class Mail
 		$mail->Mailer                                                           =   "smtp";
 		$mail->SMTPDebug                                                        =   0;
 		$mail->SMTPAuth                                                         =   true;
-		$mail->SMTPSecure                                                       =   "tls";
-		$mail->Port                                                             =   587;
-		$mail->Host                                                             =   "smtp.mailgun.org";
-		$mail->Username                                                         =   "postmaster@sandbox5daeafcfc4e14c359fbdcc57f9f6269a.mailgun.org";
-		$mail->Password                                                         =   "086703ccf4e5e2bf90d050f1fa3d151a-90346a2d-75850c8e";
+		$mail->SMTPSecure                                                       =   "ssl";
+		$mail->Port                                                             =   465;
+		$mail->Host                                                             =   "mail.cohoriente.co";
+		$mail->Username                                                         =   "contacto@cohoriente.co";
+		$mail->Password                                                         =   "8d2hzDY6WkXyK$8hhiTTIvvK";
         $mail->Subject                                                          =   $subject;
+		$mail->CharSet														  	=   "UTF-8";
 		$mail->AddAddress($recipient_email, $recipient_name);
 		$mail->IsSMTP();
 		$mail->IsHTML(true);
-		$mail->SetFrom("contacto@cohoriente.co", "Cohoriente");
+		$mail->SetFrom("contacto@cohoriente.co", "Plataforma Cohoriente");
 		$mail->AddReplyTo($sender_email, $sender_name);
 		$mail->MsgHTML($body);
 

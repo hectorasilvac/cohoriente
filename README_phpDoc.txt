@@ -1,0 +1,1 @@
+php phpDocumentor.phar -d C:\Users\DELL\Desktop\HectorSilva\Cohoriente\application\controllers -t C:\Users\DELL\Desktop\HectorSilva\Cohoriente\docs

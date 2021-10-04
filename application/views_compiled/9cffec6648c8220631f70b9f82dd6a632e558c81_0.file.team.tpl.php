@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-22 18:37:55
+/* Smarty version 3.1.39, created on 2021-10-01 00:52:15
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\shared\team.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614b5be3de8ce5_12792056',
+  'unifunc' => 'content_61563f9f6fe545_45770187',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9cffec6648c8220631f70b9f82dd6a632e558c81' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\shared\\team.tpl',
-      1 => 1632328675,
+      1 => 1633042332,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_614b5be3de8ce5_12792056 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61563f9f6fe545_45770187 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="team">
 	<div class="team_wrapper">
 		<header class="team_header">
@@ -32,7 +32,7 @@ function content_614b5be3de8ce5_12792056 (Smarty_Internal_Template $_smarty_tpl)
 		</header>
 		<p class="team_picture wrap">
 			<img class="team_image" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/our_team.png"
+img/compressed/our_team.png"
 				alt="Mapa de Servicios ofrecidos por Cohoriente" />
 		</p>
 	</div>

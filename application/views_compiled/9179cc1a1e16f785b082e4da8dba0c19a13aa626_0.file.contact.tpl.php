@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-30 17:25:55
+/* Smarty version 3.1.39, created on 2021-09-30 23:48:01
   from 'C:\Users\DELL\Desktop\Hector Silva\Cohoriente\application\views\shared\contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6155d703d3d537_54288466',
+  'unifunc' => 'content_61563091585e41_08037417',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9179cc1a1e16f785b082e4da8dba0c19a13aa626' => 
     array (
       0 => 'C:\\Users\\DELL\\Desktop\\Hector Silva\\Cohoriente\\application\\views\\shared\\contact.tpl',
-      1 => 1633011935,
+      1 => 1633038480,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6155d703d3d537_54288466 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61563091585e41_08037417 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="contact">
 	<div class="wrap flex-column justify-content-between flex-xl-row py-xl-6">
 		<div class="find_us">
@@ -29,7 +29,7 @@ function content_6155d703d3d537_54288466 (Smarty_Internal_Template $_smarty_tpl)
 			</header>
 			<div class="find_us_info wrap_row_nowrap">
 				<img class="find_us_icon" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/location_new.svg" alt="Ícono de Ubicación" />
+img/compressed/icons/location_new.svg" alt="Ícono de Ubicación" />
 				<p class="find_us_text text_small">
                     Calle 33 #31-143 local 08 Riviera Plaza
                     <br>
@@ -38,12 +38,12 @@ img/icons/location_new.svg" alt="Ícono de Ubicación" />
 			</div>
 			<div class="find_us_info wrap_row_nowrap">
 				<img class="find_us_icon" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/call_new.svg" alt="Ícono de Teléfono" />
+img/compressed/icons/call_new.svg" alt="Ícono de Teléfono" />
 				<p class="find_us_text text_small">(57) 315 378 5627</p>
 			</div>
 			<div class="find_us_info wrap_row_nowrap">
 				<img class="find_us_icon" src="<?php echo $_smarty_tpl->tpl_vars['RESOURCES']->value;?>
-img/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
+img/compressed/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
 				<p class="find_us_text text_small">contacto@cohoriente.co</p>
 			</div>
 		</div>

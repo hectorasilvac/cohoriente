@@ -432,9 +432,6 @@ summary::-webkit-details-marker,
 }
 
 
-.benefits_header {
-	background-image: url("../img/benefits_banner.png");
-}
 
 
 
@@ -461,12 +458,7 @@ summary::-webkit-details-marker,
 }
 
 
-.contact {
-	grid-area: contact;
-	background-image: url("../img//bg_medic.png");
-	background-position: center;
-	background-size: cover;
-}
+
 
 .contact_us_entry {
 	margin-bottom: 2rem;
@@ -519,16 +511,6 @@ summary::-webkit-details-marker,
 	width: 11rem;
 }
 
-.touch {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows:
-		auto
-		auto;
-	grid-template-areas:
-		"contact"
-		"map";
-}
 
 
 /****************************************/
@@ -602,14 +584,6 @@ summary::-webkit-details-marker,
 	border: 0.1rem solid var(--color-primary);
 	background-color: var(--color-light);
 	color: var(--color-primary);
-}
-
-.card {
-	background-color: var(--color-light);
-	border-radius: var(--border-radius-small);
-	padding: 2rem;
-	box-shadow: #00000029 0 3px 6px;
-	width: 100%;
 }
 
 .color--light {
@@ -1126,13 +1100,13 @@ summary::-webkit-details-marker,
 	color: var(--color-light);
 }
 
-.carousel {
+/* .carousel {
 	background-image: url("../img/carousel_bg_mobile.png");
 	background-size: cover;
 	background-position: center top;
 	background-color: var(--color-primary);
 	height: 50rem;
-}
+} */
 
 .carousel_img {
 	margin-top: 4.1rem;
@@ -1258,43 +1232,6 @@ summary::-webkit-details-marker,
 	border-right: 0.1rem solid var(--color-light);
 }
 
-.employee_image {
-	width: 60%;
-}
-
-.employee_badge {
-	background-color: var(--color-tertiary);
-	border-radius: var(--border-radius-normal);
-	color: var(--color-light);
-	font-family: var(--font-family-primary);
-	font-size: var(--font-size-large-extra);
-	font-weight: bold;
-	margin-bottom: 2.4rem;
-	margin-top: 1rem;
-	padding: 0.6rem;
-	text-align: center;
-	width: 26rem;
-}
-
-
-.employee_picture {
-	display: flex;
-	justify-content: center;
-}
-
-.employee_wrapper {
-	align-items: center;
-	display: flex;
-	flex-flow: var(--flex-quaternary);
-	height: -moz-fill-available;
-	height: -webkit-fill-available;
-	height: fill-available;
-	justify-content: center;
-	margin: 0 auto;
-	max-width: 150rem;
-	padding: var(--padding-container);
-}
-
 .gallery_img_wrapper {
 	flex-basis: 48%;
 }
@@ -1359,17 +1296,6 @@ summary::-webkit-details-marker,
 	background-position: center;
 	background-size: cover;
 	height: 17rem;
-}
-
-
-
-.location {
-	background-image: url("../img/bg_location.png");
-	background-position: center;
-}
-
-.location_header {
-	/* flex-basis: 70rem; */
 }
 
 .location_img {
@@ -1496,7 +1422,7 @@ summary::-webkit-details-marker,
 } */
 
 .team {
-	background-image: url("../img/bg_team.png");
+	background-image: url("../img/compressed/bg_team.avif");
 	background-position: center;
 	background-size: cover;
 }
@@ -1535,9 +1461,9 @@ summary::-webkit-details-marker,
 	/****************************************/
 	/*********** Specific - Start ***********/
 	/****************************************/
-	.carousel {
+	/* .carousel {
 		background-position: center center;
-	}
+	} */
 
 	.featured_wrapper {
 		width: 100%;
@@ -2005,26 +1931,19 @@ summary::-webkit-details-marker,
 		font-size: var(--font-size-normal);
 	}
 
-	.carousel {
+	/* .carousel {
 		background-color: var(--color-primary);
 		background-image: url("../img/carousel_bg_web.png");
 		background-position: center center;
 		background-size: cover;
 		height: 63.7rem;
-	}
+	} */
 
 	.carousel_wrapper {
 		align-items: flex-end;
 		display: flex;
 		height: 100%;
 		justify-content: flex-end;
-	}
-
-	.employee {
-		background-image: url("../img/employee_bg_overlay.png");
-		background-size: cover;
-		background-position: center right;
-		height: 66.8rem;
 	}
 
 	.employee_badge {

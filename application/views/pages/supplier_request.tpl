@@ -3,7 +3,7 @@
 <main>
 	<section class="wrap flex-column py-xl-0">
 		<div class="d-xl-flex">
-			<div class="w-xl-100p me-xl-5">
+			<div class="me-xl-5">
 				<header class="justify-content-center mb-4">
 					<h3 class="fs-2d5 text-primary text-center fs-xl-6 w-xl-48 text-xl-start text-xl-secondary mt-xl-3">
 						¿Quieres ser un Proveedor?
@@ -43,7 +43,7 @@
 				</footer>
 			</div>
 			<div class="d-none d-xl-flex">
-				<img class="wd-100p" src="{$RESOURCES}img/supplier_form_banner.png" alt="Enfermera escribiendo en una hoja" />
+				<img class="wd-100p" src="{$RESOURCES}img/compressed/supplier_form_banner.avif" alt="Enfermera escribiendo en una hoja" />
 			</div>
 		</div>
 			<!-- Dialog: Action Confirmation -->

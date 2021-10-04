@@ -1,17 +1,36 @@
 <?php
-
 defined('BASEPATH') or exit('No direct script access allowed');
 
+/**
+ * Controlador de la sección de Clasificados.
+ * 
+ * @author		Innovación y Tecnología
+ * @category	Controller
+ * @copyright 	Copyright (c) 2021, Grupo AW - Área de Innovación y Tecnología.
+ * @package		CodeIgniter
+ * @version 	1
+ */
 class Classifieds_controller extends CI_Controller
 {
-	public function __construct()
-	{
-		parent::__construct();
-		$this->load->helper('url');
-		$this->load->model('classifieds_model');
-		$this->load->library('mail');
-	}
+	/**
+	 * Inicializa y carga todas las instancias necesarias para ejecutar 
+	 * correctamente todos los métodos del Controlador.
+	 * 
+	 * @return void
+	 */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->helper('url');
+        $this->load->model('classifieds_model');
+        $this->load->library('mail');
+    }
 
+	/**
+	 * Muestra la página de inicio de la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
 	public function view()
 	{
 		$all_classifieds 														=	$this->classifieds_model->view();
@@ -33,6 +52,17 @@ class Classifieds_controller extends CI_Controller
 
 	}
 
+	/**
+	 * Devuelve información detallada de una oferta laboral mediante su ID.
+	 *
+	 * Recibe un ID, realiza la solicitud al modelo para obtener información
+	 * detallada de la oferta laboral y muestra la plantilla de Detalle con la
+	 * respectiva información obtenida.
+	 * 
+	 * @param int $id ID de la oferta laboral
+	 * 
+	 * @return void
+	 */
 	public function detail(int $id)
 	{
 		$detail 																=	$this->classifieds_model->detail($id);
@@ -50,6 +80,11 @@ class Classifieds_controller extends CI_Controller
 		$this->_view->display('pages/classified_detail.tpl');
 	}
 
+	/**
+	 * Muestra la página de Suministros en la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
 	public function supplies()
 	{
 		$this->_view->assign('title', 											'Suministros | Cohoriente');
@@ -59,6 +94,16 @@ class Classifieds_controller extends CI_Controller
 		$this->_view->display('pages/supplies.tpl');
 	}
 
+	/**
+	 * Envía un correo electrónico a talento humano, con la hoja de vida del
+	 * postulante.
+	 *
+	 * Recibe los parámetros "url" y "name" a través del método $_POST y 
+	 * el parámetro "file" a través del método $_FILE, realiza la validación 
+	 * y a través de la librería Mail procesa el envío del correo.
+	 * 
+	 * @return void
+	 */
 	public function apply()
 	{
 		$params 																=	$this->input->post();

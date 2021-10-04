@@ -12,7 +12,7 @@
 			<ul class="join_us_list list">
 				<li class="info item">
 					<div class="info_icon_wrapper">
-						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/requirements.webp"
+						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/requirements.svg"
 							alt="Ícono de una lista de chequeo" />
 					</div>
 					<div>
@@ -30,7 +30,7 @@
 				</li>
 				<li class="item">
 					<div class="info_icon_wrapper">
-						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/benefits.webp" alt="Saludo de manos" />
+						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/benefits.svg" alt="Saludo de manos" />
 					</div>
 					<div>
 						<h4 class="info_subtitle subtitle_small">Beneficios</h4>
@@ -46,7 +46,7 @@
 				</li>
 				<li class="item">
 					<div class="info_icon_wrapper">
-						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/investment.webp"
+						<img class="info_icon" src="{$RESOURCES}img/compressed/icons/investment.svg"
 							alt="Planta con símbolo de dinero" />
 					</div>
 					<div>
@@ -63,22 +63,22 @@
 				</li>
 			</ul>
 			</div>
-			<img class="catalog_banner" src="{$RESOURCES}img/compressed/partner_banner.webp" alt="Personas estrechando las manos" />
+			<img class="catalog_banner" src="{$RESOURCES}img/compressed/partner_banner.avif" alt="Personas estrechando las manos" />
 		</div>
 	</section>
 	<div class="affiliate bg_section">
 		<a class="link_section" href="{$path_affiliation}">
 			</a>
 	</div>
-	<section class="bylaws bg_section">
+	<section class="bylaws bg_section py-xl-3">
 		<div class="bylaws_container container">
 			<header>
 				<h3 class="bylaws_subtitle subtitle">Conoce Nuestros Estatutos</h3>
 				<p class="bylaws_text text_small">Cooperativa Regional para la Integración y el Desarrollo
 					de Hospitales e Instituciones de Salud Pública del Oriente Colombiano - COHORIENTE</p>
 			</header>
-			<a class="bylaws_download_mobile button" href="resources/pdf/estatutos.pdf" download="{$path_download_bylaws}">Ver estatutos</a>
-			<a class="bylaws_download button" href="resources/pdf/estatutos.pdf" download="{$path_download_bylaws}">Estatutos</a>
+			<a class="bylaws_download_mobile button" href="{$path_download_bylaws}" download>Ver estatutos</a>
+			<a class="bylaws_download button" href="{$path_download_bylaws}" download>Estatutos</a>
 		</div>
 	</section>
 	<section class="associates">
