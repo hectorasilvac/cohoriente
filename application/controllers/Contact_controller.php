@@ -1,27 +1,51 @@
 <?php
-
 defined('BASEPATH') or exit('No direct script access allowed');
+
+/**
+ * Controlador de la sección de Contacto.
+ * 
+ * @author		Innovación y Tecnología
+ * @category	Controller
+ * @copyright 	Copyright (c) 2021, Grupo AW - Área de Innovación y Tecnología.
+ * @package		CodeIgniter
+ * @version 	1
+ */
 class Contact_controller extends CI_Controller
 {
+	/**
+	 * Inicializa y carga todas las instancias necesarias para ejecutar 
+	 * correctamente todos los métodos del Controlador.
+	 * 
+	 * @return void
+	 */
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->helper('url_helper');
+		$this->load->helper('url');
 		$this->load->library('mail');
 	}
 
-	public function view()
-	{
-		$this->_view->assign('title', 'Contacto | Cohoriente');
-		$this->_view->display('pages/contact.tpl');
-	}
-
+	/**
+	 * Muestra y gestiona la página de Solicitud de Pedido.
+	 * 
+	 * @return void
+	 */
 	public function order_request()
 	{
-		$this->_view->assign('title', '¿Tienes un Pedido para Nosotros? | Cohoriente');
+		$this->_view->assign('title', 											'¿Tienes un Pedido para Nosotros? | Cohoriente');
 		$this->_view->display('pages/order_request.tpl');
 	}
 
+	/**
+	 * Envía un correo electrónico a la persona encargada del contacto directo, 
+	 * con información del remitente.
+	 *
+	 * Recibe los parámetros "fullname", "phone", "email" y "message" a través 
+	 * del método $_POST, realiza la validación y a través de la librería Mail 
+	 * procesa el envío del correo.
+	 * 
+	 * @return void
+	 */
 	public function send()
 	{
 		$params 																=	$this->input->post();
@@ -107,6 +131,16 @@ class Contact_controller extends CI_Controller
 		}
 	}
 
+	/**
+	 * Envía un correo electrónico a la persona encargada de las solicitudes de
+	 * pedidos, con información del remitente.
+	 *
+	 * Recibe los parámetros "fullname", "phone", "email" y "message" a través 
+	 * del método $_POST, realiza la validación y a través de la librería Mail 
+	 * procesa el envío del correo.
+	 * 
+	 * @return void
+	 */
 	public function send_order()
 	{
 		$params 																=	$this->input->post();
@@ -219,12 +253,16 @@ class Contact_controller extends CI_Controller
 		}
 	}
 
-	public function supplier_request()
-	{
-		$this->_view->assign('title', '¿Quieres ser un Proveedor? | Cohoriente');
-		$this->_view->display('pages/supplier_request.tpl');
-	}
-
+	/**
+	 * Envía un correo electrónico a la persona encargada de las solicitudes de
+	 * proveedor, con información del remitente.
+	 *
+	 * Recibe los parámetros "fullname", "phone", "email" y "company" a través 
+	 * del método $_POST, realiza la validación y a través de la librería Mail 
+	 * procesa el envío del correo.
+	 * 
+	 * @return void
+	 */
 	public function send_supplier()
 	{
 		$params = $this->input->post();
@@ -304,5 +342,27 @@ class Contact_controller extends CI_Controller
 			}
 			exit();
 		}
+	}
+
+	/**
+	 * Muestra y gestiona la página de Solicitud de Proveedor.
+	 * 
+	 * @return void
+	 */
+	public function supplier_request()
+	{
+		$this->_view->assign('title', 											'¿Quieres ser un Proveedor? | Cohoriente');
+		$this->_view->display('pages/supplier_request.tpl');
+	}
+
+	/**
+	 * Muestra y gestiona la página de inicio de la sección Contacto.
+	 * 
+	 * @return void
+	 */
+	public function view()
+	{
+		$this->_view->assign('title', 											'Contacto | Cohoriente');
+		$this->_view->display('pages/contact.tpl');
 	}
 }

@@ -1,15 +1,34 @@
 <?php
-
 defined('BASEPATH') or exit('No direct script access allowed');
 
+/**
+ * Controlador de la sección de Inicio.
+ * 
+ * @author		Innovación y Tecnología
+ * @category	Controller
+ * @copyright 	Copyright (c) 2021, Grupo AW - Área de Innovación y Tecnología.
+ * @package		CodeIgniter
+ * @version 	1
+ */
 class Home_controller extends CI_Controller
 {
+	/**
+	 * Inicializa y carga todas las instancias necesarias para ejecutar 
+	 * correctamente todos los métodos del Controlador.
+	 * 
+	 * @return void
+	 */
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->helper('url');
 	}
 
+	/**
+	 * Muestra y gestiona la página de inicio de la sección Inicio.
+	 * 
+	 * @return void
+	 */
 	public function view()
 	{
 		$this->_view->assign('title', 											'Inicio | Cohoriente');

@@ -3,17 +3,17 @@ Search.appendIndex(
                 {
             "fqsen": "\\About_controller",
             "name": "About_controller",
-            "summary": "",
+            "summary": "Controlador\u0020de\u0020la\u0020secci\u00F3n\u0020de\u0020Nosotros.",
             "url": "classes/About-controller.html"
         },                {
             "fqsen": "\\About_controller\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "Inicializa\u0020y\u0020carga\u0020todas\u0020las\u0020instancias\u0020necesarias\u0020para\u0020ejecutar\ncorrectamente\u0020todos\u0020los\u0020m\u00E9todos\u0020del\u0020Controlador.",
             "url": "classes/About-controller.html#method___construct"
         },                {
             "fqsen": "\\About_controller\u003A\u003Aview\u0028\u0029",
             "name": "view",
-            "summary": "",
+            "summary": "Muestra\u0020la\u0020p\u00E1gina\u0020de\u0020inicio\u0020de\u0020la\u0020secci\u00F3n\u0020de\u0020Nosotros.",
             "url": "classes/About-controller.html#method_view"
         },                {
             "fqsen": "\\Classifieds_controller",
@@ -26,14 +26,14 @@ Search.appendIndex(
             "summary": "Inicializa\u0020y\u0020carga\u0020todas\u0020las\u0020instancias\u0020necesarias\u0020para\u0020ejecutar\ncorrectamente\u0020todos\u0020los\u0020m\u00E9todos\u0020del\u0020Controlador.",
             "url": "classes/Classifieds-controller.html#method___construct"
         },                {
-            "fqsen": "\\Classifieds_controller\u003A\u003Aview\u0028\u0029",
-            "name": "view",
-            "summary": "Muestra\u0020la\u0020p\u00E1gina\u0020de\u0020inicio\u0020de\u0020la\u0020secci\u00F3n\u0020de\u0020Clasificados.",
-            "url": "classes/Classifieds-controller.html#method_view"
+            "fqsen": "\\Classifieds_controller\u003A\u003Aapply\u0028\u0029",
+            "name": "apply",
+            "summary": "Env\u00EDa\u0020un\u0020correo\u0020electr\u00F3nico\u0020a\u0020talento\u0020humano,\u0020con\u0020la\u0020hoja\u0020de\u0020vida\u0020del\npostulante.",
+            "url": "classes/Classifieds-controller.html#method_apply"
         },                {
             "fqsen": "\\Classifieds_controller\u003A\u003Adetail\u0028\u0029",
             "name": "detail",
-            "summary": "Devuelve\u0020informaci\u00F3n\u0020detallada\u0020de\u0020una\u0020oferta\u0020laboral\u0020mediante\u0020su\u0020ID",
+            "summary": "Devuelve\u0020informaci\u00F3n\u0020detallada\u0020de\u0020una\u0020oferta\u0020laboral\u0020mediante\u0020su\u0020ID.",
             "url": "classes/Classifieds-controller.html#method_detail"
         },                {
             "fqsen": "\\Classifieds_controller\u003A\u003Asupplies\u0028\u0029",
@@ -41,50 +41,50 @@ Search.appendIndex(
             "summary": "Muestra\u0020la\u0020p\u00E1gina\u0020de\u0020Suministros\u0020en\u0020la\u0020secci\u00F3n\u0020de\u0020Clasificados.",
             "url": "classes/Classifieds-controller.html#method_supplies"
         },                {
-            "fqsen": "\\Classifieds_controller\u003A\u003Aapply\u0028\u0029",
-            "name": "apply",
-            "summary": "Env\u00EDa\u0020un\u0020correo\u0020electr\u00F3nico\u0020a\u0020talento\u0020humano,\u0020con\u0020la\u0020hoja\u0020de\u0020vida\u0020del\npostulante.",
-            "url": "classes/Classifieds-controller.html#method_apply"
+            "fqsen": "\\Classifieds_controller\u003A\u003Aview\u0028\u0029",
+            "name": "view",
+            "summary": "Muestra\u0020y\u0020gestiona\u0020la\u0020p\u00E1gina\u0020de\u0020inicio\u0020de\u0020la\u0020secci\u00F3n\u0020de\u0020Clasificados.",
+            "url": "classes/Classifieds-controller.html#method_view"
         },                {
             "fqsen": "\\Contact_controller",
             "name": "Contact_controller",
-            "summary": "",
+            "summary": "Controlador\u0020de\u0020la\u0020secci\u00F3n\u0020de\u0020Contacto.",
             "url": "classes/Contact-controller.html"
         },                {
             "fqsen": "\\Contact_controller\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "Inicializa\u0020y\u0020carga\u0020todas\u0020las\u0020instancias\u0020necesarias\u0020para\u0020ejecutar\ncorrectamente\u0020todos\u0020los\u0020m\u00E9todos\u0020del\u0020Controlador.",
             "url": "classes/Contact-controller.html#method___construct"
-        },                {
-            "fqsen": "\\Contact_controller\u003A\u003Aview\u0028\u0029",
-            "name": "view",
-            "summary": "",
-            "url": "classes/Contact-controller.html#method_view"
         },                {
             "fqsen": "\\Contact_controller\u003A\u003Aorder_request\u0028\u0029",
             "name": "order_request",
-            "summary": "",
+            "summary": "Muestra\u0020y\u0020gestiona\u0020la\u0020p\u00E1gina\u0020de\u0020Solicitud\u0020de\u0020Pedido.",
             "url": "classes/Contact-controller.html#method_order_request"
         },                {
             "fqsen": "\\Contact_controller\u003A\u003Asend\u0028\u0029",
             "name": "send",
-            "summary": "",
+            "summary": "Env\u00EDa\u0020un\u0020correo\u0020electr\u00F3nico\u0020a\u0020la\u0020persona\u0020encargada\u0020del\u0020contacto\u0020directo,\ncon\u0020informaci\u00F3n\u0020del\u0020remitente.",
             "url": "classes/Contact-controller.html#method_send"
         },                {
             "fqsen": "\\Contact_controller\u003A\u003Asend_order\u0028\u0029",
             "name": "send_order",
-            "summary": "",
+            "summary": "Env\u00EDa\u0020un\u0020correo\u0020electr\u00F3nico\u0020a\u0020la\u0020persona\u0020encargada\u0020de\u0020las\u0020solicitudes\u0020de\npedidos,\u0020con\u0020informaci\u00F3n\u0020del\u0020remitente.",
             "url": "classes/Contact-controller.html#method_send_order"
-        },                {
-            "fqsen": "\\Contact_controller\u003A\u003Asupplier_request\u0028\u0029",
-            "name": "supplier_request",
-            "summary": "",
-            "url": "classes/Contact-controller.html#method_supplier_request"
         },                {
             "fqsen": "\\Contact_controller\u003A\u003Asend_supplier\u0028\u0029",
             "name": "send_supplier",
-            "summary": "",
+            "summary": "Env\u00EDa\u0020un\u0020correo\u0020electr\u00F3nico\u0020a\u0020la\u0020persona\u0020encargada\u0020de\u0020las\u0020solicitudes\u0020de\nproveedor,\u0020con\u0020informaci\u00F3n\u0020del\u0020remitente.",
             "url": "classes/Contact-controller.html#method_send_supplier"
+        },                {
+            "fqsen": "\\Contact_controller\u003A\u003Asupplier_request\u0028\u0029",
+            "name": "supplier_request",
+            "summary": "Muestra\u0020y\u0020gestiona\u0020la\u0020p\u00E1gina\u0020de\u0020Solicitud\u0020de\u0020Proveedor.",
+            "url": "classes/Contact-controller.html#method_supplier_request"
+        },                {
+            "fqsen": "\\Contact_controller\u003A\u003Aview\u0028\u0029",
+            "name": "view",
+            "summary": "Muestra\u0020y\u0020gestiona\u0020la\u0020p\u00E1gina\u0020de\u0020inicio\u0020de\u0020la\u0020secci\u00F3n\u0020Contacto.",
+            "url": "classes/Contact-controller.html#method_view"
         },                {
             "fqsen": "\\Home_controller",
             "name": "Home_controller",

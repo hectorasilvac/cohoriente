@@ -1,6 +1,15 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
+/**
+ * Controlador de la sección de Clasificados.
+ * 
+ * @author		Innovación y Tecnología
+ * @category	Controller
+ * @copyright 	Copyright (c) 2021, Grupo AW - Área de Innovación y Tecnología.
+ * @package		CodeIgniter
+ * @version 	1
+ */
 class Pages_controller extends CI_Controller
 {
     public function __construct()

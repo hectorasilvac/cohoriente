@@ -27,74 +27,6 @@ class Classifieds_controller extends CI_Controller
     }
 
 	/**
-	 * Muestra la página de inicio de la sección de Clasificados.
-	 * 
-	 * @return void
-	 */
-	public function view()
-	{
-		$all_classifieds 														=	$this->classifieds_model->view();
-
-		if ($all_classifieds['data'])
-		{
-			$this->_view->assign('jobs',										$all_classifieds['data']);
-		}
-		else
-		{
-			$this->_view->assign('empty_jobs', 									$all_classifieds['message']);
-		}
-
-		$this->_view->assign('title', 											'Clasificados | Cohoriente');
-		$this->_view->assign('path_classifieds', 								site_url('clasificados'));
-		$this->_view->assign('path_supplies', 									site_url('clasificados/suministros'));
-		$this->_view->assign('selected_tab', 									'jobs');
-		$this->_view->display('pages/classifieds.tpl');
-
-	}
-
-	/**
-	 * Devuelve información detallada de una oferta laboral mediante su ID.
-	 *
-	 * Recibe un ID, realiza la solicitud al modelo para obtener información
-	 * detallada de la oferta laboral y muestra la plantilla de Detalle con la
-	 * respectiva información obtenida.
-	 * 
-	 * @param int $id ID de la oferta laboral
-	 * 
-	 * @return void
-	 */
-	public function detail(int $id)
-	{
-		$detail 																=	$this->classifieds_model->detail($id);
-
-		if ($detail['data'])
-		{
-			$this->_view->assign('detail', 										$detail['data']);
-		}
-		else
-		{
-			$this->_view->assign('empty_detail', 								$detail['message']);
-		}
-
-		$this->_view->assign('title', 											"{$detail['data']['name']} | Cohoriente");
-		$this->_view->display('pages/classified_detail.tpl');
-	}
-
-	/**
-	 * Muestra la página de Suministros en la sección de Clasificados.
-	 * 
-	 * @return void
-	 */
-	public function supplies()
-	{
-		$this->_view->assign('title', 											'Suministros | Cohoriente');
-		$this->_view->assign('path_classifieds', 								site_url('clasificados'));
-		$this->_view->assign('path_supplies', 									site_url('clasificados/suministros'));
-		$this->_view->assign('selected_tab', 									'supplies');
-		$this->_view->display('pages/supplies.tpl');
-	}
-
-	/**
 	 * Envía un correo electrónico a talento humano, con la hoja de vida del
 	 * postulante.
 	 *
@@ -190,5 +122,73 @@ class Classifieds_controller extends CI_Controller
 			}
 			exit();
 		}
+	}
+
+	/**
+	 * Devuelve información detallada de una oferta laboral mediante su ID.
+	 *
+	 * Recibe un ID, realiza la solicitud al modelo para obtener información
+	 * detallada de la oferta laboral y muestra la plantilla de Detalle con la
+	 * respectiva información obtenida.
+	 * 
+	 * @param int $id ID de la oferta laboral
+	 * 
+	 * @return void
+	 */
+	public function detail(int $id)
+	{
+		$detail 																=	$this->classifieds_model->detail($id);
+
+		if ($detail['data'])
+		{
+			$this->_view->assign('detail', 										$detail['data']);
+		}
+		else
+		{
+			$this->_view->assign('empty_detail', 								$detail['message']);
+		}
+
+		$this->_view->assign('title', 											"{$detail['data']['name']} | Cohoriente");
+		$this->_view->display('pages/classified_detail.tpl');
+	}
+
+	/**
+	 * Muestra la página de Suministros en la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
+	public function supplies()
+	{
+		$this->_view->assign('title', 											'Suministros | Cohoriente');
+		$this->_view->assign('path_classifieds', 								site_url('clasificados'));
+		$this->_view->assign('path_supplies', 									site_url('clasificados/suministros'));
+		$this->_view->assign('selected_tab', 									'supplies');
+		$this->_view->display('pages/supplies.tpl');
+	}
+
+	/**
+	 * Muestra y gestiona la página de inicio de la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
+	public function view()
+	{
+		$all_classifieds 														=	$this->classifieds_model->view();
+
+		if ($all_classifieds['data'])
+		{
+			$this->_view->assign('jobs',										$all_classifieds['data']);
+		}
+		else
+		{
+			$this->_view->assign('empty_jobs', 									$all_classifieds['message']);
+		}
+
+		$this->_view->assign('title', 											'Clasificados | Cohoriente');
+		$this->_view->assign('path_classifieds', 								site_url('clasificados'));
+		$this->_view->assign('path_supplies', 									site_url('clasificados/suministros'));
+		$this->_view->assign('selected_tab', 									'jobs');
+		$this->_view->display('pages/classifieds.tpl');
+
 	}
 }

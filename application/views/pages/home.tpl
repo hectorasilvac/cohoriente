@@ -6,17 +6,17 @@
 			<div class="main_carousel_cell">
 				<picture>
 					<source media="(min-width:1200px)"
-						srcset="{$RESOURCES}img/compressed/main_banner_web_2.webp">
-						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_2.png"
-						alt="Promoviendo la integración y desarrollo del sector salud en el Oriente Colombiano" />
+						srcset="{$RESOURCES}img/compressed/main_banner_web_4.webp">
+						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_4.png"
+					alt="Estamos en proceso de certificación ISO 9000" />
 				</picture>
 			</div>
 			<div class="main_carousel_cell">
 				<picture>
 					<source media="(min-width:1200px)"
-						srcset="{$RESOURCES}img/compressed/main_banner_web_3.webp">
-						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_3.png"
-					alt="Promoviendo la integración y desarrollo del sector salud en el Oriente Colombiano" />
+						srcset="{$RESOURCES}img/compressed/main_banner_web_5.webp">
+						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_5.png"
+					alt="Estamos en proceso de certificación ISO 9000" />
 				</picture>
 			</div>
 		  </div>
