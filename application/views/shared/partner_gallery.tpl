@@ -1,5 +1,5 @@
 <section class="partner">
-    <div class="partner_wrapper">
+    <div class="wrap flex-column h-fit-force">
         <header class="partner_header">
             <h3 class="partner_subtitle">Nuestros Aliados</h3>
         </header>

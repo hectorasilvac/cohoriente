@@ -1,9 +1,23 @@
 <?php
-
 defined('BASEPATH') or exit('No direct script access allowed');
 
+/**
+ * Controlador de la sección de Asociarte.
+ * 
+ * @author		Innovación y Tecnología
+ * @category	Controller
+ * @copyright 	Copyright (c) 2021, Grupo AW - Área de Innovación y Tecnología.
+ * @package		CodeIgniter
+ * @version 	1
+ */
 class Partner_controller extends CI_Controller
 {
+	/**
+	 * Inicializa y carga todas las instancias necesarias para ejecutar 
+	 * correctamente todos los métodos del Controlador.
+	 * 
+	 * @return void
+	 */
 	public function __construct()
 	{
 		parent::__construct();
@@ -11,35 +25,34 @@ class Partner_controller extends CI_Controller
 		$this->load->library('mail');
 	}
 
-	public function view()
-	{
-		$this->_view->assign('title', 											'Asociarte | Cohoriente');
-		$this->_view->assign('path_download_bylaws', 							site_url('resources/pdf/estatutos.pdf'));
-		$this->_view->assign('path_requirements', 								site_url('asociarte/requisitos'));
-		$this->_view->assign('path_benefits', 									site_url('asociarte/beneficios'));
-		$this->_view->assign('path_invest', 									site_url('asociarte/inversion'));
-		$this->_view->assign('path_affiliation', 								site_url('asociarte/solicitud-afiliacion'));
-		$this->_view->display('pages/partner.tpl');
-	}
-
-	public function requirements()
-	{
-		$this->_view->assign('title', 'Requisitos | Cohoriente');
-		$this->_view->display('pages/requirements.tpl');
-	}
-
+	/**
+	 * Muestra y gestiona la página de beneficios en la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
 	public function benefits()
 	{
-		$this->_view->assign('title', 'Beneficios | Cohoriente');
+		$this->_view->assign('title', 											'Beneficios | Cohoriente');
 		$this->_view->display('pages/benefits.tpl');
 	}
 
+	/**
+	 * Muestra y gestiona la página de inversión en la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
 	public function invest()
 	{
-		$this->_view->assign('title', 'Inversión | Cohoriente');
+		$this->_view->assign('title', 											'Inversión | Cohoriente');
 		$this->_view->display('pages/invest.tpl');
 	}
 
+	/**
+	 * Muestra y gestiona la página de solicitud de afiliación en la sección de 
+	 * Clasificados.
+	 * 
+	 * @return void
+	 */
 	public function membership_application()
 	{
 		$this->_view->assign('title', 											'¿Quieres ser Uno de Nosotros? | Cohoriente');
@@ -47,6 +60,28 @@ class Partner_controller extends CI_Controller
 		$this->_view->display('pages/membership_application.tpl');
 	}
 
+	/**
+	 * Muestra y gestiona la página de requisitos en la sección de Clasificados.
+	 * 
+	 * @return void
+	 */
+	public function requirements()
+	{
+		$this->_view->assign('title', 											'Requisitos | Cohoriente');
+		$this->_view->display('pages/requirements.tpl');
+	}
+
+	/**
+	 * Envía un correo electrónico a la persona encargada de las solicitudes de 
+	 * afiliación, con información del postulante.
+	 *
+	 * Recibe los parámetros "fullname", "phone", "email" y "company" a través 
+	 * del método $_POST y el parámetro "file" a través del método $_FILE, 
+	 * realiza la validación y a través de la librería Mail procesa el envío del 
+	 * correo.
+	 * 
+	 * @return void
+	 */
 	public function send_membership()
 	{
 		$params 																=	$this->input->post();
@@ -157,5 +192,21 @@ class Partner_controller extends CI_Controller
 			}
 			exit();
 		}
+	}
+
+	/**
+	 * Muestra y gestiona la página de inicio en la sección de Asociarte.
+	 * 
+	 * @return void
+	 */
+	public function view()
+	{
+		$this->_view->assign('title', 											'Asociarte | Cohoriente');
+		$this->_view->assign('path_download_bylaws', 							site_url('resources/pdf/estatutos.pdf'));
+		$this->_view->assign('path_requirements', 								site_url('asociarte/requisitos'));
+		$this->_view->assign('path_benefits', 									site_url('asociarte/beneficios'));
+		$this->_view->assign('path_invest', 									site_url('asociarte/inversion'));
+		$this->_view->assign('path_affiliation', 								site_url('asociarte/solicitud-afiliacion'));
+		$this->_view->display('pages/partner.tpl');
 	}
 }

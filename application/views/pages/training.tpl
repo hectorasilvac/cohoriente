@@ -8,7 +8,7 @@
 				</h3>
 				<div class="flex-center flex-row flex-nowrap">
 					<div class="d-flex wrap_icon bg-success flex-center me-1 me-xl-2d7">
-						<img class="icon_item" src="{$RESOURCES}img/icons/study.svg"
+						<img class="icon_item" src="{$RESOURCES}img/compressed/icons/study.svg"
 							alt="Pantalla de computador" />
 					</div>
 					<div class="">
@@ -22,7 +22,7 @@
 			<ul class="row list_styled list_xl_no_styled column-gap-xl-3 row-gap-xl-5">
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-						<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/exhibition.svg"
+						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/exhibition.svg"
 							alt="Persona exponiendo un tema a los espectadores" />
 					</div>
 					<p class="fs-1d4 text-justify fs-xl-1d7">Asesoría y acompañamiento para el desarrollo de modelos de atención.
@@ -30,7 +30,7 @@
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-						<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/health.svg"
+						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/health.svg"
 							alt="Símbolo de Salud y Medicina" />
 					</div>
 					<p class="fs-1d4 text-justify fs-xl-1d7">Programa de entrenamiento en el manejo de equipos biomédicos para el personal asistencial.
@@ -38,14 +38,14 @@
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-						<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/blackboard.svg" alt="Pizarra" />
+						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/blackboard.svg" alt="Pizarra" />
 					</div>
 					<p class="fs-1d4 text-justify fs-xl-1d7">Programa de entrenamiento en el manejo de equipos biomédicos para el
 						personal asistencial.</p>
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-						<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/microscope.svg" alt="Ícono de un microscopio" />
+						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/microscope.svg" alt="Ícono de un microscopio" />
 					</div>
 					<p class="fs-1d4 text-justify fs-xl-1d7">Formación continua, acompañamiento y consecución de recursos para el
 						desarrollo científico y
@@ -53,27 +53,27 @@
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-						<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/nurse.svg" alt="Enfermera" />
+						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/nurse.svg" alt="Enfermera" />
 					</div>
 					<p class="fs-1d4 text-justify fs-xl-1d7">Programas de capacitación en el área de la salud para el personal
 						asistencial.</p>
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-						<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/book.svg" alt="Ícono de un libro abierto" />
+						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/book.svg" alt="Ícono de un libro abierto" />
 					</div>
 					<p class="fs-1d4 text-justify fs-xl-1d7">Formación integral en compentencias de la salud.</p>
 				</li>
 			</ul>
 			<p class="wrap flex-center px-xl-0 justify-content-xl-start py-xl-4">
-				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5" href="/">
+				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5" href="/inicio#servicios">
 					<i class="fas fa-angle-left me-d5"></i>
 					Volver
 				</a>
 			</p>
 		</div>
 		<p class="d-none d-xl-flex">
-			<img class="w-40" src="{$RESOURCES}img/supply_offer_banner.png" alt="Estante con medicamentos" />
+			<img class="w-40" src="{$RESOURCES}img/compressed/training_banner.webp" alt="persona señalando a una pizarra" />
 		</p>
 	</section>
 </main>

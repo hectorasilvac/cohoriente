@@ -1,6 +1,6 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
-<main class="bg--secondary300 ht-fill">
+<main class="bg--secondary300 h-fill">
 	{include file="../shared/order.tpl"}
 	<section class="about_wrap wrap pt-xl-0">
 		<div class="d-none d-xl-block me-xl-9 mt-xl-6">
@@ -129,23 +129,23 @@
 				<h3 class="subtitle color--primary">Galería</h3>
 			</header>
 
-			<ul id="gallery" class="abt_gallery d-flex flex-wrap pure-js-lightbox-container">
-				<li class="basis-48d5p">
+			<ul id="gallery" class="abt_gallery d-flex flex-wrap pure-js-lightbox-container justify-content-center">
+				<li class="basis-48">
 					<a href="{$RESOURCES}img/gallery/example_photo.png">
 						<img class="w-100p" src="{$RESOURCES}img/gallery/example_photo.png" />
 					</a>
 				</li>
-				<li class="basis-48d5p">
+				<li class="basis-48">
 					<a href="{$RESOURCES}img/gallery/example_photo.png">
 						<img class="w-100p" src="{$RESOURCES}img/gallery/example_photo.png" />
 					</a>
 				</li>
-				<li class="basis-48d5p">
+				<li class="basis-48">
 					<a href="{$RESOURCES}img/gallery/example_photo.png">
 						<img class="w-100p" src="{$RESOURCES}img/gallery/example_photo.png" />
 					</a>
 				</li>
-				<li class="basis-48d5p">
+				<li class="basis-48">
 					<a href="{$RESOURCES}img/gallery/example_photo.png">
 						<img class="w-100p" src="{$RESOURCES}img/gallery/example_photo.png" />
 					</a>

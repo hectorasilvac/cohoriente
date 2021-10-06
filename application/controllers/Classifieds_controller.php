@@ -160,14 +160,14 @@ class Classifieds_controller extends CI_Controller
 	public function supplies()
 	{
 		$this->_view->assign('title', 											'Suministros | Cohoriente');
+		$this->_view->assign('selected_tab', 									'supplies');
 		$this->_view->assign('path_classifieds', 								site_url('clasificados'));
 		$this->_view->assign('path_supplies', 									site_url('clasificados/suministros'));
-		$this->_view->assign('selected_tab', 									'supplies');
 		$this->_view->display('pages/supplies.tpl');
 	}
 
 	/**
-	 * Muestra y gestiona la página de inicio de la sección de Clasificados.
+	 * Muestra y gestiona la página de inicio en la sección de Clasificados.
 	 * 
 	 * @return void
 	 */

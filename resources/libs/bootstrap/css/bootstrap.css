@@ -1579,6 +1579,7 @@ progress {
     background-color: var(--bs-light) !important;
   }
 
+
   .col-xl {
     flex: 1 0 0%;
   }
@@ -2998,26 +2999,14 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   color: var(--bs-light);
   cursor: pointer;
+  padding: 1rem;
   font-size: 1.6rem;
   font-weight: 400;
-  padding: 1rem;
   text-align: center;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   user-select: none;
   vertical-align: middle;
-  /* 
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: center;
-  text-decoration: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  border-radius: 0.25rem; 
-  */
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -6954,7 +6943,8 @@ textarea.form-control-lg {
 }
 
 .w-fill {
-  width: -moz-fill-available;
+  
+  width: -moz-available;
 	width: -webkit-fill-available;
 	width: fill-available;
 }
@@ -7033,6 +7023,10 @@ textarea.form-control-lg {
   width: 25% !important;
 }
 
+.w-30p {
+  width: 30%;
+}
+
 .w-50p {
   width: 50% !important;
 }
@@ -7047,6 +7041,10 @@ textarea.form-control-lg {
 
 .w-80p {
   width: 80% !important;
+}
+
+.w-85p {
+  width: 85%;
 }
 
 .w-90p {
@@ -7079,12 +7077,15 @@ textarea.form-control-lg {
 
 .h-fill {
   height: -moz-fill-available;
-  height: -webkit-fill-available;
   height: fill-available;
 }
 
 .h-fit {
   height: fit-content;
+}
+
+.h-fit-force {
+  height: fit-content !important;
 }
 
 .h-2d1 {
@@ -7648,6 +7649,10 @@ textarea.form-control-lg {
   margin-left: auto !important;
 }
 
+.basis-48 {
+  flex-basis: 48%;
+}
+
 .basis-48d5p {
   flex-basis: 48.5%;
 }
@@ -7658,6 +7663,14 @@ textarea.form-control-lg {
 
 .p-0 {
   padding: 0 !important;
+}
+
+.p-d6 {
+  padding: .6rem;
+}
+
+.p-d6-force {
+  padding: .6rem !important;
 }
 
 .p-1 {
@@ -10298,7 +10311,6 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
-
   
 .basis-xl-31 {
   flex-basis: 31rem;
@@ -10853,6 +10865,11 @@ textarea.form-control-lg {
     padding: 1rem !important;
   }
 
+  .p-xl-1d6 {
+    padding: 1.6rem !important;
+  }
+
+
   .p-xl-2 {
     padding: 2rem !important;
   }
@@ -11212,6 +11229,13 @@ textarea.form-control-lg {
     width: 20% !important;
   }
 
+  .w-xl-30p {
+    width: 30% !important;
+  }
+
+  .w-xl-35p {
+    width: 35% !important;
+  }
 
   .w-xl-50p {
     width: 50% !important;
@@ -12008,7 +12032,7 @@ textarea.form-control-lg {
 
 .contact {
 	grid-area: contact;
-	background-image: url("../../../img/compressed/bg_medic.avif");
+	background-image: url("../../../img/compressed/bg_medic.webp");
 	background-position: center;
 	background-size: cover;
 }
@@ -12060,7 +12084,7 @@ textarea.form-control-lg {
 }
 
 .employee {
-  background-image: url("../../../img/compressed/employee_bg_overlay.avif");
+  background-image: url("../../../img/compressed/employee_bg_overlay.webp");
   background-size: cover;
   background-position: center right;
   height: 66.8rem;
@@ -12458,6 +12482,11 @@ textarea.form-control-lg {
 
   .list_xl_no_styled li {
     background-color: var(--bs-light) !important;
+    }
+
+    .location {
+      background-color: var(--color-light);
+      background-image: none;
     }
 
     .menu_link {

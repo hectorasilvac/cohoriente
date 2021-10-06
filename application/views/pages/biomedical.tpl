@@ -8,7 +8,7 @@
 				</h3>
 				<div class="flex-center flex-row flex-nowrap">
 					<div class="d-flex wrap_icon bg-success flex-center me-1 me-xl-2d7">
-						<img class="icon_item" src="{$RESOURCES}img/icons/biomedical.svg"
+						<img class="icon_item" src="{$RESOURCES}img/compressed/icons/biomedical.svg"
 							alt="Moléculas" />
 					</div>
 					<div class="">
@@ -21,34 +21,34 @@
 			</header>
 			<ul class="row list_styled list_xl_no_styled column-gap-xl-3 row-gap-xl-5">			<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 				<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-					<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/geometry.svg"
+					<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/geometry.svg"
 						alt="Ícono de figuras de geométricas" />
 				</div>
 				<p class="fs-1d4 text-justify fs-xl-1d7">Soporte y diseño del programa de aseguramiento metrológico.</p>
 			</li>
 			<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 				<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-					<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/adn.svg"
+					<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/adn.svg"
 						alt="Ícono de un tarro con una figura de ADN." />
 				</div>
 				<p class="fs-1d4 text-justify fs-xl-1d7">Soporte técnico para la calibración de equipos biomédicos.</p>
 			</li>
 			<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 				<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
-					<img class="icon_item icon_xl" src="{$RESOURCES}img/icons/adn2.svg" alt="Ícono de ADN" />
+					<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/adn2.svg" alt="Ícono de ADN" />
 				</div>
 				<p class="fs-1d4 text-justify fs-xl-1d7">Soporte técnico para mantenimiento correctivo y preventivo de equipos biomédicos.</p>
 			</li>
 		</ul>
 			<p class="wrap flex-center px-xl-0 justify-content-xl-start py-xl-4">
-				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5" href="/">
+				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5" href="/inicio#servicios">
 					<i class="fas fa-angle-left me-d5"></i>
 					Volver
 				</a>
 			</p>
 		</div>
 		<p class="d-none d-xl-flex">
-			<img class="w-40" src="{$RESOURCES}img/biomedical_banner.png" alt="Laboratorio médico" />
+			<img class="w-40" src="{$RESOURCES}img/compressed/biomedical_banner.webp" alt="Laboratorio médico" />
 		</p>
 	</section>
 </main>

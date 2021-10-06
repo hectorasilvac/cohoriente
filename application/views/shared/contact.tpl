@@ -7,21 +7,21 @@
 			<div class="find_us_info wrap_row_nowrap">
 				<img class="find_us_icon" src="{$RESOURCES}img/compressed/icons/location_new.svg" alt="Ícono de Ubicación" />
 				<p class="find_us_text text_small">
-                    Calle 33 #31-143 local 08 Riviera Plaza
-                    <br>
-                    <strong>Bucaramanga / Santander</strong>
+					Kilometro 4-700 Via Acceso El Corcel<br>
+					Vereda Río Frío, Anillo Vial <br>
+					Parque Industrial Zimura / Bodega 8
                 </p>
 			</div>
 			<div class="find_us_info wrap_row_nowrap">
 				<img class="find_us_icon" src="{$RESOURCES}img/compressed/icons/call_new.svg" alt="Ícono de Teléfono" />
-				<p class="find_us_text text_small">(57) 315 378 5627</p>
+				<p class="find_us_text text_small">(607) 618 5096</p>
 			</div>
 			<div class="find_us_info wrap_row_nowrap">
 				<img class="find_us_icon" src="{$RESOURCES}img/compressed/icons/email_new.svg" alt="Ícono de Correo Electrónico" />
 				<p class="find_us_text text_small">contacto@cohoriente.co</p>
 			</div>
 		</div>
-		<form id="contact_us" class="bg-light p-1d5 rounded-d4 wrap_column w-xl-50p p-xl-6">
+		<form id="contact_us" class="bg-light p-1d5 rounded-d4 wrap_column w-xl-50p p-xl-6 h-fit">
 			<h4 class="contact_us_subtitle text_large">Escríbenos</h4>
 			<div class="contact_us_row wrap_row">
 				<p class="contact_us_entry wrap_column">
@@ -44,7 +44,7 @@
 				<label class="contact_us_label text" for="message">Mensaje</label>
 				<textarea class="contact_us_input input" id="message" placeholder="Ingresa tu mensaje" name="message"></textarea>
 			</p>
-			<button class="form_submit btn btn-primary fs-xl-3 mt-xl-3" type="submit">Contactar</button>
+			<button class="form_submit btn btn-primary fs-xl-3 mt-xl-3 p-xl-1d6" type="submit">Contactar</button>
 		</form>
 	</div>
 	<!-- Dialog: Action Confirmation -->

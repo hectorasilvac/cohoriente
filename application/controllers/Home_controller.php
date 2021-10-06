@@ -25,7 +25,7 @@ class Home_controller extends CI_Controller
 	}
 
 	/**
-	 * Muestra y gestiona la página de inicio de la sección Inicio.
+	 * Muestra y gestiona la página de inicio en la sección Inicio.
 	 * 
 	 * @return void
 	 */

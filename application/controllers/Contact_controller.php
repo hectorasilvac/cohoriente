@@ -356,7 +356,7 @@ class Contact_controller extends CI_Controller
 	}
 
 	/**
-	 * Muestra y gestiona la página de inicio de la sección Contacto.
+	 * Muestra y gestiona la página de inicio en la sección Contacto.
 	 * 
 	 * @return void
 	 */

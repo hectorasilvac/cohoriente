@@ -1,9 +1,9 @@
 {extends file="./layout.tpl"}
 {block name="header"}
 <header class="header">
-	<div class="wrap py-2 px-2d5 justify-content-between align-items-center">
+	<div class="wrap py-2 px-2d5 justify-content-between align-items-center h-fit-force">
 		<a href="/">
-			<img class="w-15 w-xl-22d6" src="{RESOURCES}img/compressed/full_logo.webp" alt="Cohoriente" />
+			<img class="w-15 w-xl-22d6" src="{RESOURCES}img/compressed/logo_ns.svg" alt="Cohoriente" />
 		</a>
 		<div class="hamburger d-xl-none">
 			<i class="hamburger_icon fas fa-bars fa-3x"></i>

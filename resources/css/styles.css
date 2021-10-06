@@ -77,56 +77,6 @@ summary {
 }
 
 
-/* Fonts */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /****************************************/
 /************* Base - Start *************/
 /****************************************/
@@ -187,8 +137,6 @@ summary {
 	display: flex;
 	flex-flow: column wrap;
 }
-
-
 
 .wrap_row {
 	display: flex;
@@ -285,8 +233,6 @@ summary::-webkit-details-marker,
 	font-size: var(--font-size-small);
 }
 
-
-
 .benefits_desc,
 .benefits_subtitle,
 .info_text,
@@ -347,7 +293,6 @@ summary::-webkit-details-marker,
 	justify-content: center;
 }
 
-
 /* Locations */
 
 .contact_us_label {
@@ -375,12 +320,7 @@ summary::-webkit-details-marker,
 	margin-right: 2rem;
 }
 
-/* Texts */
-
-
-
 /* Other */
-
 .info_icon_wrapper,
 .item_icon_wrapper {
 	border-radius: 50%;
@@ -394,19 +334,6 @@ summary::-webkit-details-marker,
 	justify-content: center;
 }
 
-/* .benefits_icon_wrapper {
-	border-radius: 50%;
-	min-width: 6.5rem;
-	max-width: 6.5rem;
-	height: 6.5rem;
-	background-color: var(--color-light);
-	margin-right: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-} */
-
-
 .affiliate_link,
 .order_link,
 .supplier_link {
@@ -417,7 +344,6 @@ summary::-webkit-details-marker,
 	margin-top: 8rem;
 	bottom: 0;
 }
-
 
 /****************************************/
 /************* Shared - End *************/
@@ -431,14 +357,9 @@ summary::-webkit-details-marker,
 	padding-bottom: 1rem;
 }
 
-
-
-
-
 .benefits_list_item {
 	margin-bottom: 2rem;
 }
-
 
 .bylaws_download {
 	background-color: var(--color-light);
@@ -456,9 +377,6 @@ summary::-webkit-details-marker,
 	color: var(--color-light);
 	text-align: center;
 }
-
-
-
 
 .contact_us_entry {
 	margin-bottom: 2rem;
@@ -490,7 +408,6 @@ summary::-webkit-details-marker,
 	padding: 0;
 }
 
-
 .info_link {
 	color: var(--color-primary);
 	font-size: var(--font-size-small);
@@ -511,44 +428,11 @@ summary::-webkit-details-marker,
 	width: 11rem;
 }
 
-
-
 /****************************************/
 /************ Specific - End ************/
 /****************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* General Classes - Start */
+/******* General Classes - Start *******/
 
 .bg--light {
 	background-color: var(--color-light) !important;
@@ -618,9 +502,6 @@ summary::-webkit-details-marker,
 	display: inline;
 }
 
-
-
-
 .dialog_icon {
 	border-radius: 50%;
 	min-width: 6.5rem;
@@ -635,12 +516,6 @@ summary::-webkit-details-marker,
 
 .has-error {
 	border-color: var(--color-error) !important;
-}
-
-.ht-fill {
-	height: fill-available;
-	height: -webkit-fill-available;
-	height: -moz-fill-available;
 }
 
 .ht-12 {
@@ -675,10 +550,6 @@ summary::-webkit-details-marker,
 	height: 100%;
 }
 
-
-
-
-
 .item_primary {
 	flex-flow: var(--flex-primary);
 }
@@ -695,8 +566,6 @@ summary::-webkit-details-marker,
 	color: var(--color-primary);
 	font-size: var(--font-size-small);
 }
-
-
 
 .list--styled li:nth-child(odd) {
 	background-color: var(--color-secondary300);
@@ -732,8 +601,6 @@ summary::-webkit-details-marker,
 .mb-1d5 {
 	margin-bottom: 1.5rem;
 }
-
-
 
 .ml-d5 {
 	margin-left: 0.5rem;
@@ -1100,14 +967,6 @@ summary::-webkit-details-marker,
 	color: var(--color-light);
 }
 
-/* .carousel {
-	background-image: url("../img/carousel_bg_mobile.png");
-	background-size: cover;
-	background-position: center top;
-	background-color: var(--color-primary);
-	height: 50rem;
-} */
-
 .carousel_img {
 	margin-top: 4.1rem;
 	width: 24.1rem;
@@ -1303,10 +1162,6 @@ summary::-webkit-details-marker,
 	margin-top: 4rem;
 }
 
-.location_map {
-	/* flex-basis: 60rem; */
-}
-
 .location_wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -1320,33 +1175,15 @@ summary::-webkit-details-marker,
 	background-color: var(--color-primary);
 }
 
-
 .menu_icon {
 	margin-right: 1rem;
 }
-
-
-
-
-
-/* .menu_link {
-	font-size: var(--font-size-normal-extra);
-	display: block;
-	padding: 2rem;
-} */
-
-
 
 .offers_tab {
 	font-weight: bold;
 	text-decoration: none;
 	color: inherit;
 }
-
-
-
-
-
 
 .partner_wrapper {
 	align-items: center;
@@ -1403,26 +1240,13 @@ summary::-webkit-details-marker,
 	display: flex;
 }
 
-.services_wrapper {
-	display: flex;
-	flex-flow: var(--flex-primary);
-}
-
 .supplies {
 	flex-flow: var(--flex-quaternary);
 }
 
-/* .supplier {
-	align-items: flex-end;
-	background-color: var(--color-primary);
-	background-image: url("../img/supplier_banner.png");
-	background-position: -8rem center;
-	background-size: cover;
-	min-height: 12rem;
-} */
-
 .team {
-	background-image: url("../img/compressed/bg_team.avif");
+	background-color: #46474b;
+	background-image: url("../img/compressed/bg_team.webp");
 	background-position: center;
 	background-size: cover;
 }
@@ -1461,10 +1285,6 @@ summary::-webkit-details-marker,
 	/****************************************/
 	/*********** Specific - Start ***********/
 	/****************************************/
-	/* .carousel {
-		background-position: center center;
-	} */
-
 	.featured_wrapper {
 		width: 100%;
 	}
@@ -1736,8 +1556,6 @@ summary::-webkit-details-marker,
 		margin-right: 1.6rem;
 	}
 
-
-
 	.copyright {
 		flex-flow: column wrap;
 		margin-top: 0;
@@ -1894,20 +1712,6 @@ summary::-webkit-details-marker,
 	/************ Specific - End ************/
 	/****************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	.team_subtitle {
 		font-family: var(--font-family-primary);
 		font-size: var(--font-size-large-extra);
@@ -1931,13 +1735,15 @@ summary::-webkit-details-marker,
 		font-size: var(--font-size-normal);
 	}
 
-	/* .carousel {
+	/* 
+	.carousel {
 		background-color: var(--color-primary);
 		background-image: url("../img/carousel_bg_web.png");
 		background-position: center center;
 		background-size: cover;
 		height: 63.7rem;
-	} */
+	}
+	*/
 
 	.carousel_wrapper {
 		align-items: flex-end;
@@ -2004,12 +1810,6 @@ summary::-webkit-details-marker,
 		margin-left: 1.6rem;
 	}
 
-
-	.location {
-		background-color: var(--color-light);
-		background-image: none;
-	}
-
 	.menu {
 		background-color: white;
 		left: 0;
@@ -2023,8 +1823,6 @@ summary::-webkit-details-marker,
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 	}
-
-
 
 	.partner_carousel_cell {
 		display: flex;
@@ -2063,12 +1861,7 @@ summary::-webkit-details-marker,
 		width: 53.6rem;
 	}
 
-	.services_wrapper {
-		padding-bottom: 0;
-	}
-
 	.supplier_link {
-		/* background-color: red; */
 		display: inline-block;
 		width: 11rem;
 		height: 3rem;

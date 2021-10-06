@@ -24,7 +24,7 @@ class About_controller extends CI_Controller
 	}
 
 	/**
-	 * Muestra la página de inicio de la sección de Nosotros.
+	 * Muestra la página de inicio en la sección de Nosotros.
 	 * 
 	 * @return void
 	 */

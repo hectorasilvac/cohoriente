@@ -7,7 +7,7 @@
 				<picture>
 					<source media="(min-width:1200px)"
 						srcset="{$RESOURCES}img/compressed/main_banner_web_4.webp">
-						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_4.png"
+						<img class="w-100p h-100p"  src="{$RESOURCES}img/compressed/main_banner_4.png"
 					alt="Estamos en proceso de certificación ISO 9000" />
 				</picture>
 			</div>
@@ -15,7 +15,7 @@
 				<picture>
 					<source media="(min-width:1200px)"
 						srcset="{$RESOURCES}img/compressed/main_banner_web_5.webp">
-						<img class="w-100p h-100p" loading="lazy" src="{$RESOURCES}img/compressed/main_banner_5.png"
+						<img class="w-100p h-100p"  src="{$RESOURCES}img/compressed/main_banner_5.png"
 					alt="Estamos en proceso de certificación ISO 9000" />
 				</picture>
 			</div>
@@ -33,13 +33,13 @@
 					Bucaramanga, Santander.</p>
 			</header>
 			<p class="location_map">
-				<img class="location_img" loading="lazy" src="{$RESOURCES}img/compressed/world.avif"
+				<img class="location_img"  src="{$RESOURCES}img/compressed/world.avif"
 					alt="Imagen de planeta destacando el territorio de Colombia" />
 			</p>
 		</div>
 	</section>
-	<section class="services">
-		<div class="services_wrapper wrapper">
+	<section id="servicios" class="services">
+		<div class="wrap h-fit-force pb-xl-0">
 			<div class="services_details">
 				<header class="services_header">
 					<h3 class="services_subtitle subtitle">Nuestros Servicios</h3>
@@ -49,7 +49,7 @@
 				<ul class="featured">
 					<li class="featured_item align-items-start">
 						<div class="wrap_icon bg-primary flex-center me-xl-1d4 min-width-xl-12 min-height-xl-12">
-							<img class="icon_item icon_xl w-xl-8 h-xl-8" loading="lazy" src="{$RESOURCES}img/compressed/icons/health.svg"
+							<img class="icon_item icon_xl w-xl-8 h-xl-8"  src="{$RESOURCES}img/compressed/icons/health.svg"
 								alt="Símbolo de Salud y Medicina" />
 						</div>
 						<div class="featured_wrapper">
@@ -68,7 +68,7 @@
 					</li>
 					<li class="featured_item align-items-start">
 						<div class="wrap_icon bg-primary flex-center me-xl-1d4 min-width-xl-12 min-height-xl-12">
-							<img class="icon_item icon_xl w-xl-8 h-xl-8" loading="lazy" src="{$RESOURCES}img/compressed/icons/study.svg"
+							<img class="icon_item icon_xl w-xl-8 h-xl-8"  src="{$RESOURCES}img/compressed/icons/study.svg"
 								alt="Computador" />
 						</div>
 						<div class="featured_wrapper">
@@ -85,7 +85,7 @@
 					</li>
 					<li class="featured_item align-items-start">
 						<div class="wrap_icon bg-primary flex-center me-xl-1d4 min-width-xl-12 min-height-xl-12">
-							<img class="icon_item icon_xl w-xl-8 h-xl-8" loading="lazy" src="{$RESOURCES}img/compressed/icons/molecule.svg"
+							<img class="icon_item icon_xl w-xl-8 h-xl-8"  src="{$RESOURCES}img/compressed/icons/molecule.svg"
 								alt="Molécula" />
 						</div>
 						<div class="featured_wrapper">
@@ -94,19 +94,18 @@
 								para
 								soluciones en equipos médicos</p>
 							<p class="featured_cta">
-								<a class="featured_link" href="{$path_biomedical}">Ver Más
-								</a>
+								<a class="featured_link" href="{$path_biomedical}">Ver Más</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
 						</div>
 					</li>
 				</ul>
 				<footer class="services_footer">
-					<a class="services_button" href="{$path_services}">Ver todos</a>
+					<a class="btn btn-primary w-85p mx-auto fs-xl-2d5 w-xl-35p mx-xl-0" href="{$path_services}">Ver todos</a>
 				</footer>
 			</div>
 			<div class="services_banner">
-				<img class="services_image" loading="lazy" src="{$RESOURCES}img/compressed/research_banner.avif" />
+				<img class="services_image"  src="{$RESOURCES}img/compressed/research_banner.avif" />
 			</div>
 		</div>
 	</section>
