@@ -1,9 +1,9 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
 <main>
-	<section class="d-flex wrap-xl pb-xl-0">
+	<section class="d-flex wrap-xl pb-xl-0 h-xl-fit">
 		<div class="me-xl-6">
-			<header class="wrap flex-column p-xl-0 mb-xl-9">
+			<header class="wrap flex-column p-xl-0 mb-xl-9 h-fit-force">
 				<h3 class="fs-2d5 text-primary text-center mb-3 fs-xl-7 text-xl-start w-xl-27 mb-xl-7 mt-xl-2">Nuestros Servicios
 				</h3>
 				<div class="flex-center flex-row flex-nowrap">
@@ -14,9 +14,7 @@
 					<div class="">
 						<h4 class="fs-1d6 mb-d4 fs-xl-4">Oferta de Abastecimiento</h4>
 						<p class="fs-1d4 text-justify fs-xl-2d5">
-							Contamos con un amplio portafolio de productos farmacéuticos de laboratorio, EPP´S,
-							tecnología
-							biomédica e insumos hospitalarios.
+							Contamos con un amplio portafolio de productos farmacéuticos, dispositivos médicos, quirúrgicos, productos de odontología, laboratorio y tecnología biomédica.
 						</p>
 					</div>
 				</div>
@@ -43,9 +41,7 @@
 						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/funnel.svg"
 							alt="Ícono de residuos peligrosos" />
 					</div>
-					<p class="fs-1d4 text-justify fs-xl-1d7">Convenios de acercamiento al sistema de salud y
-						recuperación de
-						cartera.</p>
+					<p class="fs-1d4 text-justify fs-xl-1d7">Convenios de acercamiento al sistema de Salud y recuperación de cartera.</p>
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
 					<div class="wrap_icon bg-primary flex-center me-2 wrap_icon_xl me-xl-1d4">
@@ -86,7 +82,7 @@
 					</p>
 				</li>
 			</ul>
-			<p class="wrap flex-center px-xl-0 justify-content-xl-start py-xl-4">
+			<p class="wrap flex-center h-fit-force px-xl-0 justify-content-xl-start py-xl-4">
 				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5" href="/inicio#servicios">
 					<i class="fas fa-angle-left me-d5"></i>
 					Volver

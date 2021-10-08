@@ -283,12 +283,10 @@ summary::-webkit-details-marker,
 /* Flexs */
 
 .bylaws_container,
-.contact_container,
-.footer_container {
+.contact_container {
 	flex-flow: column nowrap;
 }
 
-.catalog_header,
 .join_us_header {
 	justify-content: center;
 }
@@ -298,10 +296,6 @@ summary::-webkit-details-marker,
 .contact_us_label {
 	margin-bottom: 0.5rem;
 	margin-left: 0.5rem;
-}
-
-.copyright {
-	margin-top: 2rem;
 }
 
 .find_us_header {
@@ -393,9 +387,6 @@ summary::-webkit-details-marker,
 	text-align: center;
 }
 
-.copyright_logo {
-	width: 17rem;
-}
 
 .find_us_info {
 	align-items: center;
@@ -1162,13 +1153,6 @@ summary::-webkit-details-marker,
 	margin-top: 4rem;
 }
 
-.location_wrapper {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	justify-content: space-between;
-}
-
 .footer {
 	grid-area: footer;
 	margin-top: auto;
@@ -1207,15 +1191,10 @@ summary::-webkit-details-marker,
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 8rem;
+	height: 24rem;
 	border-radius: 5px;
 	margin-right: 1rem;
 	margin-left: 1rem;
-}
-
-.read_more_wrapper {
-	margin-top: 2rem;
-	padding: 0 !important;
 }
 
 .services_button {
@@ -1245,8 +1224,7 @@ summary::-webkit-details-marker,
 }
 
 .team {
-	background-color: #46474b;
-	background-image: url("../img/compressed/bg_team.webp");
+	background-image: url("../img/compressed/bg_team.webp"), url("../img/bg_team.png");
 	background-position: center;
 	background-size: cover;
 }
@@ -1257,13 +1235,7 @@ summary::-webkit-details-marker,
 	flex-flow: var(--flex-quaternary);
 }
 
-.team_image {
-	margin-top: 3rem;
-	width: 100%;
-}
-
-.partner_wrapper,
-.team_wrapper {
+.partner_wrapper {
 	display: flex;
 	flex-flow: var(--flex-quaternary);
 	height: -moz-fill-available;
@@ -1293,13 +1265,8 @@ summary::-webkit-details-marker,
 		width: 100%;
 	}
 
-	.bylaws_container,
-	.team_picture {
+	.bylaws_container {
 		justify-content: center;
-	}
-
-	.team_image {
-		width: 70%;
 	}
 
 	/****************************************/
@@ -1363,7 +1330,6 @@ summary::-webkit-details-marker,
 
 	.benefits_icon,
 	.bylaws_download,
-	.join_us_banner,
 	.menu_icon,
 	.team_desc {
 		display: none;
@@ -1373,21 +1339,13 @@ summary::-webkit-details-marker,
 		display: block;
 	}
 
-	.catalog_header,
 	.join_us_header {
 		display: block;
 		padding: 0;
 	}
 	/* Flex */
 
-
-	.footer_container {
-		flex-flow: row wrap;
-		justify-content: space-between;
-	}
-
-	.contact_us_row,
-	.location_wrapper {
+	.contact_us_row {
 		display: flex;
 		flex-flow: row nowrap;
 	}
@@ -1585,11 +1543,6 @@ summary::-webkit-details-marker,
 		margin-bottom: 4.2rem;
 	}
 
-	.footer_details {
-		align-items: center;
-		flex-flow: row wrap;
-	}
-
 	.footer_icon {
 		margin-right: 1.7rem;
 		width: 3rem;
@@ -1687,6 +1640,7 @@ summary::-webkit-details-marker,
 		flex-flow: column nowrap;
 		padding: 0;
 		margin-bottom: 0;
+		height: fit-content;
 	}
 
 	.members_list {
@@ -1752,13 +1706,7 @@ summary::-webkit-details-marker,
 		justify-content: flex-end;
 	}
 
-	.employee_badge {
-		font-size: var(--font-size-normal-extra);
-		grid-area: employee_badge;
-		justify-self: center;
-		padding: 2rem 5rem;
-		width: fit-content;
-	}
+
 
 	.employee_desc {
 		font-size: var(--font-size-normal);
@@ -1828,8 +1776,8 @@ summary::-webkit-details-marker,
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 30%;
-		height: 8rem;
+		width: 32%;
+		height: 24rem;
 		border-radius: 5px;
 		margin-right: 1rem;
 		margin-left: 1rem;
@@ -1870,22 +1818,7 @@ summary::-webkit-details-marker,
 		bottom: 0;
 	}
 
-	.team_header {
-		margin-right: 5.5rem;
-	}
-
-	.team_image {
-		margin-top: 0;
-		width: 67rem;
-	}
-
 	.team_subtitle {
 		margin-bottom: 4rem;
-	}
-
-	.team_wrapper {
-		align-items: center;
-		flex-flow: var(--flex-primary);
-		justify-content: center;
 	}
 }

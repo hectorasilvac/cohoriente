@@ -1,11 +1,11 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
 <main>
-	<section class="d-flex wrap-xl">
+	<section class="d-flex wrap-xl h-fit-force">
 		<div class="me-xl-7">
 			<div class="d-flex">
 				<div>
-					<header class="bfs_header hdr_bg bg-xl-none h-xl-fill p-xl-0 mb-xl-6">
+					<header class="bfs_header hdr_bg bg-xl-none h-xl-fit p-xl-0 mb-xl-6">
 						<div class="flex-center">
 							<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
 								<img class="icon_item d-xl-none"
@@ -76,7 +76,7 @@
 								Examinar la gestión económica y social verificando los libros, las actas y en general,
 								todos
 								los
-								documentos de COHORIENTE, en asocio con la Revisoría Fiscal o un miembro de la Junta de
+								documentos de <strong>COHORIENTE</strong>, en asocio con la Revisoría Fiscal o un miembro de la Junta de
 								Vigilancia,
 								de acuerdo a la reglamentación que se expida para ello.
 							</p>

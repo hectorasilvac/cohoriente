@@ -1,16 +1,16 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
-<main class="h-fill bg-gray-100 bg-xl-light">
+<main class="bg-gray-100 bg-xl-light">
 	<section>
 		{include file="../shared/classifieds_header.tpl" selected_tab=$selected_tab path_classifieds=$path_classifieds path_supplies=$path_supplies}
-		<div class="wrap-xl">
-			<nav class="d-none d-xl-flex flex-column me-12">
+		<div class="wrap-xl h-xl-fit">
+			<nav class="d-none d-xl-flex flex-column me-12 h-fit-force">
 				{include file="../shared/classifieds_nav.tpl" selected_tab=$selected_tab path_classifieds=$path_classifieds path_supplies=$path_supplies}
 			</nav>
-			<div class="d-flex flex-column p-2d5 row-gap-2 p-xl-0">
+			<div class="d-flex flex-column p-2d5 p-xl-0">
 			{if isset($jobs)}
 			{foreach from=$jobs item=job}
-			<article class="card_container shadow-xl-none">
+			<article class="card_container shadow-xl-none mb-2">
 				<div class="card_content bg-xl-none">
 					<header class="mb-1d4">
 						<h3 class="fs-1d8 text-primary mb-d4 text-justify">

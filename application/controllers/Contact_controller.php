@@ -102,7 +102,7 @@ class Contact_controller extends CI_Controller
 																						subject: 'Plataforma Cohoriente - Contacto',
 																						body: $body,
 																						recipient_name: 'Hector Silva', // TODO: Cambiar por real
-																						recipient_email: 'hascardenas@gmail.com', // ODO: Cambiar por real
+																						recipient_email: 'hascardenas@gmail.com', // TODO: Cambiar por real
 																						sender_name: $params['fullname'],
 																						sender_email: $params['email'],
 																						success_message: 'Gracias por tu mensaje, en breve responderemos tu inquietud.',

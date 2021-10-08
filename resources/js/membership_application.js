@@ -15,7 +15,7 @@ let myDropzone = new Dropzone('#my-dropzone', {
 
 myDropzone.on('sending', function (file, xhr, formData) {
   var data = $('#membership_form').serializeArray();
-  
+
   $.each(data, function (key, element) {
     formData.append(element.name, element.value);
   });
@@ -24,7 +24,7 @@ myDropzone.on('sending', function (file, xhr, formData) {
 myDropzone.on('success', function (file, response) {
   $("#membership_form").trigger("reset");
   this.removeAllFiles();
-  
+
   $('.dialog_loading').addClass('d-none');
   $('.dialog_response').removeClass('d-none');
   $('.dialog_response').html(JSON.parse(response).message);
@@ -36,7 +36,7 @@ myDropzone.on('maxfilesexceeded', function (file) {
 });
 
 myDropzone.on('addedfiles', function () {
-    $('.dropzone_error').addClass('d-none');
+  $('.dropzone_error').addClass('d-none');
 });
 
 // Document is ready
@@ -54,22 +54,14 @@ $(function () {
     }
   });
 
-  $('.dialog_close').on('click', function () {
-    orderDialog.close();
-  });
-
-  // Request Confirmation: Cancel action
-  $('.dialog_cancel').on('click', function () {
-    orderDialog.close();
-  });
-
   // Request Confirmation: Confirm action
   $('.dialog_confirm').on('click', function () {
-    $('.dialog_conf').addClass('d-none-force').hide().fadeIn('fast');
-    $('.dialog_btns').addClass('d-none-force').hide().fadeIn('fast');
+    $('.modal-header').addClass('d-none-force').hide().fadeIn('fast');
+    $('.modal-body').addClass('d-none-force').hide().fadeIn('fast');
+    $('.modal-footer').addClass('d-none-force').hide().fadeIn('fast');
     $('.dialog_msg').removeClass('d-none-force').hide().fadeIn('fast');
 
-      myDropzone.processQueue();
+    myDropzone.processQueue();
   });
 
   // Form validation: Rules
@@ -149,10 +141,15 @@ $(function () {
         if (myDropzone.files.length === 0) {
           $('.dropzone_error').removeClass('d-none');
         } else {
-        orderDialog.showModal();
-      }
+          formModal.show();
+        }
         return false;
       }
     });
 
+  // Bootstrap Modal
+
+  var formModal = new bootstrap.Modal(document.getElementById('form_dialog'), {
+    keyboard: true,
+  })
 });

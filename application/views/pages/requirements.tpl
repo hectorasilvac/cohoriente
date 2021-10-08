@@ -1,11 +1,11 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
 <main>
-	<section class="d-flex wrap-xl">
+	<section class="d-flex wrap-xl h-fit-force">
 		<div class="me-xl-7">
 			<div class="d-flex">
 				<div>
-					<header class="req_header hdr_bg bg-xl-none h-xl-fill p-xl-0 mb-xl-6">
+					<header class="req_header hdr_bg bg-xl-none h-xl-fit p-xl-0 mb-xl-6">
 						<div class="flex-center">
 							<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
 								<img class="icon_item d-xl-none"
@@ -51,7 +51,7 @@
 								fecha
 								no
 								mayor
-								a 60 días calendario, dirigida al Consejo de Administración.
+								a 60 días calendario, dirigida al Concejo de Administración.
 							</p>
 						</li>
 						<li class="d-flex mb-2 pe-2d5 mb-xl-4 pe-xl-0">
@@ -77,7 +77,7 @@
 								</p>
 							</div>
 							<p class="text-justify fs-1d4 fs-xl-2d5">
-								Recibir el beneplácito de admisión, emanado por el Consejo de Administración.
+								Recibir el beneplácito de admisión, emanado por el Concejo de Administración.
 							</p>
 						</li>
 				</div>
@@ -107,7 +107,7 @@
 				<p class="text-justify fs-1d4 fs-xl-2d5">
 					Suscribir y Pagar por derechos de admisión una cuota no reembolsable cuyo valor será determinado
 					por
-					el Consejo de Administración. Pago que no constituirá un aporte social.
+					el Concejo de Administración. Pago que no constituirá un aporte social.
 				</p>
 			</li>
 			<li class="d-flex mb-2 pe-2d5 mb-xl-4 pe-xl-0">
@@ -119,7 +119,7 @@
 				<p class="text-justify fs-1d4 fs-xl-2d5">
 					Comprometerse a suscribir y pagar aportes sociales ordinarios por los valores y periodos
 					autorizados
-					por el Consejo de Administración.
+					por el Concejo de Administración.
 				</p>
 			</li>
 			<li class="d-flex mb-2 pe-2d5 mb-xl-4 pe-xl-0">
@@ -140,7 +140,7 @@
 					</p>
 				</div>
 				<p class="text-justify fs-1d4 fs-xl-2d5">
-					Presentar la documentación que el Consejo de Administración considere pertinente para su
+					Presentar la documentación que el Concejo de Administración considere pertinente para su
 					admisión.
 				</p>
 			</li>
@@ -151,7 +151,7 @@
 					</p>
 				</div>
 				<p class="text-justify fs-1d4 fs-xl-2d5">
-					Las demás establecidas por la reglamentación que para los fines establezca el consejo de
+					Las demás establecidas por la reglamentación que para los fines establezca el Concejo de
 					administración.
 				</p>
 			</li>
@@ -159,14 +159,14 @@
 		</div>
 	</section>
 	<section class="bg-success">
-		<div class="flex-column wrap p-xl-8">
+		<div class="flex-column wrap p-xl-8 h-fit-force">
 			<h3 class="fs-2d5 text-center text-light mb-2 fs-xl-5 mb-xl-6">
 				Formalización del ingreso
 			</h3>
 			<p class="fs-1d4 text-justify text-light m-0 fs-xl-2d5">
 				Las Solicitudes de ingreso que cumplan con los requisitos anteriormente estipulados serán estudiadas por
 				el
-				Consejo de Administración, quien las resolverá en la siguiente reunión ordinaria y/o extraordinaria.
+				Concejo de Administración, quien las resolverá en la siguiente reunión ordinaria y/o extraordinaria.
 				Para
 				todos los efectos legales, la calidad de Asociado se obtiene de acuerdo a lo estipulado en el parágrafo
 				2

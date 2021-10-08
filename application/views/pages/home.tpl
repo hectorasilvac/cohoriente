@@ -23,14 +23,12 @@
 	</section>
 	{include file="../shared/order.tpl"}
 	<section class="location">
-		<div class="location_wrapper wrapper">
+		<div class="wrap flex-wrap align-items-center justify-content-between flex-xl-nowrap h-fit-force">
 			<header class="location_header">
-				<h3 class="location_subtitle subtitle">Nuestra presencia</h3>
-				<p class="location_desc text">Nos encontramos ubicados en varios departamentos del oriente Colombiano
-					tales
-					como: Arauca, César, Norte de
-					Santander y Santander con nuestra oficina principal en la Calle 33 #31-143 Local 08 Rivera Plaza,
-					Bucaramanga, Santander.</p>
+				<h3 class="location_subtitle subtitle">Nuestra Presencia</h3>
+				<p class="location_desc text">
+					Nos encontramos ubicados en varios departamentos de Colombia tales como: Arauca, Boyacá, César, Norte de Santander, Santa Marta, Santander y Sur de Bolívar. Con nuestra oficina principal en el parque Zimura Bodega 18 - Anillo vial KM 4 - Vía Palenque - Floridablanca - Girón / Santander.
+				</p>
 			</header>
 			<p class="location_map">
 				<img class="location_img"  src="{$RESOURCES}img/compressed/world.avif"
@@ -43,8 +41,9 @@
 			<div class="services_details">
 				<header class="services_header">
 					<h3 class="services_subtitle subtitle">Nuestros Servicios</h3>
-					<p class="services_desc text">En COHORIENTE tenemos una amplia gama de servicios pensados en la
-						satisfacción de todos nuestros clientes y afiliados.</p>
+					<p class="services_desc text">
+						En COHORIENTE tenemos una amplia gama de servicios pensados en la satisfacción de todos nuestros clientes y afiliados.
+					</p>
 				</header>
 				<ul class="featured">
 					<li class="featured_item align-items-start">
@@ -54,10 +53,9 @@
 						</div>
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Oferta de Abastecimiento</h4>
-							<p class="featured_desc">Contamos con un amplio portafolio de productos
-								farmacéuticos de laboratorio
-								EPPS, tecnología
-								biomédica</p>
+							<p class="featured_desc">
+								Contamos con un amplio portafolio de productos farmacéuticos, dispositivos médicos, quirúrgicos, productos de odontología, laboratorio y tecnología biomédica...
+							</p>
 							<p class="featured_cta">
 								<a class="featured_link" href="{$path_supply}">Ver Más
 								</a>
@@ -73,9 +71,9 @@
 						</div>
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Formación y Crecimiento</h4>
-							<p class="featured_desc">Contamos con un amplio portafolio de formación para
-								capacitación y
-								entretenimiento</p>
+							<p class="featured_desc">
+								Contamos con un amplio portafolio de formación para capacitación y entrenamiento...
+							</p>
 							<p class="featured_cta">
 								<a class="featured_link" href="{$path_training}">Ver Más
 								</a>
@@ -90,9 +88,9 @@
 						</div>
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Acompañamiento en Tecnología Biomédica</h4>
-							<p class="featured_desc">Contamos con un amplio portafolio de soporte técnico
-								para
-								soluciones en equipos médicos</p>
+							<p class="featured_desc">
+								Contamos con un portafolio de soporte técnico para soluciones en equipo médico...
+							</p>
 							<p class="featured_cta">
 								<a class="featured_link" href="{$path_biomedical}">Ver Más</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>

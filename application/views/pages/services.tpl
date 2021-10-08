@@ -3,9 +3,9 @@
 <main>
 	{include file="../shared/order.tpl"}
 	<section class="catalog">
-		<div class="catalog_wrapper wrap_column">
+		<div class="catalog_wrapper wrap_column h-fit-force">
 			<div class="catalog_details">
-				<header class="catalog_header container">
+				<header class="wrap h-fit-force justify-content-center d-xl-block p-xl-0">
 					<h3 class="catalog_subtitle subtitle">Nuestros Servicios</h3>
 				</header>
 				<ul class="catalog_list list">
@@ -31,9 +31,7 @@
 								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/funnel.svg"
 									alt="Ícono de residuos peligrosos" />
 							</div>
-							<p class="item_text text">Convenios de acercamiento al sistema de salud y
-								recuperación de
-								cartera.</p>
+							<p class="item_text text">Convenios de acercamiento al sistema de Salud y recuperación de cartera.</p>
 						</li>
 						<li class="item">
 							<div class="item_icon_wrapper">
@@ -118,8 +116,8 @@
 								<img class="item_icon" src="{$RESOURCES}img/compressed/icons/book.svg"
 									alt="Ícono de un libro abierto" />
 							</div>
-							<p class="item_text text">Formación integral en compentencias de la
-								salud.
+							<p class="item_text text">
+								Formación integral en competencias de la salud y prácticas de buen Gobierno.
 							</p>
 						</li>
 						<li class="item">
@@ -146,7 +144,7 @@
 							</div>
 							<p class="item_text text">Soporte técnico para mantenimiento correctivo
 								y
-								preventivo de equipos biomédicos.</p>
+								preventivo de equipo biomédico.</p>
 						</li>
 					</div>
 				</ul>

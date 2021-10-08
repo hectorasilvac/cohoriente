@@ -39,9 +39,8 @@ myDropzone.on('addedfiles', function () {
 $(function () {
 
   // Request Confirmation: Show dialog, confirm or cancel request and close dialog
-  var orderDialog = document.getElementById('form_dialog');
-
   $('.form_back').on('click', function () {
+    event.preventDefault();
     window.history.back();
   });
 
@@ -51,25 +50,22 @@ $(function () {
     if (myDropzone.files.length === 0) {
       $('.dropzone_error').removeClass('d-none');
     } else {
-      orderDialog.showModal();
+      formModal.show();
     }
-  });
-
-  $('.dialog_close').on('click', function () {
-    orderDialog.close();
-  });
-
-  // Request Confirmation: Cancel action
-  $('.dialog_cancel').on('click', function () {
-    orderDialog.close();
   });
 
   // Request Confirmation: Confirm action
   $('.dialog_confirm').on('click', function () {
-    $('.dialog_conf').addClass('d-none-force').hide().fadeIn('fast');
-    $('.dialog_btns').addClass('d-none-force').hide().fadeIn('fast');
+    $('.modal-header').addClass('d-none-force').hide().fadeIn('fast');
+    $('.modal-body').addClass('d-none-force').hide().fadeIn('fast');
+    $('.modal-footer').addClass('d-none-force').hide().fadeIn('fast');
     $('.dialog_msg').removeClass('d-none-force').hide().fadeIn('fast');
 
     myDropzone.processQueue();
   });
+
+    // Bootstrap Modal
+    var formModal = new bootstrap.Modal(document.getElementById('form_dialog'), {
+      keyboard: true,
+    })
 });

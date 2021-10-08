@@ -9,15 +9,6 @@ $(function () {
     $('#contact_us').submit();
   });
 
-  $('.dialog_close').on('click', function () {
-    orderDialog.close();
-  });
-
-  // Request Confirmation: Cancel action
-  $('.dialog_cancel').on('click', function () {
-    orderDialog.close();
-  });
-
   // Request Confirmation: Confirm action
   $('.dialog_confirm').on('click', function () {
     var formData = $('#contact_us').serializeArray();
@@ -33,8 +24,9 @@ $(function () {
       dataType: "json",
       data: formattedData,
       beforeSend: function () {
-        $('.dialog_conf').addClass('d-none-force').hide().fadeIn('fast');
-        $('.dialog_btns').addClass('d-none-force').hide().fadeIn('fast');
+        $('.modal-header').addClass('d-none-force').hide().fadeIn('fast');
+        $('.modal-body').addClass('d-none-force').hide().fadeIn('fast');
+        $('.modal-footer').addClass('d-none-force').hide().fadeIn('fast');
         $('.dialog_msg').removeClass('d-none-force').hide().fadeIn('fast');
       },
       success: function ({ data, message }) {
@@ -124,13 +116,14 @@ $(function () {
   $('#contact_us').ajaxForm(
     {
       beforeSubmit: function () {
-        orderDialog.showModal();
+        formModal.show();
         return false;
       }
     });
 
-    // Bootstrap Modal
-
-    
+  // Bootstrap Modal
+  var formModal = new bootstrap.Modal(document.getElementById('form_dialog'), {
+    keyboard: true,
+  })
 
 });

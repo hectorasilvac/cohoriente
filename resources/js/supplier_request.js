@@ -1,21 +1,9 @@
 // Document is ready
 $(function () {
 
-  // Request Confirmation: Show dialog, confirm or cancel request and close dialog
-  var orderDialog = document.getElementById('form_dialog');
-
   $('.form_submit').on('click', function () {
     event.preventDefault();
     $('#supplier_form').submit();
-  });
-
-  $('.dialog_close').on('click', function () {
-    orderDialog.close();
-  });
-
-  // Request Confirmation: Cancel action
-  $('.dialog_cancel').on('click', function () {
-    orderDialog.close();
   });
 
   // Request Confirmation: Confirm action
@@ -35,8 +23,10 @@ $(function () {
       dataType: "json",
       data: formattedData,
       beforeSend: function () {
-        $('.dialog_conf').addClass('d-none-force').hide().fadeIn('fast');
-        $('.dialog_btns').addClass('d-none-force').hide().fadeIn('fast');
+        $('.modal-header').addClass('d-none-force').hide().fadeIn('fast');
+        $('.modal-body').addClass('d-none-force').hide().fadeIn('fast');
+        $('.modal-footer').addClass('d-none-force').hide().fadeIn('fast');
+
         $('.dialog_msg').removeClass('d-none-force').hide().fadeIn('fast');
       },
       success: function ({ data, message }) {
@@ -123,9 +113,14 @@ $(function () {
   $('#supplier_form').ajaxForm(
     {
       beforeSubmit: function () {
-        orderDialog.showModal();
+        formModal.show()
         return false;
       }
     });
 
+    // Bootstrap Modal
+
+    var formModal = new bootstrap.Modal(document.getElementById('form_dialog'), {
+      keyboard: true,
+    })
 });

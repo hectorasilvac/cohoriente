@@ -2,7 +2,7 @@
 {block name="body"}
 <main>
 	<section>
-		<header class="inv_header hdr_bg bg-xl-none h-xl-fill">
+		<header class="inv_header hdr_bg bg-xl-none h-xl-fit">
 			<div class="flex-center">
 				<div class="wrap_icon me-2 me-xl-3 flex-center bg-light bg-xl-primary">
 					<img class="icon_item d-xl-none" src="{$RESOURCES}img/compressed/icons/investment_blue.svg"
@@ -15,7 +15,7 @@
 				</h3>
 			</div>
 		</header>
-		<div class="d-xl-flex wrap-xl pt-xl-0">
+		<div class="d-xl-flex wrap-xl h-xl-fit pt-xl-0">
 			<div class="px-2d5 py-2 w-xl-100p">
 				<p class="fs-1d4 text-justify mb-1d5 fs-xl-2d5 p-xl-0 mb-xl-2">
 					La inversión para convertirte en uno de nuestros socios consta de tres partes:
@@ -36,18 +36,12 @@
 					<li class="d-flex align-items-center text-justify">
 						<img class="w-d8 me-d4 me-d8" src="{$RESOURCES}img/compressed/invest/dot_blue.webp" alt="Punto Azul" />
 						<p class="fs-1d4 fs-xl-2d5 text-xl-start">
-							Cuota de sostenimiento ( pago anual si no se realizan compras a COHORIENTE)
+							Cuota de sostenimiento (pago anual si no se realizan compras a COHORIENTE)
 						</p>
 					</li>
 				</ul>
 				<p class="fs-1d2 text-justify fs-xl-1d5">
-					La cuota de sostenimiento será pagada anualmente únicamente hasta lograr el equilibrio económico o
-					al
-					demostrar perdidas en balances al final de ejercicio; de la misma manera se acuerda que durante el
-					tiempo
-					que deba ser efectiva esta cuota estarán exentas del pago aquellas entidades que adquiera a través
-					de la
-					cooperativa mínimo el 50 % del valor asignado para compras en su entidad.
+					La cuota de sostenimiento será pagada anualmente únicamente hasta lograr el equilibrio económico o al demostrar pérdidas en balances al final de ejercicio; de la misma manera se acuerda que durante el tiempo que deba ser efectiva esta cuota estarán exentas del pago aquellas entidades que adquieran a través de la cooperativa mínimo el 50 % del valor asignado para compras en su entidad.
 				</p>
 			</div>
 			<div class="d-flex justify-content-end mb-2">
@@ -59,7 +53,7 @@
 			</div>
 		</div>
 		<div class="invest_img bg-gray-100">
-			<div class="wrap flex-column py-2 flex-xl-row flex-xl-wrap justify-content-center gap-xl-3">
+			<div class="wrap flex-column py-2 flex-xl-row flex-xl-wrap h-xl-fit justify-content-center gap-xl-3">
 				<div class="bs_img">
 					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_1.png"
 						alt="Información sobre afiliación E.S.E Nivel 1" />
