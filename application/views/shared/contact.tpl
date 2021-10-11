@@ -32,21 +32,21 @@
 				<p class="contact_us_entry wrap_column">
 					<label class="contact_us_label text" for="fullname">Nombre completo</label>
 					<input class="contact_us_input input" type="text" id="fullname"
-						placeholder="Ingresa tu nombre completo" name="fullname" />
+						 name="fullname" />
 				</p>
 				<p class="contact_us_entry wrap_column">
 					<label class="contact_us_label text" for="phone">Teléfono</label>
-					<input class="contact_us_input input" type="tel" id="phone" placeholder="Teléfono" name="phone" />
+					<input class="contact_us_input input" type="tel" id="phone"  name="phone" />
 				</p>
 			</div>
 			<p class="contact_us_entry wrap_column">
 				<label class="contact_us_label text" for="email">Correo electrónico</label>
 				<input class="contact_us_input input" type="email" id="email"
-					placeholder="Ingresa tu correo electrónico" name="email" />
+					 name="email" />
 			</p>
 			<p class="contact_us_entry wrap_column">
 				<label class="contact_us_label text" for="message">Mensaje</label>
-				<textarea class="contact_us_input input" id="message" placeholder="Ingresa tu mensaje"
+				<textarea class="contact_us_input input" id="message" 
 					name="message"></textarea>
 			</p>
 			<button class="form_submit btn btn-primary fs-xl-3 mt-xl-3 p-xl-1d6" type="submit">Contactar</button>
@@ -69,7 +69,7 @@
 						</h3>
 						<hr class="wd-100p m-0" />
 						<p class="fs-1d8 text-secondary text-center p-2">
-							¿Estas seguro que deseas enviar este mensaje? </p>
+							¿Está seguro que desea enviar este mensaje? </p>
 					</div>
 					<div class="modal-footer border-top-0 p-0 d-flex flex-nowrap">
 						<button type="button" class="dialog_confirm btn btn btn-primary m-0">Sí</button>

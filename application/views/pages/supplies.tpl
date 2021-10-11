@@ -1,6 +1,6 @@
 {extends file="../templates/head.tpl"}
 {block name="body"}
-<main class="h-fill bg-gray-100">
+<main class="bg-gray-100">
 	<section>
 		{include file="../shared/classifieds_header.tpl" selected_tab=$selected_tab path_classifieds=$path_classifieds path_supplies=$path_supplies}
 		<div class="wrap-xl h-xl-fit">

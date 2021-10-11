@@ -152,7 +152,7 @@ class Partner_controller extends CI_Controller
 																						recipient_email: 'hascardenas@gmail.com', // TODO: Cambiar por real
 																						sender_name: $params['fullname'],
 																						sender_email: $params['email'],
-																						success_message: 'Gracias por crear la solicitud para ser asociado, en breve uno de nuestros asesores te contactará.',
+																						success_message: 'Gracias por crear la solicitud para ser asociado, en breve uno de nuestros asesores le contactará.',
 																						file: $_FILES['file']['tmp_name'],
 																						file_name: $_FILES['file']['name'],
 																					);

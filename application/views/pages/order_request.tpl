@@ -16,24 +16,27 @@
 								Nombre completo
 							</label>
 							<input class="form-control form-control-xl" type="text" id="fullname" name="fullname"
-								placeholder="Ingresa tu nombre completo" />
+								 />
 						</p>
 						<p class="d-flex flex-column mb-2 w-xl-fill">
 							<label class="form-label form-label-xl" for="phone">Teléfono</label>
 							<input class="form-control form-control-xl" type="tel" id="phone" name="phone"
-								placeholder="Teléfono" />
+								 />
 						</p>
 					</div>
 					<p class="d-flex flex-column mb-2">
-						<label class="form-label form-label-xl" for="email">Correo electrónico</label>
+						<label class="form-label form-label-xl" for="email">
+							Correo electrónico
+						</label>
 						<input class="form-control form-control-xl" type="email" id="email" name="email"
-							placeholder="Ingresa tu correo electrónico" />
+							 />
 					</p>
 					<p class="d-flex flex-column mb-2">
-						<label class="form-label form-label-xl" for="company">Nombre de la Entidad que
-							Representas</label>
+						<label class="form-label form-label-xl" for="company">
+							Nombre de la Entidad que Representa
+						</label>
 						<input class="form-control form-control-xl" type="text" id="company" name="company"
-							placeholder="Ingresa el nombre de la entidad que representas" />
+							 />
 					</p>
 				</form>
 				<p class="fs-1d4 text-primary mb-2 fs-xl-2 mt-xl-3">
@@ -42,12 +45,15 @@
 				<div id="my-dropzone" class="form_drop flex-center dropzone">
 					<div class="flex-center flex-column dz-message my-0">
 
-						<img class="wd-6" src="{$RESOURCES}img/compressed/icons/pdf.webp" alt="Adjuntar PDF" />
-						<span class="fs-1d2 fst-italic mt-1 fs-xl-1d8 text-xl-gray-700">Arrastrar archivo o buscar en el
-							equipo</span>
+						<img class="wd-6" src="{$RESOURCES}img/icons/excel.png" alt="Adjuntar PDF" />
+						<span class="fs-1d2 fst-italic mt-1 fs-xl-1d8 text-xl-gray-700">
+							Arrastrar archivo o buscar en el equipo
+						</span>
 					</div>
 				</div>
-				<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
+				<p class="dropzone_error error d-none">
+					Debes adjuntar un archivo.
+				</p>
 				<footer class="flex-center mt-2 justify-content-xl-start w-xl-26">
 					<button class="form_submit btn btn-primary w-70p fs-xl-2d5 mb-xl-3" type="submit">Enviar</button>
 				</footer>
@@ -74,7 +80,7 @@
 						</h3>
 						<hr class="wd-100p m-0" />
 						<p class="fs-1d8 text-secondary text-center p-2">
-							¿Estas seguro que deseas crear esta solicitud de pedido?
+							¿Está seguro que desea crear esta solicitud de pedido?
 						</p>
 					</div>
 					<div class="modal-footer border-top-0 p-0 d-flex flex-nowrap">
@@ -105,5 +111,10 @@
 		</div>
 	</section>
 </main>
+{/block}
+{block name="scripts"}
+<script type="text/javascript">
+	var $path_send 																=	'{$path_send}';
+</script>
 <script src="{$RESOURCES}js/order_request.js"></script>
 {/block}

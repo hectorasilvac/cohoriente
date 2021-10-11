@@ -10,8 +10,8 @@
 			<div class="d-flex flex-column p-2d5 p-xl-0">
 			{if isset($jobs)}
 			{foreach from=$jobs item=job}
-			<article class="card_container shadow-xl-none mb-2">
-				<div class="card_content bg-xl-none">
+			<article class="card_container mb-2 mb-xl-3">
+				<div class="card_content bg-xl-none p-xl-3">
 					<header class="mb-1d4">
 						<h3 class="fs-1d8 text-primary mb-d4 text-justify">
 							<a class="text-decoration-none color-inherit fs-xl-3d5" href="{$path_classifieds}/{$job['id']}">{$job['name']}</a>

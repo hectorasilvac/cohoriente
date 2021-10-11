@@ -55,7 +55,7 @@
 						<div class="w-100p">
 							<h4 class="info_subtitle subtitle_small">Inversión</h4>
 							<p class="info_text text">
-								Conozca la inversión que debe hacer pare ser parte de nuestros afiliados y acceder a
+								Conozca la inversión que debe hacer para ser parte de nuestros afiliados y acceder a
 								todos nuestros beneficios.
 							</p>
 							<p class="link_more">

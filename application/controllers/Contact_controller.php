@@ -33,6 +33,7 @@ class Contact_controller extends CI_Controller
 	public function order_request()
 	{
 		$this->_view->assign('title', 											'¿Tienes un Pedido para Nosotros? | Cohoriente');
+		$this->_view->assign('path_send',										site_url('contacto/solicitud-pedido/enviar'));
 		$this->_view->display('pages/order_request.tpl');
 	}
 
@@ -196,14 +197,16 @@ class Contact_controller extends CI_Controller
 																					</body>
 																					</html>";
                     $allowd_types                                               =   array(
-                                                                                        'doc' => 'application/msword',
-                                                                                        'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                                                                                        'pdf' => 'application/pdf',
+																						'application/excel', 
+																						'application/vnd.ms-excel', 
+																						'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 
+																						'application/vnd.ms-excel.sheet.macroEnabled.12', 
+																						'application/x-excel', 
+																						'application/x-msexcel'
                                                                                     );
 
                     if (in_array($_FILES['file']['type'], $allowd_types))
                     {
-
 						$send_mail 												=	$this->mail->send(
 																						subject: 'Plataforma Cohoriente - Solicitud de Pedido',
 																						body: $body,
@@ -211,7 +214,7 @@ class Contact_controller extends CI_Controller
 																						recipient_email: 'hascardenas@gmail.com', // TODO: Cambiar por real
 																						sender_name: $params['fullname'],
 																						sender_email: $params['email'],
-																						success_message: 'Gracias por crear la solicitud de tu pedido, en breve uno de nuestros asesores te contactará.',
+																						success_message: 'Gracias por crear la solicitud de tu pedido, en breve uno de nuestros asesores le contactará.',
 																						file: $_FILES['file']['tmp_name'],
 																						file_name: $_FILES['file']['name'],
 																					);
@@ -317,7 +320,7 @@ class Contact_controller extends CI_Controller
 																						recipient_email:'hascardenas@gmail.com', // TODO: Cambiar por real
 																						sender_name:$params['fullname'],
 																						sender_email:$params['email'],
-																						success_message:'Gracias por crear la solicitud para ser uno de nuestros proveedores , en breve uno de nuestros asesores te contactará.',
+																						success_message:'Gracias por crear la solicitud para ser uno de nuestros proveedores, en breve uno de nuestros asesores le contactará.',
 																					);
 
 				echo json_encode($send_mail);

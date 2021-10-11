@@ -7,22 +7,22 @@
 				<p class="form_entry wrapper wrap_quaternary">
 					<label class="form_label text text-secondary" for="fullname">Nombre completo</label>
 					<input class="input input_primary" type="text" id="fullname" name="fullname"
-						placeholder="Ingresa tu nombre completo" />
+						 />
 				</p>
 				<p class="form_entry wrapper wrap_quaternary">
 					<label class="form_label text text--secondary" for="phone">Teléfono</label>
-					<input class="input input_primary" type="tel" id="phone" name="phone" placeholder="Teléfono" />
+					<input class="input input_primary" type="tel" id="phone" name="phone"  />
 				</p>
 				<p class="form_entry wrapper wrap_quaternary">
 					<label class="form_label text text--secondary" for="email">Correo electrónico</label>
 					<input class="input input_primary" type="email" id="email" name="email"
-						placeholder="Ingresa tu correo electrónico" />
+						 />
 				</p>
 				<p class="form_entry wrapper wrap_quaternary">
 					<label class="form_label text text--secondary" for="company">Nombre de la Entidad que
-						Representas</label>
+						Representa</label>
 					<input class="input input_primary" type="text" id="company" name="company"
-						placeholder="Ingresa el nombre de la entidad que representas" />
+						 />
 				</p>
 			</form>
             <p class="text color--primary mb-2">

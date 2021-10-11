@@ -3058,6 +3058,7 @@ textarea.form-control-lg {
   color: var(--bs-primary);
   background-color: var(--bs-light);
   border-color: var(--bs-primary);
+  border-width: .2rem;
 }
 .btn-secondary:hover {
   color: var(--bs-primary);
@@ -3265,27 +3266,29 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #0d6efd;
-  border-color: #0d6efd;
+  border-width: .2rem;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
 }
+
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color:  var(--bs-primary);
+  border-color:  var(--bs-primary);
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #0082bf;;
+  border-color: #0082bf;;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #0d6efd;
+  color: #0082bf;;
   background-color: transparent;
 }
 
@@ -7001,6 +7004,10 @@ textarea.form-control-lg {
   width: 40rem;
 }
 
+.w-43 {
+  width: 43rem;
+}
+
 .w-45 {
   width: 45rem;
 }
@@ -7076,6 +7083,9 @@ textarea.form-control-lg {
 
 .mw-40 {
   max-width: 40rem;
+}
+.mw-43 {
+  max-width: 43rem;
 }
 
 .mw-60 {
@@ -11148,6 +11158,22 @@ textarea.form-control-lg {
     height: 60rem !important;
   }
 
+  .h-xl-70 {
+    height: 70rem !important;
+  }
+
+  .h-xl-75 {
+    height: 75rem !important;
+  }
+
+  .h-xl-80 {
+    height: 80rem !important;
+  }
+
+  .h-xl-90 {
+    height: 90rem !important;
+  }
+
   .h-xl-50p {
     height: 50% !important;
   }
@@ -11300,6 +11326,14 @@ textarea.form-control-lg {
 
   .w-xl-67 {
     width: 67rem !important;
+  }
+
+  .w-xl-70 {
+    width: 70rem !important;
+  }
+
+  .w-xl-80 {
+    width: 80rem !important;
   }
 
   .w-xl-100 {
@@ -12075,9 +12109,31 @@ textarea.form-control-lg {
 	background-image: url("../../../img/compressed/join_us_banner.png");
 }
 
-.bfs_header {
-    background-image: url("../../../img/compressed/benefits_banner.avif");
+.banner {
+  width: 100%;
+  background-color: #00a8e3;
+  height: 50rem;
+  background-position: center center;
+  background-size: cover;
 }
+
+.banner_1 {
+  background-image: url("../../../img/compressed/banner_min_1.png");
+}
+
+.banner_2 {
+  background-image: url("../../../img/compressed/banner_min_2.png");
+}
+
+.banner_3 {
+  background-image: url("../../../img/compressed/banner_min_3.png");
+}
+
+
+.bfs_header {
+    background-image: url("../../../img/compressed/bg_hands.webp"), url("../../../img/bg_hands.png");
+    background-position: center !important;
+  }
 
 .bg_section {
 	align-items: flex-end;
@@ -12099,8 +12155,8 @@ textarea.form-control-lg {
 
 .card_content {
 	background-color: var(--bs-light);
-	border-top-left-radius: var(--border-radius-small);
-	border-top-right-radius: var(--border-radius-small);
+	border-top-left-radius: .5rem;
+	border-top-right-radius: .5rem;
 	padding: 1.5rem;
 	width: 100%;
 }
@@ -12290,7 +12346,7 @@ textarea.form-control-lg {
 }
 
 .inv_header {
-	background-image: url("../../../img/compressed/invest_banner.webp");
+	background-image: url("../../../img/compressed/invest_banner.webp"), url("../../../img/invest_banner.png");
   background-position: center;
 }
 
@@ -12398,7 +12454,7 @@ textarea.form-control-lg {
 }
 
 .req_header {
-	background-image: url("../../../img/compressed/requirements_banner.webp");
+	background-image: url("../../../img/compressed/requirements_banner.webp"), url("../../../img/requirements_banner.png");
 }
 
 .selected_tab {
@@ -12509,6 +12565,18 @@ textarea.form-control-lg {
     border-bottom-right-radius: .4rem;
   }
 
+  .banner_1 {
+    background-image: url("../../../img/compressed/banner_1.png");
+  }
+  
+  .banner_2 {
+    background-image: url("../../../img/compressed/banner_2.png");
+  }
+  
+  .banner_3 {
+    background-image: url("../../../img/compressed/banner_3.png");
+  }
+
   .bs_img {
     flex-basis: 40rem;
   }
@@ -12523,6 +12591,11 @@ textarea.form-control-lg {
     background-color: transparent !important;
     box-shadow: none !important;
     height: fit-content;
+  }
+
+  .card_content {
+    box-shadow: 3px 3px 13px #00000029;
+    border-radius: .5rem;
   }
 
   .classifieds_header {

@@ -17,24 +17,24 @@
 								Nombre completo
 							</label>
 							<input class="form-control form-control-xl" type="text" id="fullname" name="fullname"
-								placeholder="Ingresa tu nombre completo" />
+								 />
 						</p>
 						<p class="d-flex flex-column mb-2 w-xl-fill">
 							<label class="form-label form-label-xl" for="phone">Teléfono</label>
 							<input class="form-control form-control-xl" type="tel" id="phone" name="phone"
-								placeholder="Teléfono" />
+								 />
 						</p>
 					</div>
 					<p class="d-flex flex-column mb-2">
 						<label class="form-label form-label-xl" for="email">Correo electrónico</label>
 						<input class="form-control form-control-xl" type="email" id="email" name="email"
-							placeholder="Ingresa tu correo electrónico" />
+							 />
 					</p>
 					<p class="d-flex flex-column mb-2">
 						<label class="form-label form-label-xl" for="company">Nombre de la Entidad que
-							Representas</label>
+							Representa</label>
 						<input class="form-control form-control-xl" type="text" id="company" name="company"
-							placeholder="Ingresa el nombre de la entidad que representas" />
+							 />
 					</p>
 				</form>
 				<p class="fs-1d4 text-primary mb-2 fs-xl-2 mt-xl-3">
@@ -75,7 +75,7 @@
 						</h3>
 						<hr class="wd-100p m-0" />
 						<p class="fs-1d8 text-secondary text-center p-2">
-							¿Estas seguro que deseas crear esta solicitud para ser asociado?
+							¿Está seguro que desea crear esta solicitud para ser asociado?
 						</p>
 					</div>
 					<div class="modal-footer border-top-0 p-0 d-flex flex-nowrap">

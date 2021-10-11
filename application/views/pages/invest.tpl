@@ -53,25 +53,25 @@
 			</div>
 		</div>
 		<div class="invest_img bg-gray-100">
-			<div class="wrap flex-column py-2 flex-xl-row flex-xl-wrap h-xl-fit justify-content-center gap-xl-3">
+			<div class="wrap flex-column align-items-center py-2 flex-xl-row flex-xl-wrap h-fit-force justify-content-center gap-xl-3">
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_1.png"
+					<img class="mw-43" src="{$RESOURCES}img/compressed/invest/invest_1.png"
 						alt="Información sobre afiliación E.S.E Nivel 1" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_2.png"
+					<img class="mw-43" src="{$RESOURCES}img/compressed/invest/invest_2.png"
 						alt="Información sobre afiliación E.S.E Nivel 1 Saneamiento fiscal" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_3.png"
+					<img class="mw-43" src="{$RESOURCES}img/compressed/invest/invest_3.png"
 						alt="Información sobre afiliación E.S.E Nivel 2" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_4.png"
+					<img class="mw-43" src="{$RESOURCES}img/compressed/invest/invest_4.png"
 						alt="Información sobre afiliación E.S.E Nivel 2 Saneamiento fiscal" />
 				</div>
 				<div class="bs_img">
-					<img class="w-100p" src="{$RESOURCES}img/compressed/invest/invest_5.png"
+					<img class="mw-43" src="{$RESOURCES}img/compressed/invest/invest_5.png"
 						alt="Información sobre afiliación E.S.E Nivel 3" />
 				</div>
 			</div>

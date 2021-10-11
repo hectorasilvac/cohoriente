@@ -80,6 +80,7 @@ $route['asociarte/solicitud-afiliacion/enviar']                                 
 
 // SERVICES
 $route['servicios']                                                             =   'services_controller/view';
+$route['servicios/1']                                                           =   'services_controller/view';
 $route['servicios/oferta-abastecimiento']                                       =   'services_controller/supply_offer';
 $route['servicios/formacion']                                                   =   'services_controller/training';
 $route['servicios/tecnologia-biomedica']                                        =   'services_controller/biomedical';

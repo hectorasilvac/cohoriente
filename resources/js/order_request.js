@@ -1,17 +1,16 @@
 // Drag & Drop: Config
 let myDropzone = new Dropzone('#my-dropzone', {
-  url: '/contacto/solicitud-pedido/enviar',
+  url: $path_send,
   autoProcessQueue: false,
   uploadMultiple: false,
   parallelChunkUploads: false,
   maxFiles: 1,
-  acceptedFiles: 'application/pdf',
+  acceptedFiles: 'application/excel, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel.sheet.macroEnabled.12, application/x-excel, application/x-msexcel', 
   parallelUploads: 1,
   addRemoveLinks: true,
   dictRemoveFile: 'Quitar',
   clickeable: false,
 });
-
 
 myDropzone.on('sending', function (file, xhr, formData) {
   var data = $('#order_form').serializeArray();
@@ -43,8 +42,6 @@ myDropzone.on('addedfiles', function () {
 $(function () {
 
   // Request Confirmation: Show dialog, confirm or cancel request and close dialog
-  var orderDialog = document.getElementById('form_dialog');
-
   $('.form_submit').on('click', function () {
     event.preventDefault();
     $('#order_form').submit();

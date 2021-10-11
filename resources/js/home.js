@@ -3,11 +3,12 @@ $(function () {
     $('.main_carousel').flickity({
       contain: true,
       pageDots: true,
-      autoPlay: true,
+      autoPlay: 6000,
       freeScroll: false,
       wrapAround: true,
-      prevNextButtons: false
-    });
+      prevNextButtons: false,
+      adaptiveHeight: true,
+   });
   });
   
   

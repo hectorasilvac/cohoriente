@@ -4,20 +4,16 @@
 	<section class="bg-primary">
 		<div class="main_carousel">
 			<div class="main_carousel_cell">
-				<picture>
-					<source media="(min-width:1200px)"
-						srcset="{$RESOURCES}img/compressed/main_banner_web_4.webp">
-						<img class="w-100p h-100p"  src="{$RESOURCES}img/compressed/main_banner_4.png"
-					alt="Estamos en proceso de certificación ISO 9000" />
-				</picture>
+				<div class="banner banner_1 h-xl-75">
+				</div>
 			</div>
 			<div class="main_carousel_cell">
-				<picture>
-					<source media="(min-width:1200px)"
-						srcset="{$RESOURCES}img/compressed/main_banner_web_5.webp">
-						<img class="w-100p h-100p"  src="{$RESOURCES}img/compressed/main_banner_5.png"
-					alt="Estamos en proceso de certificación ISO 9000" />
-				</picture>
+				<div class="banner banner_2 h-xl-75">
+				</div>
+			</div>
+			<div class="main_carousel_cell">
+				<div class="banner banner_3 h-xl-75">
+				</div>
 			</div>
 		  </div>
 	</section>
@@ -54,14 +50,13 @@
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Oferta de Abastecimiento</h4>
 							<p class="featured_desc">
-								Contamos con un amplio portafolio de productos farmacéuticos, dispositivos médicos, quirúrgicos, productos de odontología, laboratorio y tecnología biomédica...
+								Contamos con un amplio portafolio de productos farmacéuticos, dispositivos médicos, quirúrgicos, productos de odontología, laboratorio y tecnología biomédica.
 							</p>
 							<p class="featured_cta">
 								<a class="featured_link" href="{$path_supply}">Ver Más
 								</a>
 								<i class="featured_figure fas fa-angle-double-right fa-2x"></i>
 							</p>
-
 						</div>
 					</li>
 					<li class="featured_item align-items-start">
@@ -72,7 +67,7 @@
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Formación y Crecimiento</h4>
 							<p class="featured_desc">
-								Contamos con un amplio portafolio de formación para capacitación y entrenamiento...
+								Contamos con un amplio portafolio de formación para capacitación y entrenamiento de todos nuestros asociados.
 							</p>
 							<p class="featured_cta">
 								<a class="featured_link" href="{$path_training}">Ver Más
@@ -89,7 +84,7 @@
 						<div class="featured_wrapper">
 							<h4 class="featured_subtitle">Acompañamiento en Tecnología Biomédica</h4>
 							<p class="featured_desc">
-								Contamos con un portafolio de soporte técnico para soluciones en equipo médico...
+								Contamos con un portafolio de soporte técnico para soluciones en equipo biomédico y brindamos acompañamiento durante todo el proceso.
 							</p>
 							<p class="featured_cta">
 								<a class="featured_link" href="{$path_biomedical}">Ver Más</a>
@@ -103,7 +98,7 @@
 				</footer>
 			</div>
 			<div class="services_banner">
-				<img class="services_image"  src="{$RESOURCES}img/compressed/research_banner.avif" />
+				<img class="services_image"  src="{$RESOURCES}img/compressed/our_services.png" />
 			</div>
 		</div>
 	</section>

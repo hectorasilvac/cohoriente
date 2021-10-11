@@ -14,7 +14,7 @@
 					<div class="">
 						<h4 class="fs-1d6 mb-d4 fs-xl-4">Acompañamiento en Tecnología Biomédica</h4>
 						<p class="fs-1d4 text-justify fs-xl-2d5">
-							Contamos con un portafolio de soporte técnico para soluciones en equipo médico y brindamos
+							Contamos con un portafolio de soporte técnico para soluciones en equipo biomédico y brindamos
 							acompañamiento durante todo el proceso.
 						</p>
 					</div>
@@ -26,7 +26,7 @@
 						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/geometry.svg"
 							alt="Ícono de figuras de geométricas" />
 					</div>
-					<p class="fs-1d4 text-justify fs-xl-1d7">Soporte y diseño del programa de aseguramiento metrológico.
+					<p class="fs-1d4 fs-xl-1d7">Soporte y diseño del programa de aseguramiento metrológico.
 					</p>
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
@@ -34,7 +34,7 @@
 						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/adn.svg"
 							alt="Ícono de un tarro con una figura de ADN." />
 					</div>
-					<p class="fs-1d4 text-justify fs-xl-1d7">Soporte técnico para la calibración de equipos biomédicos.
+					<p class="fs-1d4 fs-xl-1d7">Soporte técnico para la calibración de equipos biomédicos.
 					</p>
 				</li>
 				<li class="item p-xl-0 mb-xl-0 basis-xl-31">
@@ -42,14 +42,17 @@
 						<img class="icon_item icon_xl" src="{$RESOURCES}img/compressed/icons/adn2.svg"
 							alt="Ícono de ADN" />
 					</div>
-					<p class="fs-1d4 text-justify fs-xl-1d7">Soporte técnico para mantenimiento correctivo y preventivo
+					<p class="fs-1d4 fs-xl-1d7">Soporte técnico para mantenimiento correctivo y preventivo
 						de equipo biomédico.</p>
 				</li>
 			</ul>
 			<p class="wrap flex-center px-xl-0 justify-content-xl-start py-xl-4 h-fit-force">
-				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5" href="/inicio#servicios">
+				<a class="btn btn-primary wd-80p w-xl-26 fs-xl-2d5 me-xl-2" href="/inicio#servicios">
 					<i class="fas fa-angle-left me-d5"></i>
 					Volver
+				</a>
+				<a class="btn btn-outline-primary wd-80p w-xl-26 fs-xl-2d5" href="/servicios">
+					Ver todos
 				</a>
 			</p>
 		</div>

@@ -6,7 +6,7 @@
 			<div class="me-xl-5">
 				<header class="justify-content-center mb-4">
 					<h3 class="fs-2d5 text-primary text-center fs-xl-6 w-xl-48 text-xl-start text-xl-secondary mt-xl-3">
-						¿Quieres ser un Proveedor?
+						¿Quiere ser un Proveedor?
 					</h3>
 				</header>
 				<form id="supplier_form" class="form" action="contacto/enviar" method="POST">
@@ -16,23 +16,23 @@
 							Nombre completo
 						</label>
 						<input class="form-control form-control-xl" type="text" id="fullname" name="fullname"
-							placeholder="Ingresa tu nombre completo" />
+							 />
 					</p>
 					<p class="d-flex flex-column mb-2 w-xl-fill">
 						<label class="form-label form-label-xl" for="phone">Teléfono</label>
-						<input class="form-control form-control-xl" type="tel" id="phone" name="phone" placeholder="Teléfono" />
+						<input class="form-control form-control-xl" type="tel" id="phone" name="phone"  />
 					</p>
 				</div>
 					<p class="d-flex flex-column mb-2">
 						<label class="form-label form-label-xl" for="email">Correo electrónico</label>
 						<input class="form-control form-control-xl" type="email" id="email" name="email"
-							placeholder="Ingresa tu correo electrónico" />
+							 />
 					</p>
 					<p class="d-flex flex-column mb-2">
 						<label class="form-label form-label-xl" for="company">Nombre de la Entidad que
-							representas</label>
+							Representa</label>
 						<input class="form-control form-control-xl" type="text" id="company" name="company"
-							placeholder="Ingresa el nombre de la entidad que representas" />
+							 />
 					</p>
 				</form>
 				<footer class="flex-center mt-2 justify-content-xl-start w-xl-26">
@@ -58,11 +58,11 @@
 							<i class="fas fa-truck-moving fa-5x text-light"></i>
 						</div>
 						<h3 class="fs-1d8 text-primary my-2">
-							Solicitar ser Proveedor
+							Solicitud para ser Proveedor
 						</h3>
 						<hr class="wd-100p m-0" />
 						<p class="fs-1d8 text-secondary text-center p-2">
-							¿Estas seguro que deseas crear esta solicitud de ser proveedor?
+							¿Está seguro que desea crear esta solicitud para ser proveedor?
 						</p>
 					</div>
 					<div class="modal-footer border-top-0 p-0 d-flex flex-nowrap">

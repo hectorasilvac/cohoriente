@@ -44,7 +44,7 @@
 			<p class="dropzone_error error d-none">Debes adjuntar un archivo.</p>
 			<footer class="d-flex flex-column mt-1 flex-xl-row justify-content-xl-start mt-xl-3">
 				<a class="form_submit d-block mx-auto btn btn-primary w-80p w-xl-10p mx-xl-0 fs-xl-2d5 mb-1 mb-xl-0 me-xl-1" href="#">Aplicar</a>
-				<a class="form_back d-block mx-auto btn btn-secondary w-80p h-fit w-xl-10p mx-xl-0 fs-xl-2d5 mb-1 mb-xl-0" href="#">Volver</a>
+				<a class="form_back d-block mx-auto btn btn-outline-primary w-80p h-fit w-xl-10p mx-xl-0 fs-xl-2d5 mb-1 mb-xl-0" href="#">Volver</a>
 			</footer>
 			{elseif isset($empty_detail)}
 			<p class="empty_classified fs-1d6 text-light rounded-d4 p-2 text-center mb-1">{$empty_detail}</p>
@@ -68,7 +68,7 @@
 						</h3>
 						<hr class="wd-100p m-0" />
 						<p class="fs-1d8 text-secondary text-center p-2">
-							¿Estas seguro que deseas aplicar a esta oferta laboral?
+							¿Está seguro que desea aplicar a esta oferta laboral?
 						</p>
 					</div>
 					<div class="modal-footer border-top-0 p-0 d-flex flex-nowrap">

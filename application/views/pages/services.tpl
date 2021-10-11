@@ -117,7 +117,7 @@
 									alt="Ícono de un libro abierto" />
 							</div>
 							<p class="item_text text">
-								Formación integral en competencias de la salud y prácticas de buen Gobierno.
+								Formación integral en competencias de la salud y prácticas de buen gobierno.
 							</p>
 						</li>
 						<li class="item">

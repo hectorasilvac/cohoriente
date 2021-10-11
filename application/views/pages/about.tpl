@@ -124,13 +124,13 @@
 							alt="Bombillo" />
 						<h3 class="text-primary ml-1 fs-5">Objetivo General</h3>
 					</div>
-					Fortalecimiento de la red pública de salud en la Región del Oriente Colombiano, mediante la
+					Fortalecimiento de la red pública de salud en las regiones del Oriente y Caribe Colombiano, mediante la
 					integración,
-					desarrollo y promoción de alianzas entre sus asociados a través de estrategias Cooperativas que
+					desarrollo y promoción de alianzas entre sus asociados a través de estrategias cooperativas que
 					permitan
 					el avance social y la oferta de bienes y servicios de forma oportuna, garantizándose así la
-					Promoción de
-					Salud en la Comunidad.
+					promoción de
+					salud en la comunidad.
 				</div>
 			</details>
 		</div>

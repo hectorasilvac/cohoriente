@@ -65,7 +65,7 @@
 								Presentar certificado de existencia y representación legal, o documento que se asimile y
 								copia
 								de
-								los Estatutos vigentes o del documento que haga sus veces de la entidad que desee
+								los estatutos vigentes o del documento que haga sus veces de la entidad que desee
 								afiliarse.
 							</p>
 						</li>
@@ -93,9 +93,9 @@
 					</p>
 				</div>
 				<p class="text-justify fs-1d4 fs-xl-2d5">
-					Documento, Acto o acuerdo mediante el cual se designó, nombró y posesiono el representante legal
+					Documento, acto o acuerdo mediante el cual se designó, nombró y posesiono el representante legal
 					de
-					la Institución que desea afiliarse.
+					la institución que desea afiliarse.
 				</p>
 			</li>
 			<li class="d-flex mb-2 pe-2d5 mb-xl-4 pe-xl-0">
@@ -105,7 +105,7 @@
 					</p>
 				</div>
 				<p class="text-justify fs-1d4 fs-xl-2d5">
-					Suscribir y Pagar por derechos de admisión una cuota no reembolsable cuyo valor será determinado
+					Suscribir y pagar por derechos de admisión una cuota no reembolsable cuyo valor será determinado
 					por
 					el Concejo de Administración. Pago que no constituirá un aporte social.
 				</p>
@@ -129,7 +129,7 @@
 					</p>
 				</div>
 				<p class="text-justify fs-1d4 fs-xl-2d5">
-					Acreditar educación Cooperativa no inferior a veinte (20) horas o comprometerse a un plan de
+					Acreditar educación cooperativa no inferior a veinte (20) horas o comprometerse a un plan de
 					capacitación dentro de los siguientes noventa (90) días de la admisión.
 				</p>
 			</li>
@@ -164,11 +164,11 @@
 				Formalización del ingreso
 			</h3>
 			<p class="fs-1d4 text-justify text-light m-0 fs-xl-2d5">
-				Las Solicitudes de ingreso que cumplan con los requisitos anteriormente estipulados serán estudiadas por
+				Las solicitudes de ingreso que cumplan con los requisitos anteriormente estipulados serán estudiadas por
 				el
 				Concejo de Administración, quien las resolverá en la siguiente reunión ordinaria y/o extraordinaria.
 				Para
-				todos los efectos legales, la calidad de Asociado se obtiene de acuerdo a lo estipulado en el parágrafo
+				todos los efectos legales, la calidad de asociado se obtiene de acuerdo a lo estipulado en el parágrafo
 				2
 				del artículo 14 de los estatutos y una vez se haya dado cumplimiento a las obligaciones económicas que
 				por
